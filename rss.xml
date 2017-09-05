@@ -5,15 +5,46 @@
     <atom:link href="https://thisweekinblenderdev.github.io/news/rss.xml" rel="self" type="application/rss+xml" />
     <link>https://thisweekinblenderdev.github.io/news/</link>
     <description></description>
-    <lastBuildDate>Tue, 05 Sep 2017 08:34:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 05 Sep 2017 08:44:49 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
     <item>
       <title>Week 2017-09-01</title>
       <link>https://thisweekinblenderdev.github.io/news/2017-09-01.html</link>
       <description>&lt;div class="compound"&gt;
-&lt;p&gt;A couple sentence discription of the week.
+&lt;p class="compound-first"&gt;A couple sentence discription of the week.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Aliquam bibendum varius sapien, vitae eleifend nisl molestie eget.&lt;/p&gt;
+&lt;div class="note compound-middle admonition"&gt;
+&lt;p class="first admonition-title"&gt;Note&lt;/p&gt;
+&lt;p class="last"&gt;This is a testpage!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="changes-to-blender"&gt;
+&lt;h1&gt;Changes to Blender&lt;a class="headerlink" href="#changes-to-blender" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://developer.blender.org/rB272412f9c0d26f630c5e1e7d07d4ff417b7218e5"&gt;Cycles: Implement texture size limit simplify option: (rB272412f9)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="new-patches"&gt;
+&lt;h1&gt;New Patches&lt;a class="headerlink" href="#new-patches" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://developer.blender.org/D2801"&gt;Mirror Modifier: Add just offsets for mirrored UVs: (D2801)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-last section" id="other-projects"&gt;
+&lt;h1&gt;Other Projects&lt;a class="headerlink" href="#other-projects" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://developer.blender.org/T4000"&gt;Some interesting task: (T4000)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="rss.xml"&gt;rss feed&lt;/a&gt;
+❘
+&lt;a class="reference internal" href="feed.html"&gt;&lt;span class="doc"&gt;all weeks&lt;/span&gt;&lt;/a&gt;
+❘
+&lt;a class="reference external" href="https://github.com/Blendify/this-week-in-blender-dev"&gt;source&lt;/a&gt;
+❘
+&lt;a class="reference external" href="https://creativecommons.org/licenses/by-sa/4.0"&gt;cc-by-sa 4.0&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 </description>
       <guid>https://thisweekinblenderdev.github.io/news/2017-09-01.html</guid>
@@ -23,9 +54,40 @@ Aliquam bibendum varius sapien, vitae eleifend nisl molestie eget.&lt;/p&gt;
       <title>Week 2017-08-31</title>
       <link>https://thisweekinblenderdev.github.io/news/2017-08-31.html</link>
       <description>&lt;div class="compound"&gt;
-&lt;p&gt;A couple sentence discription of the week.
+&lt;p class="compound-first"&gt;A couple sentence discription of the week.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Aliquam bibendum varius sapien, vitae eleifend nisl molestie eget.&lt;/p&gt;
+&lt;div class="note compound-middle admonition"&gt;
+&lt;p class="first admonition-title"&gt;Note&lt;/p&gt;
+&lt;p class="last"&gt;This is a testpage!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="changes-to-blender"&gt;
+&lt;h1&gt;Changes to Blender&lt;a class="headerlink" href="#changes-to-blender" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://developer.blender.org/rB272412f9c0d26f630c5e1e7d07d4ff417b7218e5"&gt;Cycles: Implement texture size limit simplify option: (rB272412f9)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="new-patches"&gt;
+&lt;h1&gt;New Patches&lt;a class="headerlink" href="#new-patches" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://developer.blender.org/D2801"&gt;Mirror Modifier: Add just offsets for mirrored UVs: (D2801)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-last section" id="other-projects"&gt;
+&lt;h1&gt;Other Projects&lt;a class="headerlink" href="#other-projects" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://developer.blender.org/T4000"&gt;Some interesting task: (T4000)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="rss.xml"&gt;rss feed&lt;/a&gt;
+❘
+&lt;a class="reference internal" href="feed.html"&gt;&lt;span class="doc"&gt;all weeks&lt;/span&gt;&lt;/a&gt;
+❘
+&lt;a class="reference external" href="https://github.com/Blendify/this-week-in-blender-dev"&gt;source&lt;/a&gt;
+❘
+&lt;a class="reference external" href="https://creativecommons.org/licenses/by-sa/4.0"&gt;cc-by-sa 4.0&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 </description>
       <guid>https://thisweekinblenderdev.github.io/news/2017-08-31.html</guid>
