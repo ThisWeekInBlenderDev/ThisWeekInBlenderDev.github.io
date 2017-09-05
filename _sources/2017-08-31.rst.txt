@@ -8,7 +8,7 @@ Week 2017-08-31
 
 A couple sentence discription of the week.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Aliquam bibendum varius sapien, vitae eleifend nisl molestie eget edit me.
+Aliquam bibendum varius sapien, vitae eleifend nisl molestie eget.
 
 .. cut::
 
