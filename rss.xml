@@ -2,96 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>This Week in Blender Development</title>
-    <atom:link href="https://thisweekinblenderdev.github.io/news/rss.xml" rel="self" type="application/rss+xml" />
-    <link>https://thisweekinblenderdev.github.io/news/</link>
+    <atom:link href="https://thisweekinblenderdev.github.io/rss.xml" rel="self" type="application/rss+xml" />
+    <link>https://thisweekinblenderdev.github.io/</link>
     <description></description>
-    <lastBuildDate>Wed, 06 Sep 2017 11:55:31 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Oct 2017 04:37:50 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
     <item>
-      <title>Week 2017-09-01</title>
-      <link>https://thisweekinblenderdev.github.io/news/2017-09-01.html</link>
+      <title>Week 2017-10-07</title>
+      <link>https://thisweekinblenderdev.github.io/2017-10-07.html</link>
       <description>&lt;div class="compound"&gt;
-&lt;p class="compound-first"&gt;A couple sentence discription of the week.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Aliquam bibendum varius sapien, vitae eleifend nisl molestie eget.&lt;/p&gt;
-&lt;div class="note compound-middle admonition"&gt;
-&lt;p class="first admonition-title"&gt;Note&lt;/p&gt;
-&lt;p class="last"&gt;This is a testpage!&lt;/p&gt;
-&lt;/div&gt;
+&lt;p class="compound-first"&gt;Hello and welcome the the first issue of This Week in Blender Delopment.
+The goal of the project is to allow users to easily see what has happened
+in development over the past week. This is not a list of everything, however,
+it is a decent list of only the stuff most interesting to end users.
+&lt;a class="reference external" href="https://www.blender.org/"&gt;Blender&lt;/a&gt; is the free and opensource 3D creation
+suite for the next generation of artist. Follow the developmment on Twitter
+&lt;a class="reference external" href="https://twitter.com/BlenderDev"&gt;&amp;#64;BlenderDev&lt;/a&gt;.&lt;/p&gt;
+&lt;p class="compound-middle"&gt;&lt;em&gt;This Week in Blender Delopment&lt;/em&gt; is openly developed on
+&lt;a class="reference external" href="https://github.com/ThisWeekInBlenderDev"&gt;Github&lt;/a&gt;
+so please report any recommendations, bugs, or PRs there.&lt;/p&gt;
 &lt;div class="compound-middle section" id="changes-to-blender"&gt;
 &lt;h1&gt;Changes to Blender&lt;a class="headerlink" href="#changes-to-blender" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;Example:&lt;/p&gt;
+&lt;p class="rubric"&gt;master&lt;/p&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://developer.blender.org/rB272412f9c0d26f630c5e1e7d07d4ff417b7218e5"&gt;Cycles: Implement texture size limit simplify option: (rB272412f9)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Support CUDA 9 toolkit, and automatically disable &lt;code class="docutils literal"&gt;&lt;span class="pre"&gt;sm_2x&lt;/span&gt;&lt;/code&gt; binaries
+&lt;a class="reference external" href="http://developer.blender.org/rBf55735e533601b559d53fd1e2c5297092e844345"&gt;rBf55735e5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Vertex Paint: Add projection options (matching projection painting)
+&lt;a class="reference external" href="http://developer.blender.org/rBb2a10fa615efcf403a9ca23005d86ca149ebf56b"&gt;rBb2a10fa6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Disable multi-threaded weight paint when mirroring is enabled.
+&lt;a class="reference external" href="http://developer.blender.org/rB88dd45e1e1bde5db43e8807b7def754dea8b01fc"&gt;rB88dd45e1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Weight Paint: add some color blending modes
+&lt;a class="reference external" href="http://developer.blender.org/rB6092ded1279e048709fa0481a5dd314ea9712eea"&gt;rB6092ded1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Vertex Paint: remove accumulate (soc-2017-vertex_paint)
+&lt;a class="reference external" href="http://developer.blender.org/rBf4b1f9b9255cda1af5e093f25cdde816bd94d8cd"&gt;rBf4b1f9b9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Weight Paint: blend smear tool
+&lt;a class="reference external" href="http://developer.blender.org/rBa4721c05040fce606d6c6ccc4ea91bdf6c8846e8"&gt;rBa4721c05&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Python: bump minimum version to 3.6
+&lt;a class="reference external" href="http://developer.blender.org/rBcbe07d980ccc860cb01549272fc95c08912581d7"&gt;rBcbe07d98&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="rubric"&gt;blender2.8&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Eevee: Lamps: Change ESM default exponent
+&lt;a class="reference external" href="http://developer.blender.org/rBdc327e2793ba21df02ee2b7787d35170e92a1521"&gt;rBdc327e27&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="rubric"&gt;greasepencil-object&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Add curve options to Thick modifier
+&lt;a class="reference external" href="http://developer.blender.org/rBef4c69a71594ceb42aac8e4d4cd0ed0523adb34f"&gt;rBef4c69a7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add Antialiasing to Grease Pencil
+&lt;a class="reference external" href="http://developer.blender.org/rB90152f6bcb05ba0410c18e05edec7ba8db640784"&gt;rB90152f6b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Remove antialiasing code
+&lt;a class="reference external" href="http://developer.blender.org/rB0e99d51a385db0b8be8f470e391da26deae8db91"&gt;rB0e99d51a&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="rubric"&gt;fluid-mantaflow&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Fluid particles: UI update
+&lt;a class="reference external" href="http://developer.blender.org/rB949316d0a79373413adaaff041da6661611515ff"&gt;rB949316d0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Big fluid particles update
+&lt;a class="reference external" href="http://developer.blender.org/rBc1fb55b44b6c99248d38a7578e92ea79d95fae36"&gt;rBc1fb55b4&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="compound-middle section" id="new-patches"&gt;
 &lt;h1&gt;New Patches&lt;a class="headerlink" href="#new-patches" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://developer.blender.org/D2801"&gt;Mirror Modifier: Add just offsets for mirrored UVs: (D2801)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cycles: schedule more work and prevent CUDA driver timeouts.
+&lt;a class="reference external" href="http://developer.blender.org/D2862"&gt;D2862&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Sculpting: Add pressure curvemapping
+&lt;a class="reference external" href="http://developer.blender.org/D2864"&gt;D2864&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;UV select overlapping
+&lt;a class="reference external" href="http://developer.blender.org/D2865"&gt;D2865&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="compound-last section" id="other-projects"&gt;
 &lt;h1&gt;Other Projects&lt;a class="headerlink" href="#other-projects" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://developer.blender.org/T4000"&gt;Some interesting task: (T4000)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Blender Addon PBR &lt;a class="reference external" href="http://developer.blender.org/T52987"&gt;T52987&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr class="docutils" /&gt;
-&lt;p&gt;&lt;a class="reference external" href="rss.xml"&gt;rss feed&lt;/a&gt;
-❘
-&lt;a class="reference internal" href="feed.html"&gt;&lt;span class="doc"&gt;all weeks&lt;/span&gt;&lt;/a&gt;
-❘
-&lt;a class="reference external" href="https://github.com/ThisWeekInBlenderDev/source"&gt;source code&lt;/a&gt;
-❘
-&lt;a class="reference external" href="https://creativecommons.org/licenses/by-sa/4.0"&gt;cc-by-sa 4.0&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </description>
-      <guid>https://thisweekinblenderdev.github.io/news/2017-09-01.html</guid>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Week 2017-08-31</title>
-      <link>https://thisweekinblenderdev.github.io/news/2017-08-31.html</link>
-      <description>&lt;div class="compound"&gt;
-&lt;p class="compound-first"&gt;A couple sentence discription of the week.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Aliquam bibendum varius sapien, vitae eleifend nisl molestie eget.&lt;/p&gt;
-&lt;div class="note compound-middle admonition"&gt;
-&lt;p class="first admonition-title"&gt;Note&lt;/p&gt;
-&lt;p class="last"&gt;This is a testpage!&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="compound-middle section" id="changes-to-blender"&gt;
-&lt;h1&gt;Changes to Blender&lt;a class="headerlink" href="#changes-to-blender" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;Example:&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://developer.blender.org/rB272412f9c0d26f630c5e1e7d07d4ff417b7218e5"&gt;Cycles: Implement texture size limit simplify option: (rB272412f9)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="compound-middle section" id="new-patches"&gt;
-&lt;h1&gt;New Patches&lt;a class="headerlink" href="#new-patches" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://developer.blender.org/D2801"&gt;Mirror Modifier: Add just offsets for mirrored UVs: (D2801)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="compound-last section" id="other-projects"&gt;
-&lt;h1&gt;Other Projects&lt;a class="headerlink" href="#other-projects" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://developer.blender.org/T4000"&gt;Some interesting task: (T4000)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr class="docutils" /&gt;
-&lt;p&gt;&lt;a class="reference external" href="rss.xml"&gt;rss feed&lt;/a&gt;
-❘
-&lt;a class="reference internal" href="feed.html"&gt;&lt;span class="doc"&gt;all weeks&lt;/span&gt;&lt;/a&gt;
-❘
-&lt;a class="reference external" href="https://github.com/ThisWeekInBlenderDev/source"&gt;source code&lt;/a&gt;
-❘
-&lt;a class="reference external" href="https://creativecommons.org/licenses/by-sa/4.0"&gt;cc-by-sa 4.0&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-      <guid>https://thisweekinblenderdev.github.io/news/2017-08-31.html</guid>
-      <pubDate>Thu, 31 Aug 2017 00:00:00 GMT</pubDate>
+      <guid>https://thisweekinblenderdev.github.io/2017-10-07.html</guid>
+      <pubDate>Sat, 07 Oct 2017 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>

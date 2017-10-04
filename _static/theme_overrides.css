@@ -1,18 +1,18 @@
-/*Remove dotted line from links. We want a simple website*/
+/* Start remove giant gap on bottom of pages*/
+body {
+  padding-bottom: 0;
+}
+.navbar {
+  margin-bottom: 0;
+}
+/*End remove giant gap on bottom of pages*/
+
+/*Make links a little darker in color*/
 a {
-  border-bottom: none !important;
+  color: #159d82;
 }
 
-/*Make search go button on same line as search bar*/
-.search {
-  display: flex;
-}
-
-/*Remove time from date because it is irrelevant for us*/
-.feed-date {
-  display: inline-block;
-  white-space: nowrap;
-  max-width: 9ch;
-  overflow: hidden;
-  vertical-align: bottom;
+/*Remove rounded borders on bottom navbar*/
+.navbar {
+  border-radius: 0;
 }

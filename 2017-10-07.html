@@ -18,7 +18,7 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
-    <title>This Week in Blender Development &mdash; This Week in Blender Development</title>
+    <title>Week 2017-10-07 &mdash; This Week in Blender Development</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -62,8 +62,9 @@
 </script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="top" title="This Week in Blender Development" href="#" />
-    <link rel="next" title="Week 2017-10-07" href="2017-10-07.html" /> 
+    <link rel="top" title="This Week in Blender Development" href="index.html" />
+    <link rel="next" title="Feed" href="feed.html" />
+    <link rel="prev" title="This Week in Blender Development" href="index.html" /> 
   </head>
   <body role="document">
     <div id="navbar-top" class="navbar navbar-fixed-top navbar-default" role="navigation" aria-label="top navigation">
@@ -75,7 +76,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">This Week in Blender Dev</a>
+          <a class="navbar-brand" href="index.html">This Week in Blender Dev</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -83,10 +84,10 @@
                 <a role="button" id="localToc" data-toggle="dropdown" data-target="#" href="#">Table Of Contents <b class="caret"></b></a>
                 <ul class="dropdown-menu localtoc sp-localtoc" role="menu" aria-labelledby="localToc">
                 <ul>
-<li><a class="reference internal" href="#">This Week in Blender Development</a><ul>
-<li><a class="reference internal" href="#weeks">Weeks</a><ul>
-</ul>
-</li>
+<li><a class="reference internal" href="#">Week 2017-10-07</a><ul>
+<li><a class="reference internal" href="#changes-to-blender">Changes to Blender</a></li>
+<li><a class="reference internal" href="#new-patches">New Patches</a></li>
+<li><a class="reference internal" href="#other-projects">Other Projects</a></li>
 </ul>
 </li>
 </ul>
@@ -95,7 +96,8 @@
               </li>
 
             
-              <li><a href="2017-10-07.html" title="Week 2017-10-07" accesskey="N">next </a></li>
+              <li><a href="index.html" title="This Week in Blender Development" accesskey="P">previous </a></li>
+              <li><a href="feed.html" title="Feed" accesskey="N">next </a></li>
               <li><a href="genindex.html" title="General Index" accesskey="I">index </a></li>
             
 
@@ -129,19 +131,22 @@
          
 <div class="col-md-3 hidden-xs" id="sidebar-wrapper">
   <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
-  <h3><a href="#">Table Of Contents</a></h3>
+  <h3><a href="index.html">Table Of Contents</a></h3>
   <ul>
-<li><a class="reference internal" href="#">This Week in Blender Development</a><ul>
-<li><a class="reference internal" href="#weeks">Weeks</a><ul>
-</ul>
-</li>
+<li><a class="reference internal" href="#">Week 2017-10-07</a><ul>
+<li><a class="reference internal" href="#changes-to-blender">Changes to Blender</a></li>
+<li><a class="reference internal" href="#new-patches">New Patches</a></li>
+<li><a class="reference internal" href="#other-projects">Other Projects</a></li>
 </ul>
 </li>
 </ul>
 
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">This Week in Blender Development</a></p>
   <h4>Next topic</h4>
-  <p class="topless"><a href="2017-10-07.html"
-                        title="next chapter">Week 2017-10-07</a></p>
+  <p class="topless"><a href="feed.html"
+                        title="next chapter">Feed</a></p>
 <div id="searchbox" role="search">
   <h3>Quick search</h3>
   <form class="search form-inline" action="search.html" method="get">
@@ -168,18 +173,76 @@
               <div class="bodywrapper">
                 <div class="body">
                   
-  <div class="section" id="this-week-in-blender-development">
-<h1>This Week in Blender Development<a class="headerlink" href="#this-week-in-blender-development" title="Permalink to this headline">¶</a></h1>
-<p>Stay up to date with <a class="reference external" href="https://www.blender.org/">Blender</a> development.</p>
-<div class="section" id="weeks">
-<h2>Weeks<a class="headerlink" href="#weeks" title="Permalink to this headline">¶</a></h2>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="2017-10-07.html">Week 2017-10-07</a></li>
+  <div class="section" id="week-2017-10-07">
+<h1>Week 2017-10-07<a class="headerlink" href="#week-2017-10-07" title="Permalink to this headline">¶</a></h1>
+<p class="feed-meta">Published on <em class="feed-date">2017-10-07 00:00:00</em></p>
+<p>Hello and welcome the the first issue of This Week in Blender Delopment.
+The goal of the project is to allow users to easily see what has happened
+in development over the past week. This is not a list of everything, however,
+it is a decent list of only the stuff most interesting to end users.
+<a class="reference external" href="https://www.blender.org/">Blender</a> is the free and opensource 3D creation
+suite for the next generation of artist. Follow the developmment on Twitter
+<a class="reference external" href="https://twitter.com/BlenderDev">&#64;BlenderDev</a>.</p>
+<p><em>This Week in Blender Delopment</em> is openly developed on
+<a class="reference external" href="https://github.com/ThisWeekInBlenderDev">Github</a>
+so please report any recommendations, bugs, or PRs there.</p>
+<div class="section" id="changes-to-blender">
+<h2>Changes to Blender<a class="headerlink" href="#changes-to-blender" title="Permalink to this headline">¶</a></h2>
+<p class="rubric">master</p>
+<ul class="simple">
+<li>Support CUDA 9 toolkit, and automatically disable <code class="docutils literal"><span class="pre">sm_2x</span></code> binaries
+<a class="reference external" href="http://developer.blender.org/rBf55735e533601b559d53fd1e2c5297092e844345">rBf55735e5</a></li>
+<li>Vertex Paint: Add projection options (matching projection painting)
+<a class="reference external" href="http://developer.blender.org/rBb2a10fa615efcf403a9ca23005d86ca149ebf56b">rBb2a10fa6</a></li>
+<li>Disable multi-threaded weight paint when mirroring is enabled.
+<a class="reference external" href="http://developer.blender.org/rB88dd45e1e1bde5db43e8807b7def754dea8b01fc">rB88dd45e1</a></li>
+<li>Weight Paint: add some color blending modes
+<a class="reference external" href="http://developer.blender.org/rB6092ded1279e048709fa0481a5dd314ea9712eea">rB6092ded1</a></li>
+<li>Vertex Paint: remove accumulate (soc-2017-vertex_paint)
+<a class="reference external" href="http://developer.blender.org/rBf4b1f9b9255cda1af5e093f25cdde816bd94d8cd">rBf4b1f9b9</a></li>
+<li>Weight Paint: blend smear tool
+<a class="reference external" href="http://developer.blender.org/rBa4721c05040fce606d6c6ccc4ea91bdf6c8846e8">rBa4721c05</a></li>
+<li>Python: bump minimum version to 3.6
+<a class="reference external" href="http://developer.blender.org/rBcbe07d980ccc860cb01549272fc95c08912581d7">rBcbe07d98</a></li>
+</ul>
+<p class="rubric">blender2.8</p>
+<ul class="simple">
+<li>Eevee: Lamps: Change ESM default exponent
+<a class="reference external" href="http://developer.blender.org/rBdc327e2793ba21df02ee2b7787d35170e92a1521">rBdc327e27</a></li>
+</ul>
+<p class="rubric">greasepencil-object</p>
+<ul class="simple">
+<li>Add curve options to Thick modifier
+<a class="reference external" href="http://developer.blender.org/rBef4c69a71594ceb42aac8e4d4cd0ed0523adb34f">rBef4c69a7</a></li>
+<li>Add Antialiasing to Grease Pencil
+<a class="reference external" href="http://developer.blender.org/rB90152f6bcb05ba0410c18e05edec7ba8db640784">rB90152f6b</a></li>
+<li>Remove antialiasing code
+<a class="reference external" href="http://developer.blender.org/rB0e99d51a385db0b8be8f470e391da26deae8db91">rB0e99d51a</a></li>
+</ul>
+<p class="rubric">fluid-mantaflow</p>
+<ul class="simple">
+<li>Fluid particles: UI update
+<a class="reference external" href="http://developer.blender.org/rB949316d0a79373413adaaff041da6661611515ff">rB949316d0</a></li>
+<li>Big fluid particles update
+<a class="reference external" href="http://developer.blender.org/rBc1fb55b44b6c99248d38a7578e92ea79d95fae36">rBc1fb55b4</a></li>
 </ul>
 </div>
-<div class="toctree-wrapper compound">
+<div class="section" id="new-patches">
+<h2>New Patches<a class="headerlink" href="#new-patches" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Cycles: schedule more work and prevent CUDA driver timeouts.
+<a class="reference external" href="http://developer.blender.org/D2862">D2862</a></li>
+<li>Sculpting: Add pressure curvemapping
+<a class="reference external" href="http://developer.blender.org/D2864">D2864</a></li>
+<li>UV select overlapping
+<a class="reference external" href="http://developer.blender.org/D2865">D2865</a></li>
+</ul>
 </div>
+<div class="section" id="other-projects">
+<h2>Other Projects<a class="headerlink" href="#other-projects" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Blender Addon PBR <a class="reference external" href="http://developer.blender.org/T52987">T52987</a></li>
+</ul>
 </div>
 </div>
 
@@ -198,7 +261,7 @@
 <div id="navbar-related" class=" related navbar navbar-default" role="navigation" aria-label="related navigation">
   <div class="navbar-inner">
     <ul class="nav navbar-nav ">
-        <li><a href="#">This Week in Blender Dev</a></li>
+        <li><a href="index.html">This Week in Blender Dev</a></li>
   <li><a class="reference external" href="rss.xml">RSS Feed</a></li>
   <li><a class="reference internal" href="feed.html"><span class="doc">Past Weeks</span></a></li>
   <li><a class="reference external" href="https://github.com/ThisWeekInBlenderDev/source">Source Code</a></li>
@@ -206,7 +269,8 @@
     </ul>
 <ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
       
-        <li><a href="2017-10-07.html" title="Week 2017-10-07" >next</a></li>
+        <li><a href="index.html" title="This Week in Blender Development" >previous</a></li>
+        <li><a href="feed.html" title="Feed" >next</a></li>
         <li><a href="genindex.html" title="General Index" >index</a></li>
         <li><a href="#">top</a></li> 
       
