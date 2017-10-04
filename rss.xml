@@ -5,7 +5,7 @@
     <atom:link href="https://thisweekinblenderdev.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <link>https://thisweekinblenderdev.github.io/</link>
     <description></description>
-    <lastBuildDate>Wed, 04 Oct 2017 04:47:34 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Oct 2017 04:54:01 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
     <item>
       <title>Week 2017-10-07</title>
@@ -33,7 +33,7 @@ so please report any recommendations, bugs, or PRs there.&lt;/p&gt;
 &lt;a class="reference external" href="http://developer.blender.org/rB88dd45e1e1bde5db43e8807b7def754dea8b01fc"&gt;rB88dd45e1&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Weight Paint: add some color blending modes
 &lt;a class="reference external" href="http://developer.blender.org/rB6092ded1279e048709fa0481a5dd314ea9712eea"&gt;rB6092ded1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Vertex Paint: expose old &lt;em&gt;Spray&lt;/em&gt; option as accumulate (matching sculpt mode)
+&lt;li&gt;Vertex Paint: expose old &lt;em&gt;Spray&lt;/em&gt; option as &lt;em&gt;Accumulate&lt;/em&gt; (matching sculpt mode)
 &lt;a class="reference external" href="http://developer.blender.org/rBf4b1f9b9255cda1af5e093f25cdde816bd94d8cd"&gt;rBf4b1f9b9&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Weight Paint: use brush falloff to blend results of the smear tool
 &lt;a class="reference external" href="http://developer.blender.org/rBa4721c05040fce606d6c6ccc4ea91bdf6c8846e8"&gt;rBa4721c05&lt;/a&gt;&lt;/li&gt;
