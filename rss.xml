@@ -5,7 +5,7 @@
     <atom:link href="https://thisweekinblenderdev.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <link>https://thisweekinblenderdev.github.io/</link>
     <description></description>
-    <lastBuildDate>Thu, 05 Oct 2017 03:40:26 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Oct 2017 03:48:55 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
     <item>
       <title>Week 2017-10-07</title>
@@ -41,11 +41,24 @@ so please report any recommendations, bugs, or PRs there.&lt;/p&gt;
 &lt;a class="reference external" href="http://developer.blender.org/rBcbe07d980ccc860cb01549272fc95c08912581d7"&gt;rBcbe07d98&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Cycles: CUDA faster rendering of small tiles, using multiple samples like OpenCL.
 &lt;a class="reference external" href="http://developer.blender.org/rB6da6f8d33f65b427162d0c8b13a5a5f5043bc8a5"&gt;rB6da6f8d3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Sculpt Mode: Add 2D falloff option
+&lt;a class="reference external" href="http://developer.blender.org/rBd8509b349d1d6219923615e7af81267bb6f06b68"&gt;rBd8509b34&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Vertex Paint: use brush front-face setting
+&lt;a class="reference external" href="http://developer.blender.org/rB8ef757df3d2ab5867f2361908e524a7de0f4489e"&gt;rB8ef757df&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Vertex Paint: move normal falloff into the brush
+&lt;a class="reference external" href="http://developer.blender.org/rB471be7e7f58a4776857666df13e473c8ea0f4fd5"&gt;rB471be7e7&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p class="rubric"&gt;blender2.8&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;Eevee: Lamps: Change ESM default exponent
 &lt;a class="reference external" href="http://developer.blender.org/rBdc327e2793ba21df02ee2b7787d35170e92a1521"&gt;rBdc327e27&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Eevee: Shadows: Add Contact Shadows
+&lt;a class="reference external" href="http://developer.blender.org/rBdfcdec914ce918adf6c47d3c1e278b5a5c22fb4d"&gt;rBdfcdec91&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="rubric"&gt;topbar&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Add ‘x’ icon to active workspace tab to delete workspace
+&lt;a class="reference external" href="http://developer.blender.org/rB33bed11248884334754f9744312e29af8da0b99e"&gt;rB33bed112&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p class="rubric"&gt;greasepencil-object&lt;/p&gt;
 &lt;ul class="simple"&gt;
