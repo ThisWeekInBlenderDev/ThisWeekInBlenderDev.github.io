@@ -5,7 +5,7 @@
     <atom:link href="https://thisweekinblenderdev.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <link>https://thisweekinblenderdev.github.io/</link>
     <description></description>
-    <lastBuildDate>Sat, 07 Oct 2017 03:48:55 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Oct 2017 03:12:49 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
     <item>
       <title>Week 2017-10-07</title>
@@ -47,6 +47,10 @@ so please report any recommendations, bugs, or PRs there.&lt;/p&gt;
 &lt;a class="reference external" href="http://developer.blender.org/rB8ef757df3d2ab5867f2361908e524a7de0f4489e"&gt;rB8ef757df&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Vertex Paint: move normal falloff into the brush
 &lt;a class="reference external" href="http://developer.blender.org/rB471be7e7f58a4776857666df13e473c8ea0f4fd5"&gt;rB471be7e7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cycles: CUDA bicubic and tricubic texture interpolation
+&lt;a class="reference external" href="http://developer.blender.org/rB2d92988f6bc4ec475d685c5cdfb84ba23c1a95ba"&gt;rB2d92988f&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cycles: OpenCL bicubic and tricubic texture interpolation support
+&lt;a class="reference external" href="http://developer.blender.org/rBf61c340bc15ef1573dc48f65fc7c71fce0a47a07"&gt;rBf61c340b&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p class="rubric"&gt;blender2.8&lt;/p&gt;
 &lt;ul class="simple"&gt;
