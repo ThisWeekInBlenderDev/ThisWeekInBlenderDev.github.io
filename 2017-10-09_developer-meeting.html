@@ -18,7 +18,7 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
-    <title>Feed &mdash; This Week in Blender Development</title>
+    <title>2017-10-09: Developer Meeting &mdash; This Week in Blender Development</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -63,7 +63,8 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="top" title="This Week in Blender Development" href="index.html" />
-    <link rel="prev" title="2017-10-14: Weekly News" href="this_week/2017-10-14_weekly-news.html" /> 
+    <link rel="next" title="2017-10-14: Weekly News" href="this_week/2017-10-14_weekly-news.html" />
+    <link rel="prev" title="2017-10-07: Weekly News" href="2017-10-07.html" /> 
   </head>
   <body role="document">
     <div id="navbar-top" class="navbar navbar-fixed-top navbar-default" role="navigation" aria-label="top navigation">
@@ -79,9 +80,26 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown visible-xs">
+                <a role="button" id="localToc" data-toggle="dropdown" data-target="#" href="#">Table Of Contents <b class="caret"></b></a>
+                <ul class="dropdown-menu localtoc sp-localtoc" role="menu" aria-labelledby="localToc">
+                <ul>
+<li><a class="reference internal" href="#">2017-10-09: Developer Meeting</a><ul>
+<li><a class="reference internal" href="#current-release-2-79">Current Release: 2.79</a></li>
+<li><a class="reference internal" href="#next-release-2-8">Next Release: 2.8</a></li>
+<li><a class="reference internal" href="#user-interface">User Interface</a></li>
+<li><a class="reference internal" href="#other-projects">Other Projects</a></li>
+<li><a class="reference internal" href="#weekly-reports">Weekly reports</a></li>
+</ul>
+</li>
+</ul>
+
+                </ul>
+              </li>
 
             
-              <li><a href="this_week/2017-10-14_weekly-news.html" title="2017-10-14: Weekly News" accesskey="P">previous </a></li>
+              <li><a href="2017-10-07.html" title="2017-10-07: Weekly News" accesskey="P">previous </a></li>
+              <li><a href="this_week/2017-10-14_weekly-news.html" title="2017-10-14: Weekly News" accesskey="N">next </a></li>
               <li><a href="genindex.html" title="General Index" accesskey="I">index </a></li>
             
 
@@ -115,9 +133,24 @@
          
 <div class="col-md-3 hidden-xs" id="sidebar-wrapper">
   <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">2017-10-09: Developer Meeting</a><ul>
+<li><a class="reference internal" href="#current-release-2-79">Current Release: 2.79</a></li>
+<li><a class="reference internal" href="#next-release-2-8">Next Release: 2.8</a></li>
+<li><a class="reference internal" href="#user-interface">User Interface</a></li>
+<li><a class="reference internal" href="#other-projects">Other Projects</a></li>
+<li><a class="reference internal" href="#weekly-reports">Weekly reports</a></li>
+</ul>
+</li>
+</ul>
+
   <h4>Previous topic</h4>
+  <p class="topless"><a href="2017-10-07.html"
+                        title="previous chapter">2017-10-07: Weekly News</a></p>
+  <h4>Next topic</h4>
   <p class="topless"><a href="this_week/2017-10-14_weekly-news.html"
-                        title="previous chapter">2017-10-14: Weekly News</a></p>
+                        title="next chapter">2017-10-14: Weekly News</a></p>
 <div id="searchbox" role="search">
   <h3>Quick search</h3>
   <form class="search form-inline" action="search.html" method="get">
@@ -144,106 +177,75 @@
               <div class="bodywrapper">
                 <div class="body">
                   
-  <div class="section" id="feed">
-<h1>Feed<a class="headerlink" href="#feed" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
-</div>
-<div class="section" id="weekly-news">
-<h2><a class="feed-ref reference internal" href="2017-10-07.html#weekly-news">2017-10-07: Weekly News</a><a class="headerlink" href="#weekly-news" title="Permalink to this headline">¶</a></h2>
-<p class="feed-meta">Published on <em class="feed-date">2017-10-07 00:00:00</em></p>
-<p>Hello and welcome the first issue of This Week in Blender Development.
-The goal of the project is to allow users to easily see what has happened
-in development over the past week.</p>
-<p>This is not a list of everything, our aim is to list changes of interest to end users.</p>
-<p><a class="reference external" href="https://www.blender.org/">Blender</a> is the free and open-source 3D creation suite for the next generation of artist.
-Follow the development on Twitter
+  <div class="section" id="developer-meeting">
+<h1>2017-10-09: Developer Meeting<a class="headerlink" href="#developer-meeting" title="Permalink to this headline">¶</a></h1>
+<p class="feed-meta">Published on <em class="feed-date">2017-10-09 00:00:00</em></p>
+<p>Hello and welcome to another issue of <em>This Week in Blender Development</em>!
+In this issue, is a copy of information discussed in today’s developer meeting.
+<a class="reference external" href="https://www.blender.org/">Blender</a> is the free and opensource 3D creation
+suite for the next generation of artist. Follow the development on Twitter
 <a class="reference external" href="https://twitter.com/BlenderDev">&#64;BlenderDev</a>.</p>
 <p><em>This Week in Blender Development</em> is openly developed on
 <a class="reference external" href="https://github.com/ThisWeekInBlenderDev">Github</a>
 so please report any recommendations, bugs, or PRs there.</p>
-<div class="section" id="changes-to-blender">
-<h3>Changes to Blender<a class="headerlink" href="#changes-to-blender" title="Permalink to this headline">¶</a></h3>
-<p class="rubric">master</p>
+<div class="section" id="current-release-2-79">
+<h2>Current Release: 2.79<a class="headerlink" href="#current-release-2-79" title="Permalink to this headline">¶</a></h2>
+<p>We will need (a) release, but no rush so far.</p>
+</div>
+<div class="section" id="next-release-2-8">
+<h2>Next Release: 2.8<a class="headerlink" href="#next-release-2-8" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Support CUDA 9 toolkit, and automatically disable <code class="docutils literal"><span class="pre">sm_2x</span></code> binaries
-<a class="reference external" href="http://developer.blender.org/rBf55735e533601b559d53fd1e2c5297092e844345">rBf55735e5</a></li>
-<li>Vertex Paint: Add projection options (matching projection painting)
-<a class="reference external" href="http://developer.blender.org/rBb2a10fa615efcf403a9ca23005d86ca149ebf56b">rBb2a10fa6</a></li>
-<li>Weight Paint: disable multi-threaded weight paint when mirroring is enabled.
-<a class="reference external" href="http://developer.blender.org/rB88dd45e1e1bde5db43e8807b7def754dea8b01fc">rB88dd45e1</a></li>
-<li>Weight Paint: add some color blending modes
-<a class="reference external" href="http://developer.blender.org/rB6092ded1279e048709fa0481a5dd314ea9712eea">rB6092ded1</a></li>
-<li>Vertex Paint: expose old <em>Spray</em> option as <em>Accumulate</em> (matching sculpt mode)
-<a class="reference external" href="http://developer.blender.org/rBf4b1f9b9255cda1af5e093f25cdde816bd94d8cd">rBf4b1f9b9</a></li>
-<li>Weight Paint: use brush falloff to blend results of the smear tool
-<a class="reference external" href="http://developer.blender.org/rBa4721c05040fce606d6c6ccc4ea91bdf6c8846e8">rBa4721c05</a></li>
-<li>Python: bump minimum version to 3.6
-<a class="reference external" href="http://developer.blender.org/rBcbe07d980ccc860cb01549272fc95c08912581d7">rBcbe07d98</a></li>
-<li>Cycles: CUDA faster rendering of small tiles, using multiple samples like OpenCL.
-<a class="reference external" href="http://developer.blender.org/rB6da6f8d33f65b427162d0c8b13a5a5f5043bc8a5">rB6da6f8d3</a></li>
-<li>Sculpt Mode: Add 2D falloff option
-<a class="reference external" href="http://developer.blender.org/rBd8509b349d1d6219923615e7af81267bb6f06b68">rBd8509b34</a></li>
-<li>Vertex Paint: use brush front-face setting
-<a class="reference external" href="http://developer.blender.org/rB8ef757df3d2ab5867f2361908e524a7de0f4489e">rB8ef757df</a></li>
-<li>Vertex Paint: move normal falloff into the brush
-<a class="reference external" href="http://developer.blender.org/rB471be7e7f58a4776857666df13e473c8ea0f4fd5">rB471be7e7</a></li>
-<li>Cycles: CUDA bicubic and tricubic texture interpolation
-<a class="reference external" href="http://developer.blender.org/rB2d92988f6bc4ec475d685c5cdfb84ba23c1a95ba">rB2d92988f</a></li>
-<li>Cycles: OpenCL bicubic and tricubic texture interpolation support
-<a class="reference external" href="http://developer.blender.org/rBf61c340bc15ef1573dc48f65fc7c71fce0a47a07">rBf61c340b</a></li>
-</ul>
-<p class="rubric">blender2.8</p>
-<ul class="simple">
-<li>Eevee: Lamps: Change ESM default exponent
-<a class="reference external" href="http://developer.blender.org/rBdc327e2793ba21df02ee2b7787d35170e92a1521">rBdc327e27</a></li>
-<li>Eevee: Shadows: Add Contact Shadows
-<a class="reference external" href="http://developer.blender.org/rBdfcdec914ce918adf6c47d3c1e278b5a5c22fb4d">rBdfcdec91</a></li>
-</ul>
-<p class="rubric">topbar</p>
-<ul class="simple">
-<li>Add ‘x’ icon to active workspace tab to delete workspace
-<a class="reference external" href="http://developer.blender.org/rB33bed11248884334754f9744312e29af8da0b99e">rB33bed112</a></li>
-</ul>
-<p class="rubric">greasepencil-object</p>
-<ul class="simple">
-<li>Add curve options to Thick modifier
-<a class="reference external" href="http://developer.blender.org/rBef4c69a71594ceb42aac8e4d4cd0ed0523adb34f">rBef4c69a7</a></li>
-<li>Add new color pallet slot system
-<a class="reference external" href="http://developer.blender.org/rB7c9467ae1fd0bfcf97dd5411fee0be60becb7325">rB7c9467ae</a></li>
-<li>Add a work in progress implmentation of FXAA
-<a class="reference external" href="http://developer.blender.org/rBcf87d5759bd1ffc87c0ca2128db3425f9062c8e6">rBcf87d575</a></li>
-</ul>
-<p class="rubric">fluid-mantaflow</p>
-<ul class="simple">
-<li>Fluid particles: UI update
-<a class="reference external" href="http://developer.blender.org/rB949316d0a79373413adaaff041da6661611515ff">rB949316d0</a></li>
-<li>Big fluid particles update
-<a class="reference external" href="http://developer.blender.org/rBc1fb55b44b6c99248d38a7578e92ea79d95fae36">rBc1fb55b4</a></li>
+<li>We have a design in place:
+<a class="reference external" href="https://code.blender.org/2017/10/blender-2-8-design-document/">https://code.blender.org/2017/10/blender-2-8-design-document/</a></li>
+<li>Now the development team will prepare an attack plan for the
+different projects. Similar to Eevee’s roadmap.</li>
+<li>Hero production starts soon. Grease Pencil branch to be sent for
+review no later than next week.</li>
 </ul>
 </div>
-<div class="section" id="new-patches">
-<h3>New Patches<a class="headerlink" href="#new-patches" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="user-interface">
+<h2>User Interface<a class="headerlink" href="#user-interface" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Cycles: schedule more work and prevent CUDA driver timeouts.
-<a class="reference external" href="http://developer.blender.org/D2862">D2862</a></li>
-<li>Sculpting: Add pressure curve-mapping
-<a class="reference external" href="http://developer.blender.org/D2864">D2864</a></li>
-<li>UV select overlapping
-<a class="reference external" href="http://developer.blender.org/D2865">D2865</a></li>
+<li>The UI team is kindly requested to join forces and give a treatment
+on top of the published 2.8 design document.</li>
+<li>Pablo Vazquez is already working on it - his mockups can be found
+at: <a class="reference external" href="https://pablovazquez.art/ui/">https://pablovazquez.art/ui/</a></li>
+<li>Julian Eisel will write to bf-interface mailing list to propose
+meeting in irc.</li>
 </ul>
 </div>
 <div class="section" id="other-projects">
-<h3>Other Projects<a class="headerlink" href="#other-projects" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li>Blender Addon PBR <a class="reference external" href="http://developer.blender.org/T52987">T52987</a></li>
+<h2>Other Projects<a class="headerlink" href="#other-projects" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p class="first">The studio of blender institute is going to announce a new open
+movie that will use 2.8. Production will take most of 1st half 2018.</p>
+</li>
+<li><p class="first">Two new full-time coders will be required at the institute.</p>
+</li>
+<li><p class="first">“This week in Blender dev”: Campbell Barton and Aaron Carlisle have
+been working on experimental weekly report. Anyone interested on
+helping, reply to email on bf-committers.</p>
+<p><a class="reference external" href="https://thisweekinblenderdev.github.io/2017-10-07.html">https://thisweekinblenderdev.github.io/2017-10-07.html</a></p>
+</li>
+<li><p class="first">“Project admins and module owners update”: not much feedback so far,
+so we assume everyone is happy with it. But further, module teams need
+to be updated (in the wiki page).</p>
+<p><a class="reference external" href="https://lists.blender.org/pipermail/bf-committers/2017-October/048832.html">https://lists.blender.org/pipermail/bf-committers/2017-October/048832.html</a></p>
+</li>
+<li><p class="first">Google Summer of Code mentor summit: Ton Roosendaal will be
+attending it next week. Anything to bring up just tell him.</p>
+</li>
 </ul>
 </div>
-<div class="section" id="documentation">
-<h3>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="weekly-reports">
+<h2>Weekly reports<a class="headerlink" href="#weekly-reports" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><a class="reference external" href="https://code.blender.org/2017/10/blender-2-8-design-document/">Blender 2.8 Design Document</a></li>
+<li><a class="reference external" href="https://wiki.blender.org/index.php/User:Mont29/Foundation/2017#Week_212_-_10.2F02_to_10.2F06">Bastien Montagne</a></li>
+<li><a class="reference external" href="http://download.blender.org/ftp/ideasman42/donelist/2017.html#week-342-october-2">Campbell Barton</a></li>
+<li><a class="reference external" href="https://wiki.blender.org/index.php/User:Hypersomniac/Foundation/2017#Week_43:_2th_-_8st_October">Clément Foucault</a></li>
+<li><a class="reference external" href="https://wiki.blender.org/index.php/User:Dfelinto/Foundation17#Week_19_.28October_2nd_-_6th.29">Dalai Felinto</a></li>
+<li><a class="reference external" href="https://wiki.blender.org/index.php/User:Nazg-gul/Foundation/2017#Week_305:_2nd_-_8th_October">Sergey Sharybin</a></li>
 </ul>
-</div>
 </div>
 </div>
 
@@ -270,7 +272,8 @@ so please report any recommendations, bugs, or PRs there.</p>
     </ul>
 <ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
       
-        <li><a href="this_week/2017-10-14_weekly-news.html" title="2017-10-14: Weekly News" >previous</a></li>
+        <li><a href="2017-10-07.html" title="2017-10-07: Weekly News" >previous</a></li>
+        <li><a href="this_week/2017-10-14_weekly-news.html" title="2017-10-14: Weekly News" >next</a></li>
         <li><a href="genindex.html" title="General Index" >index</a></li>
         <li><a href="#">top</a></li> 
       

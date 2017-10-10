@@ -5,16 +5,16 @@
     <atom:link href="https://thisweekinblenderdev.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <link>https://thisweekinblenderdev.github.io/</link>
     <description></description>
-    <lastBuildDate>Sun, 08 Oct 2017 03:12:49 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Oct 2017 00:51:32 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
     <item>
-      <title>Week 2017-10-07</title>
+      <title>2017-10-07: Weekly News</title>
       <link>https://thisweekinblenderdev.github.io/2017-10-07.html</link>
       <description>&lt;div class="compound"&gt;
 &lt;p class="compound-first"&gt;Hello and welcome the first issue of This Week in Blender Development.
 The goal of the project is to allow users to easily see what has happened
 in development over the past week.&lt;/p&gt;
-&lt;p class="compound-middle"&gt;This is not a list of everything, our aim s to list changes of interest to end users.&lt;/p&gt;
+&lt;p class="compound-middle"&gt;This is not a list of everything, our aim is to list changes of interest to end users.&lt;/p&gt;
 &lt;p class="compound-middle"&gt;&lt;a class="reference external" href="https://www.blender.org/"&gt;Blender&lt;/a&gt; is the free and open-source 3D creation suite for the next generation of artist.
 Follow the development on Twitter
 &lt;a class="reference external" href="https://twitter.com/BlenderDev"&gt;&amp;#64;BlenderDev&lt;/a&gt;.&lt;/p&gt;
@@ -92,10 +92,16 @@ so please report any recommendations, bugs, or PRs there.&lt;/p&gt;
 &lt;a class="reference external" href="http://developer.blender.org/D2865"&gt;D2865&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;div class="compound-last section" id="other-projects"&gt;
+&lt;div class="compound-middle section" id="other-projects"&gt;
 &lt;h1&gt;Other Projects&lt;a class="headerlink" href="#other-projects" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;Blender Addon PBR &lt;a class="reference external" href="http://developer.blender.org/T52987"&gt;T52987&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-last section" id="documentation"&gt;
+&lt;h1&gt;Documentation&lt;a class="headerlink" href="#documentation" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://code.blender.org/2017/10/blender-2-8-design-document/"&gt;Blender 2.8 Design Document&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
