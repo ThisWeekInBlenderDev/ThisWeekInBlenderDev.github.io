@@ -18,7 +18,7 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
-    <title>This Week in Blender Development &mdash; This Week in Blender Development</title>
+    <title>2017-10-14: Weekly News &mdash; This Week in Blender Development</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -62,8 +62,9 @@
 </script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="top" title="This Week in Blender Development" href="#" />
-    <link rel="next" title="2017-10-07: Weekly News" href="2017-10-07.html" /> 
+    <link rel="top" title="This Week in Blender Development" href="index.html" />
+    <link rel="next" title="2017-10-21: Weekly News" href="2017-10-21.html" />
+    <link rel="prev" title="2017-10-09: Developer Meeting" href="2017-10-09_developer-meeting.html" /> 
   </head>
   <body role="document">
     <div id="navbar-top" class="navbar navbar-fixed-top navbar-default" role="navigation" aria-label="top navigation">
@@ -75,7 +76,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">This Week in Blender Dev</a>
+          <a class="navbar-brand" href="index.html">This Week in Blender Dev</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -83,10 +84,11 @@
                 <a role="button" id="localToc" data-toggle="dropdown" data-target="#" href="#">Table Of Contents <b class="caret"></b></a>
                 <ul class="dropdown-menu localtoc sp-localtoc" role="menu" aria-labelledby="localToc">
                 <ul>
-<li><a class="reference internal" href="#">This Week in Blender Development</a><ul>
-<li><a class="reference internal" href="#weeks">Weeks</a><ul>
-</ul>
-</li>
+<li><a class="reference internal" href="#">2017-10-14: Weekly News</a><ul>
+<li><a class="reference internal" href="#changes-to-blender">Changes to Blender</a></li>
+<li><a class="reference internal" href="#new-patches">New Patches</a></li>
+<li><a class="reference internal" href="#other-projects">Other Projects</a></li>
+<li><a class="reference internal" href="#documentation">Documentation</a></li>
 </ul>
 </li>
 </ul>
@@ -95,7 +97,8 @@
               </li>
 
             
-              <li><a href="2017-10-07.html" title="2017-10-07: Weekly News" accesskey="N">next </a></li>
+              <li><a href="2017-10-09_developer-meeting.html" title="2017-10-09: Developer Meeting" accesskey="P">previous </a></li>
+              <li><a href="2017-10-21.html" title="2017-10-21: Weekly News" accesskey="N">next </a></li>
               <li><a href="genindex.html" title="General Index" accesskey="I">index </a></li>
             
 
@@ -129,19 +132,23 @@
          
 <div class="col-md-3 hidden-xs" id="sidebar-wrapper">
   <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
-  <h3><a href="#">Table Of Contents</a></h3>
+  <h3><a href="index.html">Table Of Contents</a></h3>
   <ul>
-<li><a class="reference internal" href="#">This Week in Blender Development</a><ul>
-<li><a class="reference internal" href="#weeks">Weeks</a><ul>
-</ul>
-</li>
+<li><a class="reference internal" href="#">2017-10-14: Weekly News</a><ul>
+<li><a class="reference internal" href="#changes-to-blender">Changes to Blender</a></li>
+<li><a class="reference internal" href="#new-patches">New Patches</a></li>
+<li><a class="reference internal" href="#other-projects">Other Projects</a></li>
+<li><a class="reference internal" href="#documentation">Documentation</a></li>
 </ul>
 </li>
 </ul>
 
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="2017-10-09_developer-meeting.html"
+                        title="previous chapter">2017-10-09: Developer Meeting</a></p>
   <h4>Next topic</h4>
-  <p class="topless"><a href="2017-10-07.html"
-                        title="next chapter">2017-10-07: Weekly News</a></p>
+  <p class="topless"><a href="2017-10-21.html"
+                        title="next chapter">2017-10-21: Weekly News</a></p>
 <div id="searchbox" role="search">
   <h3>Quick search</h3>
   <form class="search form-inline" action="search.html" method="get">
@@ -168,24 +175,68 @@
               <div class="bodywrapper">
                 <div class="body">
                   
-  <div class="section" id="this-week-in-blender-development">
-<h1>This Week in Blender Development<a class="headerlink" href="#this-week-in-blender-development" title="Permalink to this headline">¶</a></h1>
-<p>Stay up to date with <a class="reference external" href="https://www.blender.org/">Blender</a> development.</p>
-<div class="section" id="weeks">
-<h2>Weeks<a class="headerlink" href="#weeks" title="Permalink to this headline">¶</a></h2>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="2017-10-28.html">2017-10-28: Weekly News</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2017-10-21.html">2017-10-21: Weekly News</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2017-10-14.html">2017-10-14: Weekly News</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2017-10-09_developer-meeting.html">2017-10-09: Developer Meeting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2017-10-07.html">2017-10-07: Weekly News</a></li>
+  <div class="section" id="weekly-news">
+<h1>2017-10-14: Weekly News<a class="headerlink" href="#weekly-news" title="Permalink to this headline">¶</a></h1>
+<p class="feed-meta">Published on <em class="feed-date">2017-10-14 00:00:00</em></p>
+<p>Hello and welcome to another issue of <em>This Week in Blender Development</em>!
+<a class="reference external" href="https://www.blender.org/">Blender</a> is the free and opensource 3D creation
+suite for the next generation of artist. Follow the development on Twitter
+<a class="reference external" href="https://twitter.com/BlenderDev">&#64;BlenderDev</a>.</p>
+<p><em>This Week in Blender Development</em> is openly developed on
+<a class="reference external" href="https://github.com/ThisWeekInBlenderDev">Github</a>
+so please report any recommendations, bugs, or PRs there.</p>
+<div class="section" id="changes-to-blender">
+<h2>Changes to Blender<a class="headerlink" href="#changes-to-blender" title="Permalink to this headline">¶</a></h2>
+<p class="rubric">master</p>
+<ul class="simple">
+<li>Cycles: Schedule more work for non-display and compute preemption CUDA cards.
+<a class="reference external" href="http://developer.blender.org/rBe360d003ea45ee233c6f10c03ff57c956929b383">rBe360d003</a></li>
+<li>UI: VSE strip menu reorganization
+<a class="reference external" href="http://developer.blender.org/rBe9d06f086698049447fe004fec20d715b603a571">rBe9d06f08</a></li>
+<li>Cycles: Speedup up tangent space calculation
+<a class="reference external" href="http://developer.blender.org/rB4fce3c7ac079923fb6d124e5c89590e0611b07b5">rB4fce3c7a</a></li>
+</ul>
+<p class="rubric">blender2.8</p>
+<ul class="simple">
+<li>Eevee: Improve cache performance by 13%
+<a class="reference external" href="http://developer.blender.org/rBf7db1a4366e8391aea87cc39a5e7bfd6141dd283">rBf7db1a43</a></li>
+<li>Manipulators: add cage3d scale widge
+<a class="reference external" href="http://developer.blender.org/rBc90ec276b8a578527861c1e6eaae766efea0c27b">rBc90ec276</a></li>
+<li>Eevee: Probe: Add Cubemap Resolution option
+<a class="reference external" href="http://developer.blender.org/rBd46842108ddea98c2ec6c437e87888f2267a311c">rBd4684210</a></li>
+</ul>
+<p class="rubric">greasepencil-object</p>
+<ul class="simple">
+<li>Enable MSAA for strokes
+<a class="reference external" href="http://developer.blender.org/rB049eb49f9aaaf02c67197cfcef8ddba0340dcb99">rB049eb49f</a></li>
+</ul>
+<p class="rubric">asset-engine</p>
+<ul class="simple">
+<li>Add initial, very basic/proof-of-concept for drag and drop linking
+<a class="reference external" href="http://developer.blender.org/rB504287b9877a85be40dc80fe700f5d80319d06ec">rB504287b9</a></li>
 </ul>
 </div>
-<div class="toctree-wrapper compound">
+<div class="section" id="new-patches">
+<h2>New Patches<a class="headerlink" href="#new-patches" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>VSE: Add new Blend Effect strip <a class="reference external" href="http://developer.blender.org/D2872">D2872</a></li>
+<li>Cycles: Allow rendering with GPUs an CPUs at once <a class="reference external" href="http://developer.blender.org/D2873">D2873</a></li>
+<li>Cycles: Speed up rendering by adding BVH8 <a class="reference external" href="http://developer.blender.org/D2875">D2875</a></li>
+<li>UI Reorganize 3D View Menus: View, Add and Object Menu <a class="reference external" href="http://developer.blender.org/D2876">D2876</a></li>
+<li>2.8: New Viewport: Make the internal depth drawing of external engines optional
+(Proof of Concept) <a class="reference external" href="http://developer.blender.org/D2877">D2877</a></li>
+<li>2.8: Layers: Add new layer evaluation meathod <a class="reference external" href="http://developer.blender.org/D2878">D2878</a></li>
+</ul>
 </div>
-<div class="toctree-wrapper compound">
+<div class="section" id="other-projects">
+<h2>Other Projects<a class="headerlink" href="#other-projects" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>New Tool System Proposal <a class="reference external" href="http://developer.blender.org/T53047">T53047</a></li>
+</ul>
 </div>
+<div class="section" id="documentation">
+<h2>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h2>
+<p>As a reminder please read the <a class="reference external" href="https://code.blender.org/2017/10/blender-2-8-design-document/">Blender 2.8 Design Document</a></p>
 </div>
 </div>
 
@@ -204,7 +255,7 @@
 <div id="navbar-related" class=" related navbar navbar-default" role="navigation" aria-label="related navigation">
   <div class="navbar-inner">
     <ul class="nav navbar-nav ">
-        <li><a href="#">This Week in Blender Dev</a></li>
+        <li><a href="index.html">This Week in Blender Dev</a></li>
   <li><a class="reference external" href="rss.xml">RSS Feed</a></li>
   <li><a class="reference internal" href="feed.html"><span class="doc">Past Weeks</span></a></li>
   <li><a class="reference external" href="https://github.com/ThisWeekInBlenderDev/source">Source Code</a></li>
@@ -212,7 +263,8 @@
     </ul>
 <ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
       
-        <li><a href="2017-10-07.html" title="2017-10-07: Weekly News" >next</a></li>
+        <li><a href="2017-10-09_developer-meeting.html" title="2017-10-09: Developer Meeting" >previous</a></li>
+        <li><a href="2017-10-21.html" title="2017-10-21: Weekly News" >next</a></li>
         <li><a href="genindex.html" title="General Index" >index</a></li>
         <li><a href="#">top</a></li> 
       
