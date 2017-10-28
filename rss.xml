@@ -5,7 +5,7 @@
     <atom:link href="https://thisweekinblenderdev.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <link>https://thisweekinblenderdev.github.io/</link>
     <description></description>
-    <lastBuildDate>Sat, 28 Oct 2017 08:50:29 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Oct 2017 08:59:47 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
     <item>
       <title>2017-11-04: Weekly News</title>
@@ -86,6 +86,7 @@ by going to the &lt;a class="reference external" href="https://builder.blender.o
 &lt;li&gt;Manipulator: move ‘Scale Cage’ to its own tool
 &lt;a class="reference external" href="http://developer.blender.org/rBd3fafa3002847af913125ef71a5b70b1580f5189"&gt;rBd3fafa30&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Tool System: add an experimental low-poly construction tool
+(&lt;a class="reference external" href="https://www.youtube.com/watch?v=TJ6Dh77nQw4"&gt;see demo video&lt;/a&gt;)
 &lt;a class="reference external" href="http://developer.blender.org/rBcd3c31b2c02ed024be2d772e37da73d9aa4dc220"&gt;rBcd3c31b2&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Remove background images from 3D view and add them to the camera
 &lt;a class="reference external" href="http://developer.blender.org/rBef96f36ee961e7f11556570da2b9cef0a08159f9"&gt;rBef96f36e&lt;/a&gt;&lt;/li&gt;
