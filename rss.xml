@@ -5,24 +5,12 @@
     <atom:link href="https://thisweekinblenderdev.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <link>https://thisweekinblenderdev.github.io/</link>
     <description></description>
-    <lastBuildDate>Sat, 04 Nov 2017 05:51:51 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Nov 2017 06:09:41 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
     <item>
-      <title>2017-11-04: Weekly News</title>
-      <link>https://thisweekinblenderdev.github.io/this_week/2017-11-04.html</link>
+      <title>2017-11-11: Weekly News</title>
+      <link>https://thisweekinblenderdev.github.io/this_week/2017-11-11.html</link>
       <description>&lt;div class="compound"&gt;
-&lt;p class="compound-first"&gt;Hello and welcome to another issue of &lt;em&gt;This Week in Blender Development&lt;/em&gt;!
-&lt;a class="reference external" href="https://www.blender.org/"&gt;Blender&lt;/a&gt; is the free and opensource 3D creation
-suite for the next generation of artist. Follow the development on Twitter
-&lt;a class="reference external" href="https://twitter.com/BlenderDev"&gt;&amp;#64;BlenderDev&lt;/a&gt;.&lt;/p&gt;
-&lt;p class="compound-middle"&gt;&lt;em&gt;This Week in Blender Development&lt;/em&gt; is openly developed on
-&lt;a class="reference external" href="https://github.com/ThisWeekInBlenderDev"&gt;Github&lt;/a&gt;
-so please report any recommendations, bugs, or PRs there.&lt;/p&gt;
-&lt;div class="tip compound-middle admonition"&gt;
-&lt;p class="first admonition-title"&gt;Tip&lt;/p&gt;
-&lt;p class="last"&gt;Remember, you can test any changes done in &lt;cite&gt;master&lt;/cite&gt; or &lt;cite&gt;blender2.8&lt;/cite&gt;
-by going to the &lt;a class="reference external" href="https://builder.blender.org/download/"&gt;developmental builds download page&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
 &lt;div class="compound-middle section" id="changes-to-blender"&gt;
 &lt;h1&gt;Changes to Blender&lt;a class="headerlink" href="#changes-to-blender" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
 &lt;p class="rubric"&gt;master&lt;/p&gt;
@@ -33,22 +21,14 @@ by going to the &lt;a class="reference external" href="https://builder.blender.o
 &lt;/div&gt;
 &lt;div class="compound-middle section" id="other-projects"&gt;
 &lt;h1&gt;Other Projects&lt;a class="headerlink" href="#other-projects" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;Tool System: Where operators can take advantage of a tool system
-&lt;a class="reference external" href="http://developer.blender.org/T53101"&gt;T53101&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="compound-last section" id="documentation"&gt;
 &lt;h1&gt;Documentation&lt;a class="headerlink" href="#documentation" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
-&lt;div class="note admonition"&gt;
-&lt;p class="first admonition-title"&gt;Note&lt;/p&gt;
-&lt;p class="last"&gt;As a reminder please read the &lt;a class="reference external" href="https://code.blender.org/2017/10/blender-2-8-design-document/"&gt;Blender 2.8 Design Document&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </description>
-      <guid>https://thisweekinblenderdev.github.io/this_week/2017-11-04.html</guid>
-      <pubDate>Sat, 04 Nov 2017 00:00:00 GMT</pubDate>
+      <guid>https://thisweekinblenderdev.github.io/this_week/2017-11-11.html</guid>
+      <pubDate>Sat, 11 Nov 2017 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>2017-11-04: Weekly News</title>
