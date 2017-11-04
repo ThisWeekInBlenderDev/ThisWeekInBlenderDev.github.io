@@ -187,34 +187,21 @@ so please report any recommendations, bugs, or PRs there.</p>
 <h2>Changes to Blender<a class="headerlink" href="#changes-to-blender" title="Permalink to this headline">¶</a></h2>
 <p>Example:</p>
 <p class="rubric">master</p>
-<ul>
-<li><p class="first">Implement a new automatic handle algorithm to produce smooth F-Curves
-<a class="reference external" href="http://developer.blender.org/rB8bdc391c5488228dfe9c9e995277d67558293f08">rB8bdc391c</a></p>
-</li>
-<li><p class="first">Fix for <a class="reference external" href="http://developer.blender.org/T48988">T48988</a> - Enabling bbone easing for posemode
-<a class="reference external" href="http://developer.blender.org/rBa819ef65c07131ddb203a55bd8dc4e3207130b64">rBa819ef65</a></p>
-<p>This fix enables the usage of bbones easing parameters for edit and pose mode desperately.</p>
-</li>
-<li><p class="first">Tracking: Create mesh from selected tracks only
-<a class="reference external" href="http://developer.blender.org/rBf1c724337613c2d2081523b3fd5e4d0315268622">rBf1c72433</a></p>
-</li>
-<li><p class="first">Alembic: added frame offset property
-<a class="reference external" href="http://developer.blender.org/rB6099b2620d645f4129c42af2272cb6bd8538fc7a">rB6099b262</a></p>
-<p>The offset is subtracted, so that it’s intuitive (dragging slider pushes
-the animation further that way on the timeline).</p>
-</li>
-<li><p class="first">Alembic: exporting MetaBalls as mesh
-<a class="reference external" href="http://developer.blender.org/rB89eb05a8908130f8668e4c677d63f3d2b89e68bb">rB89eb05a8</a></p>
-</li>
-<li><p class="first">Curve Decimate: new tool to simplify bezier curves
-<a class="reference external" href="http://developer.blender.org/rB80465ba35a163c9832a4666fac74465561b7c6c5">rB80465ba3</a></p>
-<p>Access from the curve clean-up menu</p>
-</li>
-<li><p class="first">Use <code class="docutils literal"><span class="pre">BLI_heap_reinsert</span></code> for decimate and beautify
-<a class="reference external" href="http://developer.blender.org/rB336885bebaa8c7b60041b139f02a29da475cf3ea">rB336885be</a></p>
-<p>Improves performance for high poly meshes,
-~70% faster for decimate, only ~10% for beautify.</p>
-</li>
+<ul class="simple">
+<li>Implement a new automatic handle algorithm to produce smooth F-Curves
+<a class="reference external" href="http://developer.blender.org/rB8bdc391c5488228dfe9c9e995277d67558293f08">rB8bdc391c</a></li>
+<li>Fix for <a class="reference external" href="http://developer.blender.org/T48988">T48988</a> - Enabling bbone easing for posemode.
+<a class="reference external" href="http://developer.blender.org/rBa819ef65c07131ddb203a55bd8dc4e3207130b64">rBa819ef65</a></li>
+<li>Tracking: Create mesh from selected tracks only
+<a class="reference external" href="http://developer.blender.org/rBf1c724337613c2d2081523b3fd5e4d0315268622">rBf1c72433</a></li>
+<li>Alembic: added frame offset property
+<a class="reference external" href="http://developer.blender.org/rB6099b2620d645f4129c42af2272cb6bd8538fc7a">rB6099b262</a></li>
+<li>Alembic: exporting MetaBalls as mesh
+<a class="reference external" href="http://developer.blender.org/rB89eb05a8908130f8668e4c677d63f3d2b89e68bb">rB89eb05a8</a></li>
+<li>Curve Decimate: new tool to simplify bezier curves <em>(access from the curve clean-up menu)</em>
+<a class="reference external" href="http://developer.blender.org/rB80465ba35a163c9832a4666fac74465561b7c6c5">rB80465ba3</a></li>
+<li>Use <code class="docutils literal"><span class="pre">BLI_heap_reinsert</span></code> for decimate and beautify <em>(~70% faster for decimate, only ~10% for beautify)</em>.
+<a class="reference external" href="http://developer.blender.org/rB336885bebaa8c7b60041b139f02a29da475cf3ea">rB336885be</a></li>
 </ul>
 <p class="rubric">blender2.8</p>
 <ul class="simple">
