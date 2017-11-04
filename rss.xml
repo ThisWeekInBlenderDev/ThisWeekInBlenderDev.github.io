@@ -5,7 +5,7 @@
     <atom:link href="https://thisweekinblenderdev.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <link>https://thisweekinblenderdev.github.io/</link>
     <description></description>
-    <lastBuildDate>Sat, 04 Nov 2017 05:41:12 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Nov 2017 05:51:51 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
     <item>
       <title>2017-11-04: Weekly News</title>
@@ -61,6 +61,11 @@ suite for the next generation of artist. Follow the development on Twitter
 &lt;p class="compound-middle"&gt;&lt;em&gt;This Week in Blender Development&lt;/em&gt; is openly developed on
 &lt;a class="reference external" href="https://github.com/ThisWeekInBlenderDev"&gt;Github&lt;/a&gt;
 so please report any recommendations, bugs, or PRs there.&lt;/p&gt;
+&lt;div class="tip compound-middle admonition"&gt;
+&lt;p class="first admonition-title"&gt;Tip&lt;/p&gt;
+&lt;p class="last"&gt;Remember, you can test any changes done in &lt;cite&gt;master&lt;/cite&gt; or &lt;cite&gt;blender2.8&lt;/cite&gt;
+by going to the &lt;a class="reference external" href="https://builder.blender.org/download/"&gt;developmental builds download page&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;div class="compound-middle section" id="changes-to-blender"&gt;
 &lt;h1&gt;Changes to Blender&lt;a class="headerlink" href="#changes-to-blender" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
 &lt;p class="rubric"&gt;master&lt;/p&gt;
@@ -337,6 +342,11 @@ suite for the next generation of artist. Follow the development on Twitter
 &lt;p class="compound-middle"&gt;&lt;em&gt;This Week in Blender Development&lt;/em&gt; is openly developed on
 &lt;a class="reference external" href="https://github.com/ThisWeekInBlenderDev"&gt;Github&lt;/a&gt;
 so please report any recommendations, bugs, or PRs there.&lt;/p&gt;
+&lt;div class="tip compound-middle admonition"&gt;
+&lt;p class="first admonition-title"&gt;Tip&lt;/p&gt;
+&lt;p class="last"&gt;Remember, you can test any changes done in &lt;cite&gt;master&lt;/cite&gt; or &lt;cite&gt;blender2.8&lt;/cite&gt;
+by going to the &lt;a class="reference external" href="https://builder.blender.org/download/"&gt;developmental builds download page&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;div class="compound-middle section" id="changes-to-blender"&gt;
 &lt;h1&gt;Changes to Blender&lt;a class="headerlink" href="#changes-to-blender" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
 &lt;p class="rubric"&gt;master&lt;/p&gt;
@@ -406,6 +416,11 @@ suite for the next generation of artist. Follow the development on Twitter
 &lt;p class="compound-middle"&gt;&lt;em&gt;This Week in Blender Development&lt;/em&gt; is openly developed on
 &lt;a class="reference external" href="https://github.com/ThisWeekInBlenderDev"&gt;Github&lt;/a&gt;
 so please report any recommendations, bugs, or PRs there.&lt;/p&gt;
+&lt;div class="tip compound-middle admonition"&gt;
+&lt;p class="first admonition-title"&gt;Tip&lt;/p&gt;
+&lt;p class="last"&gt;Remember, you can test any changes done in &lt;cite&gt;master&lt;/cite&gt; or &lt;cite&gt;blender2.8&lt;/cite&gt;
+by going to the &lt;a class="reference external" href="https://builder.blender.org/download/"&gt;developmental builds download page&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;div class="compound-middle section" id="changes-to-blender"&gt;
 &lt;h1&gt;Changes to Blender&lt;a class="headerlink" href="#changes-to-blender" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
 &lt;p class="rubric"&gt;master&lt;/p&gt;
