@@ -5,8 +5,102 @@
     <atom:link href="https://thisweekinblenderdev.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <link>https://thisweekinblenderdev.github.io/</link>
     <description></description>
-    <lastBuildDate>Sat, 04 Nov 2017 06:11:57 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Nov 2017 03:39:34 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
+    <item>
+      <title>2017-11-11: Weekly News</title>
+      <link>https://thisweekinblenderdev.github.io/2017-11-11.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p class="compound-middle"&gt;Hello and welcome to another issue of &lt;em&gt;This Week in Blender Development&lt;/em&gt;!
+&lt;a class="reference external" href="https://www.blender.org/"&gt;Blender&lt;/a&gt; is the free and opensource 3D creation
+suite for the next generation of artist. Follow the development on Twitter
+&lt;a class="reference external" href="https://twitter.com/BlenderDev"&gt;&amp;#64;BlenderDev&lt;/a&gt;.&lt;/p&gt;
+&lt;p class="compound-middle"&gt;&lt;em&gt;This Week in Blender Development&lt;/em&gt; is openly developed on
+&lt;a class="reference external" href="https://github.com/ThisWeekInBlenderDev"&gt;Github&lt;/a&gt;
+so please report any recommendations, bugs, or PRs for this website there.&lt;/p&gt;
+&lt;p class="compound-middle"&gt;If you have idea for some great feature that you think should be part of Blender
+try making a post on &lt;a class="reference external" href="https://blender.community/c/rightclickselect/"&gt;https://blender.community/c/rightclickselect/&lt;/a&gt;&lt;/p&gt;
+&lt;div class="tip compound-middle admonition"&gt;
+&lt;p class="first admonition-title"&gt;Tip&lt;/p&gt;
+&lt;p class="last"&gt;Remember, you can test any changes done in &lt;cite&gt;master&lt;/cite&gt; or &lt;cite&gt;blender2.8&lt;/cite&gt;
+by going to the &lt;a class="reference external" href="https://builder.blender.org/download/"&gt;developmental builds download page&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="changes-to-blender"&gt;
+&lt;h1&gt;Changes to Blender&lt;a class="headerlink" href="#changes-to-blender" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;p class="rubric"&gt;master&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Small (7%) performance increase in metaball tessellation
+&lt;a class="reference external" href="http://developer.blender.org/rBd95eabf0a937e788e1ebd6f9297b3c80db7913e2"&gt;rBd95eabf0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cycles: better distance sampling for chromatic volume extinction
+(see link for comparison images)
+&lt;a class="reference external" href="http://developer.blender.org/rBa466d7ae248b2807b4e2f8693b458d3da509e9bc"&gt;rBa466d7ae&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cycles: add bevel shader, for raytrace based rounded edges
+(see the link in the commit message for example images)
+&lt;a class="reference external" href="http://developer.blender.org/rB26f39e6359d1db85509a0ee1077b6d0af122a456"&gt;rB26f39e63&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cycles: antialias normal baking if the mesh has a bump map
+&lt;a class="reference external" href="http://developer.blender.org/rBd0af56fe3b6490445ba3e501b0fb98cfec622aa3"&gt;rBd0af56fe&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cycles: reduce closure memory usage for emission/shadow shader data
+(30% memory improvement)
+&lt;a class="reference external" href="http://developer.blender.org/rB8a72be7697f8fbfc8cb6cc9f3df049104e41d4a6"&gt;rB8a72be76&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cycles: fix inefficient attribute map storage, saves 615MB in victor scene.
+&lt;a class="reference external" href="http://developer.blender.org/rBcac3d4d16691d77e8e01f158be07d182e56e9755"&gt;rBcac3d4d1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="rubric"&gt;blender2.8&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Manipulators: add a new ruler tool
+&lt;a class="reference external" href="http://developer.blender.org/rB0260fad9ba41c3a714df9b39e6e6d171b143cf41"&gt;rB0260fad9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Small speedup for viewport data caching (60% improvement)
+&lt;a class="reference external" href="http://developer.blender.org/rBed555750eb8294005f54425094cb692f29830631"&gt;rBed555750&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Support Auto-Smooth in Edit-Mode
+&lt;a class="reference external" href="http://developer.blender.org/rB5d70e847dd6f5182fa67c3b08260fbb5366009b5"&gt;rB5d70e847&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;UI: show tool-tips for each tools shortcuts
+&lt;a class="reference external" href="http://developer.blender.org/rBfbfda21fe46b8fa7e8470e57d4eb3794a3a9c83a"&gt;rBfbfda21f&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="rubric"&gt;greasepencil-object&lt;/p&gt;
+&lt;p&gt;Along with the noted changes below, there was a lot of work done to have
+the changes reading to be merged into the &lt;cite&gt;blender2.8&lt;/cite&gt; branch.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Add smoothing to the stroke thickness
+&lt;a class="reference external" href="http://developer.blender.org/rBfce610eeedc663badb52d310ab8410d6ebfb2a22"&gt;rBfce610ee&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add drawing parameter to adjust stroke stabilization
+&lt;a class="reference external" href="http://developer.blender.org/rBa051c2e8701a856533681a0ec0a329eebdc55da7"&gt;rBa051c2e8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add more parameters to define how the stroke is stabilized
+&lt;a class="reference external" href="http://developer.blender.org/rB526e2291ff93f3f4c18c341ec6518e52fb4c9b17"&gt;rB526e2291&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="new-patches"&gt;
+&lt;h1&gt;New Patches&lt;a class="headerlink" href="#new-patches" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Optionally cancel render when a texture is missing
+&lt;a class="reference external" href="http://developer.blender.org/D2908"&gt;D2908&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Experimental hashing lookup of ID’s, replacing linked list lookups
+&lt;a class="reference external" href="http://developer.blender.org/D2910"&gt;D2910&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cycles: Reducing amount of operations per intersect check
+(8% speed  improvement)
+&lt;a class="reference external" href="http://developer.blender.org/D2911"&gt;D2911&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Array Modifier: option to offset UV’s
+&lt;a class="reference external" href="http://developer.blender.org/D2912"&gt;D2912&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;blender2.8: support for metaball drawing
+&lt;a class="reference external" href="http://developer.blender.org/D2914"&gt;D2914&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="other-projects"&gt;
+&lt;h1&gt;Other Projects&lt;a class="headerlink" href="#other-projects" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;None&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-last section" id="documentation"&gt;
+&lt;h1&gt;Documentation&lt;a class="headerlink" href="#documentation" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;None&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+      <guid>https://thisweekinblenderdev.github.io/2017-11-11.html</guid>
+      <pubDate>Sat, 11 Nov 2017 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>2017-11-04: Weekly News</title>
       <link>https://thisweekinblenderdev.github.io/2017-11-04.html</link>
@@ -17,7 +111,9 @@ suite for the next generation of artist. Follow the development on Twitter
 &lt;a class="reference external" href="https://twitter.com/BlenderDev"&gt;&amp;#64;BlenderDev&lt;/a&gt;.&lt;/p&gt;
 &lt;p class="compound-middle"&gt;&lt;em&gt;This Week in Blender Development&lt;/em&gt; is openly developed on
 &lt;a class="reference external" href="https://github.com/ThisWeekInBlenderDev"&gt;Github&lt;/a&gt;
-so please report any recommendations, bugs, or PRs there.&lt;/p&gt;
+so please report any recommendations, bugs, or PRs for this website there.&lt;/p&gt;
+&lt;p class="compound-middle"&gt;If you have idea for some great feature that you think should be part of Blender
+try making a post on &lt;a class="reference external" href="https://blender.community/c/rightclickselect/"&gt;https://blender.community/c/rightclickselect/&lt;/a&gt;&lt;/p&gt;
 &lt;div class="tip compound-middle admonition"&gt;
 &lt;p class="first admonition-title"&gt;Tip&lt;/p&gt;
 &lt;p class="last"&gt;Remember, you can test any changes done in &lt;cite&gt;master&lt;/cite&gt; or &lt;cite&gt;blender2.8&lt;/cite&gt;
@@ -95,7 +191,9 @@ suite for the next generation of artist. Follow the development on Twitter
 &lt;a class="reference external" href="https://twitter.com/BlenderDev"&gt;&amp;#64;BlenderDev&lt;/a&gt;.&lt;/p&gt;
 &lt;p class="compound-middle"&gt;&lt;em&gt;This Week in Blender Development&lt;/em&gt; is openly developed on
 &lt;a class="reference external" href="https://github.com/ThisWeekInBlenderDev"&gt;Github&lt;/a&gt;
-so please report any recommendations, bugs, or PRs there.&lt;/p&gt;
+so please report any recommendations, bugs, or PRs for this website there.&lt;/p&gt;
+&lt;p class="compound-middle"&gt;If you have idea for some great feature that you think should be part of Blender
+try making a post on &lt;a class="reference external" href="https://blender.community/c/rightclickselect/"&gt;https://blender.community/c/rightclickselect/&lt;/a&gt;&lt;/p&gt;
 &lt;div class="tip compound-middle admonition"&gt;
 &lt;p class="first admonition-title"&gt;Tip&lt;/p&gt;
 &lt;p class="last"&gt;Remember, you can test any changes done in &lt;cite&gt;master&lt;/cite&gt; or &lt;cite&gt;blender2.8&lt;/cite&gt;
@@ -197,7 +295,9 @@ suite for the next generation of artist. Follow the development on Twitter
 &lt;a class="reference external" href="https://twitter.com/BlenderDev"&gt;&amp;#64;BlenderDev&lt;/a&gt;.&lt;/p&gt;
 &lt;p class="compound-middle"&gt;&lt;em&gt;This Week in Blender Development&lt;/em&gt; is openly developed on
 &lt;a class="reference external" href="https://github.com/ThisWeekInBlenderDev"&gt;Github&lt;/a&gt;
-so please report any recommendations, bugs, or PRs there.&lt;/p&gt;
+so please report any recommendations, bugs, or PRs for this website there.&lt;/p&gt;
+&lt;p class="compound-middle"&gt;If you have idea for some great feature that you think should be part of Blender
+try making a post on &lt;a class="reference external" href="https://blender.community/c/rightclickselect/"&gt;https://blender.community/c/rightclickselect/&lt;/a&gt;&lt;/p&gt;
 &lt;div class="tip compound-middle admonition"&gt;
 &lt;p class="first admonition-title"&gt;Tip&lt;/p&gt;
 &lt;p class="last"&gt;Remember, you can test any changes done in &lt;cite&gt;master&lt;/cite&gt; or &lt;cite&gt;blender2.8&lt;/cite&gt;
@@ -298,7 +398,9 @@ suite for the next generation of artist. Follow the development on Twitter
 &lt;a class="reference external" href="https://twitter.com/BlenderDev"&gt;&amp;#64;BlenderDev&lt;/a&gt;.&lt;/p&gt;
 &lt;p class="compound-middle"&gt;&lt;em&gt;This Week in Blender Development&lt;/em&gt; is openly developed on
 &lt;a class="reference external" href="https://github.com/ThisWeekInBlenderDev"&gt;Github&lt;/a&gt;
-so please report any recommendations, bugs, or PRs there.&lt;/p&gt;
+so please report any recommendations, bugs, or PRs for this website there.&lt;/p&gt;
+&lt;p class="compound-middle"&gt;If you have idea for some great feature that you think should be part of Blender
+try making a post on &lt;a class="reference external" href="https://blender.community/c/rightclickselect/"&gt;https://blender.community/c/rightclickselect/&lt;/a&gt;&lt;/p&gt;
 &lt;div class="tip compound-middle admonition"&gt;
 &lt;p class="first admonition-title"&gt;Tip&lt;/p&gt;
 &lt;p class="last"&gt;Remember, you can test any changes done in &lt;cite&gt;master&lt;/cite&gt; or &lt;cite&gt;blender2.8&lt;/cite&gt;
@@ -372,7 +474,9 @@ suite for the next generation of artist. Follow the development on Twitter
 &lt;a class="reference external" href="https://twitter.com/BlenderDev"&gt;&amp;#64;BlenderDev&lt;/a&gt;.&lt;/p&gt;
 &lt;p class="compound-middle"&gt;&lt;em&gt;This Week in Blender Development&lt;/em&gt; is openly developed on
 &lt;a class="reference external" href="https://github.com/ThisWeekInBlenderDev"&gt;Github&lt;/a&gt;
-so please report any recommendations, bugs, or PRs there.&lt;/p&gt;
+so please report any recommendations, bugs, or PRs for this website there.&lt;/p&gt;
+&lt;p class="compound-middle"&gt;If you have idea for some great feature that you think should be part of Blender
+try making a post on &lt;a class="reference external" href="https://blender.community/c/rightclickselect/"&gt;https://blender.community/c/rightclickselect/&lt;/a&gt;&lt;/p&gt;
 &lt;div class="tip compound-middle admonition"&gt;
 &lt;p class="first admonition-title"&gt;Tip&lt;/p&gt;
 &lt;p class="last"&gt;Remember, you can test any changes done in &lt;cite&gt;master&lt;/cite&gt; or &lt;cite&gt;blender2.8&lt;/cite&gt;
