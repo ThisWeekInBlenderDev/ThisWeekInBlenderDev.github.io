@@ -64,7 +64,7 @@
     <link rel="search" title="Search" href="search.html" />
     <link rel="top" title="This Week in Blender Development" href="index.html" />
     <link rel="next" title="&lt;no title&gt;" href="include_intro.html" />
-    <link rel="prev" title="2017-11-18: Weekly News" href="this_week/2017-11-18.html" /> 
+    <link rel="prev" title="2017-11-25: Weekly News" href="this_week/2017-11-25.html" /> 
   </head>
   <body role="document">
     <div id="navbar-top" class="navbar navbar-fixed-top navbar-default" role="navigation" aria-label="top navigation">
@@ -82,7 +82,7 @@
           <ul class="nav navbar-nav navbar-right">
 
             
-              <li><a href="this_week/2017-11-18.html" title="2017-11-18: Weekly News" accesskey="P">previous </a></li>
+              <li><a href="this_week/2017-11-25.html" title="2017-11-25: Weekly News" accesskey="P">previous </a></li>
               <li><a href="include_intro.html" title="&lt;no title&gt;" accesskey="N">next </a></li>
               <li><a href="genindex.html" title="General Index" accesskey="I">index </a></li>
             
@@ -118,8 +118,8 @@
 <div class="col-md-3 hidden-xs" id="sidebar-wrapper">
   <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
   <h4>Previous topic</h4>
-  <p class="topless"><a href="this_week/2017-11-18.html"
-                        title="previous chapter">2017-11-18: Weekly News</a></p>
+  <p class="topless"><a href="this_week/2017-11-25.html"
+                        title="previous chapter">2017-11-25: Weekly News</a></p>
   <h4>Next topic</h4>
   <p class="topless"><a href="include_intro.html"
                         title="next chapter">&lt;no title&gt;</a></p>
@@ -152,6 +152,121 @@
   <div class="section" id="feed">
 <h1>Feed<a class="headerlink" href="#feed" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
+</div>
+<div class="section" id="weekly-news">
+<h2><a class="feed-ref reference internal" href="2017-11-18.html#weekly-news">2017-11-18: Weekly News</a><a class="headerlink" href="#weekly-news" title="Permalink to this headline">¶</a></h2>
+<p class="feed-meta"></p>
+<p>Hello and welcome to another issue of <em>This Week in Blender Development</em>!
+<a class="reference external" href="https://www.blender.org/">Blender</a> is the free and opensource 3D creation
+suite for the next generation of artist. Follow the development on Twitter
+<a class="reference external" href="https://twitter.com/BlenderDev">&#64;BlenderDev</a>.</p>
+<p><em>This Week in Blender Development</em> is openly developed on
+<a class="reference external" href="https://github.com/ThisWeekInBlenderDev">Github</a>
+so please report any recommendations, bugs, or PRs for this website there.</p>
+<p>If you have idea for some great feature that you think should be part of Blender
+try making a post on <a class="reference external" href="https://blender.community/c/rightclickselect/">https://blender.community/c/rightclickselect/</a></p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Remember, you can test any changes done in <cite>master</cite> or <cite>blender2.8</cite>
+by going to the <a class="reference external" href="https://builder.blender.org/download/">developmental builds download page</a></p>
+</div>
+<div class="section" id="changes-to-blender">
+<h3>Changes to Blender<a class="headerlink" href="#changes-to-blender" title="Permalink to this headline">¶</a></h3>
+<p class="rubric">master</p>
+<ul class="simple">
+<li>Add select similar custom bone shape
+<a class="reference external" href="http://developer.blender.org/rBcd1d9950aba1f4c759769e4896f2a9953d982eec">rBcd1d9950</a></li>
+<li>Mikktspace/Cycles: Speed up the merging of identical vertices (speeds up rendering)
+<a class="reference external" href="http://developer.blender.org/rB119846a6bb366f5ae13db18d965083d7927ff11e">rB119846a6</a></li>
+<li>Cycles: Add per-tile render time debug pass
+<a class="reference external" href="http://developer.blender.org/rB40f528a7dabaf18ece587dafcaabf703973bfd40">rB40f528a7</a></li>
+<li>Cycles: Add Volume Direct and Volume Indirect passes for volume-scattered light
+<a class="reference external" href="http://developer.blender.org/rBa0c02e4d1b87f4e83c0dfe794f28482030be9896">rBa0c02e4d</a></li>
+<li>Fix UV Projection Center Calculation
+<a class="reference external" href="http://developer.blender.org/rB759b50b20b96556f182e6d14ce23a89e2a673921">rB759b50b2</a></li>
+<li>Remove default ‘Clear loc/rot/scale delta transform’ shortcuts
+<a class="reference external" href="http://developer.blender.org/rB556b13f03e561b54d4f0186e207f080c786f8b66">rB556b13f0</a></li>
+<li>Fix AMD Threadripper rendering performance issues.
+<a class="reference external" href="http://developer.blender.org/rB55696b56d98411b6eeadfa1a7349bdb2bca47e38">rB55696b56</a></li>
+<li>Cycles: Make per-object random value output also work for Lamps
+<a class="reference external" href="http://developer.blender.org/rB212a8d9e5ae78a30ed4c35161d91eeca35eaa41f">rB212a8d9e</a></li>
+<li>BMesh Py API: Expose color alpha
+<a class="reference external" href="http://developer.blender.org/rBaae8e211006a1d9099397727b48201b865504750">rBaae8e211</a></li>
+</ul>
+<p class="rubric">blender2.8</p>
+<ul class="simple">
+<li>Eevee: SSS: Add cubic profile for the sake of completeness.
+<a class="reference external" href="http://developer.blender.org/rB936ddde35cabc7f694bf0e83b3c8e505f0385532">rB936ddde3</a></li>
+<li>Eevee: SSS: Add SSS to the principled shader
+<a class="reference external" href="http://developer.blender.org/rBfcbb8e71c56a413dda47c233a35d6091e34dbdae">rBfcbb8e71</a></li>
+<li>Eevee: SSS: Add Christensen-Burley diffusion profile
+<a class="reference external" href="http://developer.blender.org/rB57c3fbd324a6ecb6a432aef034c814fe45b2f544">rB57c3fbd3</a></li>
+<li>Draw Manager: Support for Metaball Drawing
+<a class="reference external" href="http://developer.blender.org/rB88c88c4610260ef3d00420c3e9fc3c1cd56aad14">rB88c88c46</a></li>
+<li>Eevee: Add SSS objects to probe rendering
+<a class="reference external" href="http://developer.blender.org/rBe70c563aa375a18dd272b4d6cad8ae1ef08fbabf">rBe70c563a</a></li>
+<li>Eevee: SSS: Add Quality settings
+<a class="reference external" href="http://developer.blender.org/rB289f9f42ff049a672b5235230435c16bc361b04e">rB289f9f42</a></li>
+<li>Eevee: Initial Separable Subsurface Scattering implementation
+<a class="reference external" href="http://developer.blender.org/rBf8b14305668ff7b1f3ba6f886b9e1881c764b201">rBf8b14305</a></li>
+</ul>
+<p class="rubric">greasepencil-object</p>
+<ul class="simple">
+<li>Enable antialiasing while drawing
+<a class="reference external" href="http://developer.blender.org/rBe6a0b442c7441c33e4f6204fa63d96dec32567da">rBe6a0b442</a></li>
+<li>Smooth Strength and Thickness properties too
+<a class="reference external" href="http://developer.blender.org/rB0b7c2ef28b5c4ea9df07219c93332ed41a82333f">rB0b7c2ef2</a></li>
+<li>Improve subdivide stroke while drawing
+<a class="reference external" href="http://developer.blender.org/rBaaed57792fa29dae5fbfe586018d79dafdc20770">rBaaed5779</a></li>
+<li>Check minimum tablet pressure
+<a class="reference external" href="http://developer.blender.org/rB5819ab66fabbb86fed31dff6417401ae9ee2b254">rB5819ab66</a></li>
+<li>Cleanup UI and unused fields
+<a class="reference external" href="http://developer.blender.org/rB330febba5a547ef1238dfb51c0ea1d8905eaf374">rB330febba</a></li>
+<li>New Smooth modifer
+<a class="reference external" href="http://developer.blender.org/rB8b97a539aa5bb62d65e6a3505600df80253e09ea">rB8b97a539</a></li>
+<li>Remove smooth lower limit
+<a class="reference external" href="http://developer.blender.org/rB541d7415bfd8006b8bcc9763f090b624106df4e8">rB541d7415</a></li>
+<li>Smooth Thickness and Strength
+<a class="reference external" href="http://developer.blender.org/rB333e32e0e13171eb2bb3672fd44c531a81d50e11">rB333e32e0</a></li>
+</ul>
+<p class="rubric">fluid-mantaflow</p>
+<ul class="simple">
+<li>Re-enabled bubble rise factor and some small snd particles fixes
+<a class="reference external" href="http://developer.blender.org/rB91ef5780c9075ddec2180515cc9b308038b97064">rB91ef5780</a></li>
+</ul>
+<p class="rubric">hair_guides</p>
+<ul class="simple">
+<li>Operator for generating hair follicles of the fur modifier
+<a class="reference external" href="http://developer.blender.org/rBc8ef6904d12d70e19f357e5d3bbfd1d5ba1f96f4">rBc8ef6904</a></li>
+</ul>
+</div>
+<div class="section" id="new-patches">
+<h3>New Patches<a class="headerlink" href="#new-patches" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Cycles: Speed up split kernel builds by splitting svm_eval_nodes out of direct_emission functions
+<a class="reference external" href="http://developer.blender.org/D2916">D2916</a></li>
+<li>Notifier system (event publish/subscribe)
+<a class="reference external" href="http://developer.blender.org/D2917">D2917</a></li>
+<li>Temporary fix for T53257: Too many color management transforms to display in the menu
+<a class="reference external" href="http://developer.blender.org/D2918">D2918</a></li>
+<li>SceneRenderLayer Removal/Refactor
+<a class="reference external" href="http://developer.blender.org/D2919">D2919</a></li>
+<li>Add initial UDIM support to BlenKernel, Image Editor and Cycles
+<a class="reference external" href="http://developer.blender.org/D2921">D2921</a></li>
+</ul>
+</div>
+<div class="section" id="other-projects">
+<h3>Other Projects<a class="headerlink" href="#other-projects" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>None</li>
+</ul>
+</div>
+<div class="section" id="documentation">
+<h3>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>None</li>
+</ul>
+</div>
 </div>
 <div class="section" id="weekly-news">
 <h2><a class="feed-ref reference internal" href="2017-11-11.html#weekly-news">2017-11-11: Weekly News</a><a class="headerlink" href="#weekly-news" title="Permalink to this headline">¶</a></h2>
@@ -711,7 +826,7 @@ by going to the <a class="reference external" href="https://builder.blender.org/
     </ul>
 <ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
       
-        <li><a href="this_week/2017-11-18.html" title="2017-11-18: Weekly News" >previous</a></li>
+        <li><a href="this_week/2017-11-25.html" title="2017-11-25: Weekly News" >previous</a></li>
         <li><a href="include_intro.html" title="&lt;no title&gt;" >next</a></li>
         <li><a href="genindex.html" title="General Index" >index</a></li>
         <li><a href="#">top</a></li> 
