@@ -18,7 +18,7 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
-    <title>2017-11-18: Weekly News &mdash; This Week in Blender Development</title>
+    <title>2017-12-02: Weekly News &mdash; This Week in Blender Development</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -63,8 +63,8 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="top" title="This Week in Blender Development" href="index.html" />
-    <link rel="next" title="2017-11-25: Weekly News" href="2017-11-25.html" />
-    <link rel="prev" title="2017-11-11: Weekly News" href="2017-11-11.html" /> 
+    <link rel="next" title="2017-11-25: Weekly News" href="this_week/2017-11-25.html" />
+    <link rel="prev" title="2017-11-25: Weekly News" href="2017-11-25.html" /> 
   </head>
   <body role="document">
     <div id="navbar-top" class="navbar navbar-fixed-top navbar-default" role="navigation" aria-label="top navigation">
@@ -84,7 +84,7 @@
                 <a role="button" id="localToc" data-toggle="dropdown" data-target="#" href="#">Table Of Contents <b class="caret"></b></a>
                 <ul class="dropdown-menu localtoc sp-localtoc" role="menu" aria-labelledby="localToc">
                 <ul>
-<li><a class="reference internal" href="#">2017-11-18: Weekly News</a><ul>
+<li><a class="reference internal" href="#">2017-12-02: Weekly News</a><ul>
 <li><a class="reference internal" href="#changes-to-blender">Changes to Blender</a></li>
 <li><a class="reference internal" href="#new-patches">New Patches</a></li>
 <li><a class="reference internal" href="#other-projects">Other Projects</a></li>
@@ -97,8 +97,8 @@
               </li>
 
             
-              <li><a href="2017-11-11.html" title="2017-11-11: Weekly News" accesskey="P">previous </a></li>
-              <li><a href="2017-11-25.html" title="2017-11-25: Weekly News" accesskey="N">next </a></li>
+              <li><a href="2017-11-25.html" title="2017-11-25: Weekly News" accesskey="P">previous </a></li>
+              <li><a href="this_week/2017-11-25.html" title="2017-11-25: Weekly News" accesskey="N">next </a></li>
               <li><a href="genindex.html" title="General Index" accesskey="I">index </a></li>
             
 
@@ -134,7 +134,7 @@
   <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
   <h3><a href="index.html">Table Of Contents</a></h3>
   <ul>
-<li><a class="reference internal" href="#">2017-11-18: Weekly News</a><ul>
+<li><a class="reference internal" href="#">2017-12-02: Weekly News</a><ul>
 <li><a class="reference internal" href="#changes-to-blender">Changes to Blender</a></li>
 <li><a class="reference internal" href="#new-patches">New Patches</a></li>
 <li><a class="reference internal" href="#other-projects">Other Projects</a></li>
@@ -144,10 +144,10 @@
 </ul>
 
   <h4>Previous topic</h4>
-  <p class="topless"><a href="2017-11-11.html"
-                        title="previous chapter">2017-11-11: Weekly News</a></p>
-  <h4>Next topic</h4>
   <p class="topless"><a href="2017-11-25.html"
+                        title="previous chapter">2017-11-25: Weekly News</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="this_week/2017-11-25.html"
                         title="next chapter">2017-11-25: Weekly News</a></p>
 <div id="searchbox" role="search">
   <h3>Quick search</h3>
@@ -176,7 +176,7 @@
                 <div class="body">
                   
   <div class="section" id="weekly-news">
-<h1>2017-11-18: Weekly News<a class="headerlink" href="#weekly-news" title="Permalink to this headline">¶</a></h1>
+<h1>2017-12-02: Weekly News<a class="headerlink" href="#weekly-news" title="Permalink to this headline">¶</a></h1>
 <p class="feed-meta"></p>
 <p>Hello and welcome to another issue of <em>This Week in Blender Development</em>!
 <a class="reference external" href="https://www.blender.org/">Blender</a> is the free and opensource 3D creation
@@ -196,98 +196,103 @@ by going to the <a class="reference external" href="https://builder.blender.org/
 <h2>Changes to Blender<a class="headerlink" href="#changes-to-blender" title="Permalink to this headline">¶</a></h2>
 <p class="rubric">master</p>
 <ul class="simple">
-<li>Add select similar custom bone shape
-<a class="reference external" href="http://developer.blender.org/rBcd1d9950aba1f4c759769e4896f2a9953d982eec">rBcd1d9950</a></li>
-<li>Mikktspace/Cycles: Speed up the merging of identical vertices (speeds up rendering)
-<a class="reference external" href="http://developer.blender.org/rB119846a6bb366f5ae13db18d965083d7927ff11e">rB119846a6</a></li>
-<li>Cycles: Add per-tile render time debug pass
-<a class="reference external" href="http://developer.blender.org/rB40f528a7dabaf18ece587dafcaabf703973bfd40">rB40f528a7</a></li>
-<li>Cycles: Add Volume Direct and Volume Indirect passes for volume-scattered light
-<a class="reference external" href="http://developer.blender.org/rBa0c02e4d1b87f4e83c0dfe794f28482030be9896">rBa0c02e4d</a></li>
-<li>Fix UV Projection Center Calculation
-<a class="reference external" href="http://developer.blender.org/rB759b50b20b96556f182e6d14ce23a89e2a673921">rB759b50b2</a></li>
-<li>Remove default ‘Clear loc/rot/scale delta transform’ shortcuts
-<a class="reference external" href="http://developer.blender.org/rB556b13f03e561b54d4f0186e207f080c786f8b66">rB556b13f0</a></li>
-<li>Fix AMD Thread-Ripper rendering performance issues.
-<a class="reference external" href="http://developer.blender.org/rB55696b56d98411b6eeadfa1a7349bdb2bca47e38">rB55696b56</a></li>
-<li>Cycles: Make per-object random value output also work for Lamps
-<a class="reference external" href="http://developer.blender.org/rB212a8d9e5ae78a30ed4c35161d91eeca35eaa41f">rB212a8d9e</a></li>
-<li>BMesh Py API: Expose color alpha
-<a class="reference external" href="http://developer.blender.org/rBaae8e211006a1d9099397727b48201b865504750">rBaae8e211</a></li>
+<li>5% speed improvement for subsurf modifier
+<a class="reference external" href="http://developer.blender.org/rB1d33843ea6b128242183bb31804474019c606a9d">rB1d33843e</a></li>
+<li>Haiku OS Support
+<a class="reference external" href="http://developer.blender.org/rB28d2148b09a2d975876f4418bd5ba15ab5edea8d">rB28d2148b</a></li>
+<li>Cycles: Improve denoising speed on GPUs with small tile sizes
+<a class="reference external" href="http://developer.blender.org/rBfa3d50af95fde76ef08590d2f86444f2f9fdca95">rBfa3d50af</a></li>
+<li>Select similar for bones by group index
+<a class="reference external" href="http://developer.blender.org/rB099a99dbc9c4f166bb29bd91ea1048eb35c663d5">rB099a99db</a></li>
+<li>Cycles: add object level holdout property
+<a class="reference external" href="http://developer.blender.org/rBe4b54f44c1b19069de5818d47ce899c690e9b56d">rBe4b54f44</a></li>
+<li>Cycles: 1-2% speed improvement
+<a class="reference external" href="http://developer.blender.org/rB7e349f27457a8348c73cc81a4c4b66b34e379c26">rB7e349f27</a></li>
+<li>PyAPI: add function to check any mathutils type
+<a class="reference external" href="http://developer.blender.org/rBc17c6557b4ea4bfeb4528b74703795798aedaa66">rBc17c6557</a></li>
+<li>PyAPI: Allow structs to define tags for their properties
+<a class="reference external" href="http://developer.blender.org/rBad625acda82281461267a3379c57ce76d54325a1">rBad625acd</a></li>
+<li>Speed up stabilization tracking by 50%
+<a class="reference external" href="http://developer.blender.org/rBbf5b931d641926dfec147fe50909443e3ba65bea">rBbf5b931d</a></li>
+<li>Sequencer: Add option to render OpenGL preview with DoF
+<a class="reference external" href="http://developer.blender.org/rB9b42b3e11462e96bf24970971ab181122c6b33df">rB9b42b3e1</a></li>
+<li>Speedup mask drawing by 5-10%
+<a class="reference external" href="http://developer.blender.org/rB440aa2bf70468d630c1dc70c719aad67496a47d5">rB440aa2bf</a></li>
+<li>Speedup mask rendering by 25%
+<a class="reference external" href="http://developer.blender.org/rB06e64058dd687634b6bf873dbf21c6d3563ed6c9">rB06e64058</a></li>
+<li>Speedup movie tracking by tracking 10-15%
+<a class="reference external" href="http://developer.blender.org/rB440a49a24cb82fc78edfb6b2539d9ebd0f805a4c">rB440a49a2</a></li>
+<li>Speed up subdividing by 20%
+<a class="reference external" href="http://developer.blender.org/rB2b6f3455584b3949045b517ce4759bcda70daf8a">rB2b6f3455</a></li>
+<li>Improve edge rotate when edges share faces
+<a class="reference external" href="http://developer.blender.org/rB329bf8e1bf0e9c74a7ef9426dcb237df9ac1287d">rB329bf8e1</a></li>
+</ul>
+<p class="rubric">cycles_texture_cache</p>
+<p>This branch adds a texture cache feature for rendering a large number
+of largely sized textures in a pre-defined modest memory footprint.</p>
+<p>See <a class="reference external" href="https://lists.blender.org/pipermail/bf-committers/2017-November/048938.html">This email</a> for more information.</p>
+<p class="rubric">cycles_embree</p>
+<p>This adds the <a class="reference external" href="https://embree.github.io/">Embree</a> raytracing kernels developed by Intel into Cycles.</p>
+<p>See <a class="reference external" href="https://lists.blender.org/pipermail/bf-committers/2017-November/048936.html">This email</a> for more information.</p>
+<p class="rubric">fluid-mantaflow</p>
+<ul class="simple">
+<li>Split viscosity settings into base and exponent
+<a class="reference external" href="http://developer.blender.org/rBbc6ab0f0771e0a285b64fef8798d8f2aa91f0752">rBbc6ab0f0</a></li>
+<li>Add settings for fluid diffusion (i.e. viscosity and surface tension)
+<a class="reference external" href="http://developer.blender.org/rB02b271947e5bf0db62ee6b86f8d83920715b7a13">rB02b27194</a></li>
 </ul>
 <p class="rubric">blender2.8</p>
 <ul class="simple">
-<li>Eevee: SSS: Add cubic profile for the sake of completeness.
-<a class="reference external" href="http://developer.blender.org/rB936ddde35cabc7f694bf0e83b3c8e505f0385532">rB936ddde3</a></li>
-<li>Eevee: SSS: Add SSS to the principled shader
-<a class="reference external" href="http://developer.blender.org/rBfcbb8e71c56a413dda47c233a35d6091e34dbdae">rBfcbb8e71</a></li>
-<li>Eevee: SSS: Add Christensen-Burley diffusion profile
-<a class="reference external" href="http://developer.blender.org/rB57c3fbd324a6ecb6a432aef034c814fe45b2f544">rB57c3fbd3</a></li>
-<li>Draw Manager: Support for Metaball Drawing
-<a class="reference external" href="http://developer.blender.org/rB88c88c4610260ef3d00420c3e9fc3c1cd56aad14">rB88c88c46</a></li>
-<li>Eevee: Add SSS objects to probe rendering
-<a class="reference external" href="http://developer.blender.org/rBe70c563aa375a18dd272b4d6cad8ae1ef08fbabf">rBe70c563a</a></li>
-<li>Eevee: SSS: Add Quality settings
-<a class="reference external" href="http://developer.blender.org/rB289f9f42ff049a672b5235230435c16bc361b04e">rB289f9f42</a></li>
-<li>Eevee: Initial Separable Subsurface Scattering implementation
-<a class="reference external" href="http://developer.blender.org/rBf8b14305668ff7b1f3ba6f886b9e1881c764b201">rBf8b14305</a></li>
+<li>Groups and collection: create group from collection
+<a class="reference external" href="http://developer.blender.org/rBaeaf87bbeb011e9a571eefa12d81fa6fb2b8bd5b">rBaeaf87bb</a></li>
+<li>Groups and collection: initial integration
+<a class="reference external" href="http://developer.blender.org/rBbe9e469ead227aee8d4c29b98a125cf599c5c8bb">rBbe9e469e</a></li>
+<li>ID static override: add basic support for overriding animation
+<a class="reference external" href="http://developer.blender.org/rB75eb219a2e21abe9c9909d76f85abbb538d8ef9f">rB75eb219a</a></li>
+<li>ID static override: make basic object &amp; bones transformations overridable
+<a class="reference external" href="http://developer.blender.org/rB20ae4f928cecf78d5275c1226db87cb1ab22db50">rB20ae4f92</a></li>
+<li>ID static override: make most Image properties overridable
+<a class="reference external" href="http://developer.blender.org/rBbde39e51100b89aa21d1cb99ab17000c977a19b6">rBbde39e51</a></li>
+<li>ID Static Override: add basic generic UI tools to control override of properties
+<a class="reference external" href="http://developer.blender.org/rB0007873645149c022805a5f6668d48552148a813">rB00078736</a></li>
+<li>ID Static Override: add basic UI feedback
+<a class="reference external" href="http://developer.blender.org/rBe36b5f004dc3792e0ef8bdde54b3f65653571e50">rBe36b5f00</a></li>
+<li>Merge ID static override, part I: core changes in DNA, BKE and .blend read/write
+<a class="reference external" href="http://developer.blender.org/rB39b8a3306830957132931c2966c3c3afff5cdfb3">rB39b8a330</a></li>
 </ul>
 <p class="rubric">greasepencil-object</p>
 <ul class="simple">
-<li>Enable antialiasing while drawing
-<a class="reference external" href="http://developer.blender.org/rBe6a0b442c7441c33e4f6204fa63d96dec32567da">rBe6a0b442</a></li>
-<li>Smooth Strength and Thickness properties too
-<a class="reference external" href="http://developer.blender.org/rB0b7c2ef28b5c4ea9df07219c93332ed41a82333f">rB0b7c2ef2</a></li>
-<li>Improve subdivide stroke while drawing
-<a class="reference external" href="http://developer.blender.org/rBaaed57792fa29dae5fbfe586018d79dafdc20770">rBaaed5779</a></li>
-<li>Check minimum tablet pressure
-<a class="reference external" href="http://developer.blender.org/rB5819ab66fabbb86fed31dff6417401ae9ee2b254">rB5819ab66</a></li>
-<li>Cleanup UI and unused fields
-<a class="reference external" href="http://developer.blender.org/rB330febba5a547ef1238dfb51c0ea1d8905eaf374">rB330febba</a></li>
-<li>New Smooth modifier
-<a class="reference external" href="http://developer.blender.org/rB8b97a539aa5bb62d65e6a3505600df80253e09ea">rB8b97a539</a></li>
-<li>Remove smooth lower limit
-<a class="reference external" href="http://developer.blender.org/rB541d7415bfd8006b8bcc9763f090b624106df4e8">rB541d7415</a></li>
-<li>Smooth Thickness and Strength
-<a class="reference external" href="http://developer.blender.org/rB333e32e0e13171eb2bb3672fd44c531a81d50e11">rB333e32e0</a></li>
-</ul>
-<p class="rubric">fluid-mantaflow</p>
-<ul class="simple">
-<li>Re-enabled bubble rise factor and some small snd particles fixes
-<a class="reference external" href="http://developer.blender.org/rB91ef5780c9075ddec2180515cc9b308038b97064">rB91ef5780</a></li>
-</ul>
-<p class="rubric">hair_guides</p>
-<ul class="simple">
-<li>Operator for generating hair follicles of the fur modifier
-<a class="reference external" href="http://developer.blender.org/rBc8ef6904d12d70e19f357e5d3bbfd1d5ba1f96f4">rBc8ef6904</a></li>
+<li>New Gauss bell curve preset
+<a class="reference external" href="http://developer.blender.org/rB4cbd5933f782312f05753847804d3efd1ff6de00">rB4cbd5933</a></li>
+<li>Implement new cuve for multiframe falloff
+<a class="reference external" href="http://developer.blender.org/rBc787419600f303b6d10fd7410a3f71eb260c3926">rBc7874196</a></li>
+<li>GP Build Modifier - Layer Masking support
+<a class="reference external" href="http://developer.blender.org/rBf86f826f192c768ac4bd7002089a19061e6b86fb">rBf86f826f</a></li>
+<li>New Grease Pencil Offset modifier
+<a class="reference external" href="http://developer.blender.org/rB0ecbe2171a074a5644cb1055ecaf93ab4b6773e9">rB0ecbe217</a></li>
+<li>New VFX Flip modifier
+<a class="reference external" href="http://developer.blender.org/rB2392dc82460bdc6a23679d0b3aa52b012d7b809d">rB2392dc82</a></li>
+<li>Dopesheet jump frame in active layer
+<a class="reference external" href="http://developer.blender.org/rBc29174eedf3d847f358919d0d4e6c8ccda2a2dd6">rBc29174ee</a></li>
 </ul>
 </div>
 <div class="section" id="new-patches">
 <h2>New Patches<a class="headerlink" href="#new-patches" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Cycles: Speed up split kernel builds by splitting svm_eval_nodes out of direct_emission functions
-<a class="reference external" href="http://developer.blender.org/D2916">D2916</a></li>
-<li>Notifier system (event publish/subscribe)
-<a class="reference external" href="http://developer.blender.org/D2917">D2917</a></li>
-<li>Temporary fix for T53257: Too many color management transforms to display in the menu
-<a class="reference external" href="http://developer.blender.org/D2918">D2918</a></li>
-<li>SceneRenderLayer Removal/Refactor
-<a class="reference external" href="http://developer.blender.org/D2919">D2919</a></li>
-<li>Add initial UDIM support to BlenKernel, Image Editor and Cycles
-<a class="reference external" href="http://developer.blender.org/D2921">D2921</a></li>
+<li>Cycles: Re-enabled motion blur for object scaling
+<a class="reference external" href="http://developer.blender.org/D2937">D2937</a></li>
 </ul>
 </div>
 <div class="section" id="other-projects">
 <h2>Other Projects<a class="headerlink" href="#other-projects" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>None</li>
+<li><a class="reference external" href="https://lists.blender.org/pipermail/bf-committers/2017-December/048939.html">Blender game transition</a></li>
 </ul>
 </div>
 <div class="section" id="documentation">
 <h2>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li>None</li>
-</ul>
+<p>Have a look at the 2.8 WIP release notes:
+<a class="reference external" href="https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.80">https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.80</a></p>
 </div>
 </div>
 
@@ -314,8 +319,8 @@ by going to the <a class="reference external" href="https://builder.blender.org/
     </ul>
 <ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
       
-        <li><a href="2017-11-11.html" title="2017-11-11: Weekly News" >previous</a></li>
-        <li><a href="2017-11-25.html" title="2017-11-25: Weekly News" >next</a></li>
+        <li><a href="2017-11-25.html" title="2017-11-25: Weekly News" >previous</a></li>
+        <li><a href="this_week/2017-11-25.html" title="2017-11-25: Weekly News" >next</a></li>
         <li><a href="genindex.html" title="General Index" >index</a></li>
         <li><a href="#">top</a></li> 
       

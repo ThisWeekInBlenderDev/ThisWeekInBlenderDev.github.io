@@ -5,7 +5,7 @@
     <atom:link href="https://thisweekinblenderdev.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <link>https://thisweekinblenderdev.github.io/</link>
     <description></description>
-    <lastBuildDate>Sat, 18 Nov 2017 05:53:20 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 05 Dec 2017 11:49:23 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
     <item>
       <title>2017-11-18: Weekly News</title>
@@ -41,7 +41,7 @@ by going to the &lt;a class="reference external" href="https://builder.blender.o
 &lt;a class="reference external" href="http://developer.blender.org/rB759b50b20b96556f182e6d14ce23a89e2a673921"&gt;rB759b50b2&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Remove default ‘Clear loc/rot/scale delta transform’ shortcuts
 &lt;a class="reference external" href="http://developer.blender.org/rB556b13f03e561b54d4f0186e207f080c786f8b66"&gt;rB556b13f0&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Fix AMD Threadripper rendering performance issues.
+&lt;li&gt;Fix AMD Thread-Ripper rendering performance issues.
 &lt;a class="reference external" href="http://developer.blender.org/rB55696b56d98411b6eeadfa1a7349bdb2bca47e38"&gt;rB55696b56&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Cycles: Make per-object random value output also work for Lamps
 &lt;a class="reference external" href="http://developer.blender.org/rB212a8d9e5ae78a30ed4c35161d91eeca35eaa41f"&gt;rB212a8d9e&lt;/a&gt;&lt;/li&gt;
@@ -77,7 +77,7 @@ by going to the &lt;a class="reference external" href="https://builder.blender.o
 &lt;a class="reference external" href="http://developer.blender.org/rB5819ab66fabbb86fed31dff6417401ae9ee2b254"&gt;rB5819ab66&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Cleanup UI and unused fields
 &lt;a class="reference external" href="http://developer.blender.org/rB330febba5a547ef1238dfb51c0ea1d8905eaf374"&gt;rB330febba&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;New Smooth modifer
+&lt;li&gt;New Smooth modifier
 &lt;a class="reference external" href="http://developer.blender.org/rB8b97a539aa5bb62d65e6a3505600df80253e09ea"&gt;rB8b97a539&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Remove smooth lower limit
 &lt;a class="reference external" href="http://developer.blender.org/rB541d7415bfd8006b8bcc9763f090b624106df4e8"&gt;rB541d7415&lt;/a&gt;&lt;/li&gt;
