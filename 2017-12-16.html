@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-105840115-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <title>2017-12-16: Weekly News &mdash; This Week in Blender Development</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    
+
+<link rel="stylesheet" href="_static/css/basicstrap-base.css" type="text/css" />
+<link rel="stylesheet" id="current-theme" href="_static/css/bootstrap3/bootswatch-flatly.css" type="text/css" />
+<link rel="stylesheet" id="current-adjust-theme" href="_static/css/adjust_theme/bootswatch-flatly.css" type="text/css" />
+
+<link rel="stylesheet" href="_static/css/font-awesome.min.css">
+
+<style type="text/css">
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+</style>
+
+<link rel="stylesheet" href="_static/css/basicstrap.css" type="text/css" />
+<link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+<link rel="stylesheet" href="_static/theme_overrides.css" type="text/css" />
+    
+<script type="text/javascript">
+  var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:    './',
+            VERSION:     '',
+            COLLAPSE_INDEX: false,
+            FILE_SUFFIX: '.html',
+            HAS_SOURCE:  false
+  };
+</script>
+    <script type="text/javascript" src="_static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/js/bootstrap3.min.js"></script>
+<script type="text/javascript" src="_static/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="_static/js/basicstrap.js"></script>
+<script type="text/javascript">
+</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="top" title="This Week in Blender Development" href="index.html" />
+    <link rel="next" title="2017-11-25: Weekly News" href="this_week/2017-11-25.html" />
+    <link rel="prev" title="2017-12-02: Weekly News" href="2017-12-02.html" /> 
+  </head>
+  <body role="document">
+    <div id="navbar-top" class="navbar navbar-fixed-top navbar-default" role="navigation" aria-label="top navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">This Week in Blender Dev</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown visible-xs">
+                <a role="button" id="localToc" data-toggle="dropdown" data-target="#" href="#">Table Of Contents <b class="caret"></b></a>
+                <ul class="dropdown-menu localtoc sp-localtoc" role="menu" aria-labelledby="localToc">
+                <ul>
+<li><a class="reference internal" href="#">2017-12-16: Weekly News</a><ul>
+<li><a class="reference internal" href="#changes-to-blender">Changes to Blender</a></li>
+<li><a class="reference internal" href="#new-patches">New Patches</a></li>
+<li><a class="reference internal" href="#other-projects">Other Projects</a></li>
+<li><a class="reference internal" href="#documentation">Documentation</a></li>
+</ul>
+</li>
+</ul>
+
+                </ul>
+              </li>
+
+            
+              <li><a href="2017-12-02.html" title="2017-12-02: Weekly News" accesskey="P">previous </a></li>
+              <li><a href="this_week/2017-11-25.html" title="2017-11-25: Weekly News" accesskey="N">next </a></li>
+              <li><a href="genindex.html" title="General Index" accesskey="I">index </a></li>
+            
+
+            <li class="visible-xs">
+                <form class="search form-search form-inline navbar-form navbar-right sp-searchbox" action="search.html" method="get">
+                  <div class="input-append input-group">
+                    <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+                    <span class="input-group-btn">
+                    <input type="submit" class="btn" value="Go" />
+                    </span>
+                  </div>
+                  <input type="hidden" name="check_keywords" value="yes" />
+                  <input type="hidden" name="area" value="default" />
+                </form>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- container -->
+    <div class="container-fluid">
+
+      <!-- row -->
+      <div class="row">
+         
+<div class="col-md-3 hidden-xs" id="sidebar-wrapper">
+  <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">2017-12-16: Weekly News</a><ul>
+<li><a class="reference internal" href="#changes-to-blender">Changes to Blender</a></li>
+<li><a class="reference internal" href="#new-patches">New Patches</a></li>
+<li><a class="reference internal" href="#other-projects">Other Projects</a></li>
+<li><a class="reference internal" href="#documentation">Documentation</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="2017-12-02.html"
+                        title="previous chapter">2017-12-02: Weekly News</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="this_week/2017-11-25.html"
+                        title="next chapter">2017-11-25: Weekly News</a></p>
+<div id="searchbox" role="search">
+  <h3>Quick search</h3>
+  <form class="search form-inline" action="search.html" method="get">
+      <div class="input-append input-group">
+        <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+        <span class="input-group-btn">
+        <input type="submit" class="btn" value="Go" />
+        </span>
+      </div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+  </div>
+</div> 
+        
+
+        <div class="col-md-9" id="content-wrapper">
+          <div class="document" role="main">
+            <div class="documentwrapper">
+              <div class="bodywrapper">
+                <div class="body">
+                  
+  <div class="section" id="weekly-news">
+<h1>2017-12-16: Weekly News<a class="headerlink" href="#weekly-news" title="Permalink to this headline">¶</a></h1>
+<p class="feed-meta"></p>
+<p>Sorry for missing the post last week there was not much development
+so I decided to skip a week and include that content in today’s report.
+Also, due to the holidays there will likly not be a report next week either.</p>
+<p>Hello and welcome to another issue of <em>This Week in Blender Development</em>!
+<a class="reference external" href="https://www.blender.org/">Blender</a> is the free and opensource 3D creation
+suite for the next generation of artist. Follow the development on Twitter
+<a class="reference external" href="https://twitter.com/BlenderDev">&#64;BlenderDev</a>.</p>
+<p><em>This Week in Blender Development</em> is openly developed on
+<a class="reference external" href="https://github.com/ThisWeekInBlenderDev">Github</a>
+so please report any recommendations, bugs, or PRs for this website there.</p>
+<p>If you have idea for some great feature that you think should be part of Blender
+try making a post on <a class="reference external" href="https://blender.community/c/rightclickselect/">https://blender.community/c/rightclickselect/</a></p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Remember, you can test any changes done in <cite>master</cite> or <cite>blender2.8</cite>
+by going to the <a class="reference external" href="https://builder.blender.org/download/">developmental builds download page</a></p>
+</div>
+<div class="section" id="changes-to-blender">
+<h2>Changes to Blender<a class="headerlink" href="#changes-to-blender" title="Permalink to this headline">¶</a></h2>
+<p class="rubric">master</p>
+<ul class="simple">
+<li>Add eyedropper to color-ramp widget
+<a class="reference external" href="http://developer.blender.org/rB7ae4c3a01923cccfa372072b880507c58557f45a">rB7ae4c3a0</a></li>
+<li>Modelling: Better bevel profile at extreme values of profile
+<a class="reference external" href="http://developer.blender.org/rBbdc15061fc5cf0c0c9bd075894b3a475e482248e">rBbdc15061</a></li>
+<li>Modelling: Array Modifier: option to offset UV’s
+<a class="reference external" href="http://developer.blender.org/rB6d31eb015c6a3f6c3ff2a998fc52416c25c4e5b6">rB6d31eb01</a></li>
+</ul>
+<p class="rubric">blender2.8</p>
+<ul class="simple">
+<li>Manipulators: view3d navigation buttons
+<a class="reference external" href="https://www.youtube.com/watch?v=Vy0NDM2URro">(see video)</a>
+<a class="reference external" href="http://developer.blender.org/rB468ac9031765681cde42e9132d16c799158e7aba">rB468ac903</a></li>
+<li>Group collections: viewport/render options and remove collection visibility
+<a class="reference external" href="http://developer.blender.org/rB1f5106de610b115b87ab6121d7871d447ca48cd2">rB1f5106de</a></li>
+<li>PyAPI: Message bus replacement for property notifiers
+<a class="reference external" href="http://developer.blender.org/rB7a8ac1b09b1cf321f259b8eb9b832424d2c7bf5b">rB7a8ac1b0</a></li>
+<li>Eevee: Add Irradiance Visibility
+<a class="reference external" href="http://developer.blender.org/rB5b6cfa705cb180d042f6f27e45331c12972be7ae">rB5b6cfa70</a></li>
+</ul>
+<p class="rubric">greasepencil-object</p>
+<ul class="simple">
+<li>New Eraser with Lasso select
+<a class="reference external" href="http://developer.blender.org/rBc4dbe9448cbe2f45494e120fb674a85a5f637151">rBc4dbe944</a></li>
+<li>Add Erase stroke with Ctrl key
+<a class="reference external" href="http://developer.blender.org/rBfa2cd280ac8c5b3acc22db1fed569eca3ad1995f">rBfa2cd280</a></li>
+<li>Add new option to simplify alternate points
+<a class="reference external" href="http://developer.blender.org/rB740506c7af8eee191d05fe5f77adb45d39ca54be">rB740506c7</a></li>
+<li>New Normalize thickness parameter
+<a class="reference external" href="http://developer.blender.org/rBc4e595aaf32e1731b40d4ee1b25887659b1631eb">rBc4e595aa</a></li>
+<li>New Vertex Group menu with Ctrl+G in Edit mode
+<a class="reference external" href="http://developer.blender.org/rBfc385754613b12942e16f328f1713ac2e3018e5e">rBfc385754</a></li>
+<li>Add default grey color with fill to default Palette
+<a class="reference external" href="http://developer.blender.org/rB7335e09129343d3e8594848f2eec53eb5d0b01ab">rB7335e091</a></li>
+<li>New Draw Specials menu with X key
+<a class="reference external" href="http://developer.blender.org/rB568f55e3cc323404bf9361fb5073d99315c98620">rB568f55e3</a></li>
+<li>Change default onion mode to keyframes
+<a class="reference external" href="http://developer.blender.org/rB9c350fa98f8b5f02e1e77a93c3ec644f049b711c">rB9c350fa9</a></li>
+<li>New VFX light modifier
+<a class="reference external" href="http://developer.blender.org/rBa3930268e147e9e190e303d23a53d0afabe8fb02">rBa3930268</a></li>
+</ul>
+</div>
+<div class="section" id="new-patches">
+<h2>New Patches<a class="headerlink" href="#new-patches" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Cycles: Compile “specialized” shader graphs for transparent shadows and emission
+<a class="reference external" href="http://developer.blender.org/D2938">D2938</a></li>
+<li>Cycles: Split kernel reduce recompiles
+<a class="reference external" href="http://developer.blender.org/D3939">D3939</a></li>
+<li>Use OIIO for loading DPX files
+<a class="reference external" href="http://developer.blender.org/D2944">D2944</a></li>
+<li>Cycles: Vector Math node adding multiply and dividing
+<a class="reference external" href="http://developer.blender.org/D2956">D2956</a></li>
+<li>Possible solution for workspace mode
+<a class="reference external" href="http://developer.blender.org/D2965">D2965</a></li>
+</ul>
+</div>
+<div class="section" id="other-projects">
+<h2>Other Projects<a class="headerlink" href="#other-projects" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Static Override (main task)
+<a class="reference external" href="http://developer.blender.org/T53500">T53500</a></li>
+<li>Static Override (UI &amp; UX)
+<a class="reference external" href="http://developer.blender.org/T53501">T53501</a></li>
+</ul>
+</div>
+<div class="section" id="documentation">
+<h2>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h2>
+<p>Again, have a look at the 2.8 WIP release notes:
+<a class="reference external" href="https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.80">https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.80</a></p>
+</div>
+</div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div><!-- /row -->
+
+      <!-- row -->
+      <div class="row footer-relbar">
+<div id="navbar-related" class=" related navbar navbar-default" role="navigation" aria-label="related navigation">
+  <div class="navbar-inner">
+    <ul class="nav navbar-nav ">
+        <li><a href="index.html">This Week in Blender Dev</a></li>
+  <li><a class="reference external" href="rss.xml">RSS Feed</a></li>
+  <li><a class="reference internal" href="feed.html"><span class="doc">Past Weeks</span></a></li>
+  <li><a class="reference external" href="https://github.com/ThisWeekInBlenderDev/source">Source Code</a></li>
+  <li><a class="reference external" href="https://creativecommons.org/licenses/by-sa/4.0">License</a></li>
+    </ul>
+<ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
+      
+        <li><a href="2017-12-02.html" title="2017-12-02: Weekly News" >previous</a></li>
+        <li><a href="this_week/2017-11-25.html" title="2017-11-25: Weekly News" >next</a></li>
+        <li><a href="genindex.html" title="General Index" >index</a></li>
+        <li><a href="#">top</a></li> 
+      
+    </ul>
+  </div>
+</div>
+      </div><!-- /row -->
+
+      <!-- footer -->
+      <footer role="contentinfo">
+      </footer>
+      <!-- /footer -->
+
+    </div>
+    <!-- /container -->
+
+  </body>
+</html>
