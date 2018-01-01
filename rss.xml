@@ -5,8 +5,451 @@
     <atom:link href="https://thisweekinblenderdev.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <link>https://thisweekinblenderdev.github.io/</link>
     <description></description>
-    <lastBuildDate>Tue, 05 Dec 2017 11:49:23 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 2018 22:18:05 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
+    <item>
+      <title>2017-12-30: Weekly News</title>
+      <link>https://thisweekinblenderdev.github.io/2017-12-30.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p class="compound-first"&gt;Again, sorry for missing last weeks report but due to the
+holidays last week has been included in this report.
+Next week will be back to normal.&lt;/p&gt;
+&lt;p class="compound-middle"&gt;Hello and welcome to another issue of &lt;em&gt;This Week in Blender Development&lt;/em&gt;!
+&lt;a class="reference external" href="https://www.blender.org/"&gt;Blender&lt;/a&gt; is the free and opensource 3D creation
+suite for the next generation of artist. Follow the development on Twitter
+&lt;a class="reference external" href="https://twitter.com/BlenderDev"&gt;&amp;#64;BlenderDev&lt;/a&gt;.&lt;/p&gt;
+&lt;p class="compound-middle"&gt;&lt;em&gt;This Week in Blender Development&lt;/em&gt; is openly developed on
+&lt;a class="reference external" href="https://github.com/ThisWeekInBlenderDev"&gt;Github&lt;/a&gt;
+so please report any recommendations, bugs, or PRs for this website there.&lt;/p&gt;
+&lt;p class="compound-middle"&gt;If you have idea for some great feature that you think should be part of Blender
+try making a post on &lt;a class="reference external" href="https://blender.community/c/rightclickselect/"&gt;https://blender.community/c/rightclickselect/&lt;/a&gt;&lt;/p&gt;
+&lt;div class="tip compound-middle admonition"&gt;
+&lt;p class="first admonition-title"&gt;Tip&lt;/p&gt;
+&lt;p class="last"&gt;Remember, you can test any changes done in &lt;cite&gt;master&lt;/cite&gt; or &lt;cite&gt;blender2.8&lt;/cite&gt;
+by going to the &lt;a class="reference external" href="https://builder.blender.org/download/"&gt;developmental builds download page&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="changes-to-blender"&gt;
+&lt;h1&gt;Changes to Blender&lt;a class="headerlink" href="#changes-to-blender" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;p class="rubric"&gt;master&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Fix scalability issue in threaded code of Mesh normals computation (Slight speedup)
+&lt;a class="reference external" href="http://developer.blender.org/rBd130c66db436b1fccbbde040839bc4cb5ddaacd2"&gt;rBd130c66d&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Subsurf: Avoid global lock for loops and orig index layers (4x speed up)
+&lt;a class="reference external" href="http://developer.blender.org/rBdf0ecd73af9218608b5436761d6a298cb4985709"&gt;rBdf0ecd73&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="rubric"&gt;blender2.8&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Outliner/Collection: Interface for Master Collection Tree
+&lt;a class="reference external" href="http://developer.blender.org/rBbbbdb27d658d7bad950376d12edee126c59f3628"&gt;rBbbbdb27d&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Outliner/Collection: Operator to delete selected collections
+&lt;a class="reference external" href="http://developer.blender.org/rB4d08ef822ce291744d40e0fef47975e7f61826e8"&gt;rB4d08ef82&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Outliner/Collection: Operator to create (nested) collections
+&lt;a class="reference external" href="http://developer.blender.org/rB8252a414d8cb15b42726d6f96d01cae97514d793"&gt;rB8252a414&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Collections: Allow collections from different “parents” to have the same name
+&lt;a class="reference external" href="http://developer.blender.org/rBc9cb5dc3dab0af76f4b6090b6f6f1f4741ce98eb"&gt;rBc9cb5dc3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Collection: Name collection based on parent’s name
+&lt;a class="reference external" href="http://developer.blender.org/rBc08dac000ff3ca3597c82740c724f63f024ab542"&gt;rBc08dac00&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Implement duplicator viewport/render visibility options
+&lt;a class="reference external" href="http://developer.blender.org/rBb89f2276e502da6480b4ceeb414b0e6b79e4edfe"&gt;rBb89f2276&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="rubric"&gt;greasepencil-object&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New duplicate frame operator and special menu
+&lt;a class="reference external" href="http://developer.blender.org/rB919cdad3e4911a5164fa50f7ab07e9711186bed6"&gt;rB919cdad3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New rounded end caps
+&lt;a class="reference external" href="http://developer.blender.org/rB95dcd183fe8e8335c016a71ce905ed97a73ebf81"&gt;rB95dcd183&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="rubric"&gt;fracture_modifier&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Remesh modifier: support remeshing particle systems
+&lt;a class="reference external" href="http://developer.blender.org/rB4945003ffd521426c27381bcb3c15f6714878074"&gt;rB4945003f&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add acceleration maps which should be also be usable in playback
+&lt;a class="reference external" href="http://developer.blender.org/rB16f161e5f61993a9aa8d64ec83880dc48ca13310"&gt;rB16f161e5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Remesh modifier: support remeshing metaballs
+&lt;a class="reference external" href="http://developer.blender.org/rBdf7d0e5423ee6ee95f676e97042d32b7920f6851"&gt;rBdf7d0e54&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add “self collision” option for constraint islands, and randomize option for sphere shape radius and margin
+&lt;a class="reference external" href="http://developer.blender.org/rB7babce30529a0fd9e21b963e836a888d44cf947d"&gt;rB7babce30&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add option to only output verts, meta threshold max is 100 now
+&lt;a class="reference external" href="http://developer.blender.org/rB1010cdf421ec32f4ea07418a1ef8e272bb764534"&gt;rB1010cdf4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add option to only output centroids as vertices
+&lt;a class="reference external" href="http://developer.blender.org/rBe8958954ba19c282c737589b98f4c0cfb3758762"&gt;rBe8958954&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add grid fracture option
+&lt;a class="reference external" href="http://developer.blender.org/rBfa7a666e2be387a3d887204909d6c3c378929614"&gt;rBfa7a666e&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="new-patches"&gt;
+&lt;h1&gt;New Patches&lt;a class="headerlink" href="#new-patches" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Cycles: Allow for multi-gigapixel renders
+&lt;a class="reference external" href="http://developer.blender.org/D2975"&gt;D2975&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Allow loop cut placement with mouse after numeric input
+&lt;a class="reference external" href="http://developer.blender.org/D2973"&gt;D2973&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Viewport HMD integration using OpenVR
+&lt;a class="reference external" href="http://developer.blender.org/D2970"&gt;D2970&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="other-projects"&gt;
+&lt;h1&gt;Other Projects&lt;a class="headerlink" href="#other-projects" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;None&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-last section" id="documentation"&gt;
+&lt;h1&gt;Documentation&lt;a class="headerlink" href="#documentation" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://code.blender.org/2017/12/blender-2-8-xmas-report/"&gt;Blender 2.8 Xmas Report&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://code.blender.org/2017/12/drawing-2d-animation-in-blender-2-8/"&gt;Drawing 2D Animation in Blender 2.8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.80"&gt;2.8 WIP release notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+      <guid>https://thisweekinblenderdev.github.io/2017-12-30.html</guid>
+      <pubDate>Sat, 30 Dec 2017 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>2017-12-16: Weekly News</title>
+      <link>https://thisweekinblenderdev.github.io/2017-12-16.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p class="compound-first"&gt;Sorry for missing the post last week there was not much development
+so I decided to skip a week and include that content in today’s report.
+Also, due to the holidays there will likly not be a report next week either.&lt;/p&gt;
+&lt;p class="compound-middle"&gt;Hello and welcome to another issue of &lt;em&gt;This Week in Blender Development&lt;/em&gt;!
+&lt;a class="reference external" href="https://www.blender.org/"&gt;Blender&lt;/a&gt; is the free and opensource 3D creation
+suite for the next generation of artist. Follow the development on Twitter
+&lt;a class="reference external" href="https://twitter.com/BlenderDev"&gt;&amp;#64;BlenderDev&lt;/a&gt;.&lt;/p&gt;
+&lt;p class="compound-middle"&gt;&lt;em&gt;This Week in Blender Development&lt;/em&gt; is openly developed on
+&lt;a class="reference external" href="https://github.com/ThisWeekInBlenderDev"&gt;Github&lt;/a&gt;
+so please report any recommendations, bugs, or PRs for this website there.&lt;/p&gt;
+&lt;p class="compound-middle"&gt;If you have idea for some great feature that you think should be part of Blender
+try making a post on &lt;a class="reference external" href="https://blender.community/c/rightclickselect/"&gt;https://blender.community/c/rightclickselect/&lt;/a&gt;&lt;/p&gt;
+&lt;div class="tip compound-middle admonition"&gt;
+&lt;p class="first admonition-title"&gt;Tip&lt;/p&gt;
+&lt;p class="last"&gt;Remember, you can test any changes done in &lt;cite&gt;master&lt;/cite&gt; or &lt;cite&gt;blender2.8&lt;/cite&gt;
+by going to the &lt;a class="reference external" href="https://builder.blender.org/download/"&gt;developmental builds download page&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="changes-to-blender"&gt;
+&lt;h1&gt;Changes to Blender&lt;a class="headerlink" href="#changes-to-blender" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;p class="rubric"&gt;master&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Add eyedropper to color-ramp widget
+&lt;a class="reference external" href="http://developer.blender.org/rB7ae4c3a01923cccfa372072b880507c58557f45a"&gt;rB7ae4c3a0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Modelling: Better bevel profile at extreme values of profile
+&lt;a class="reference external" href="http://developer.blender.org/rBbdc15061fc5cf0c0c9bd075894b3a475e482248e"&gt;rBbdc15061&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Modelling: Array Modifier: option to offset UV’s
+&lt;a class="reference external" href="http://developer.blender.org/rB6d31eb015c6a3f6c3ff2a998fc52416c25c4e5b6"&gt;rB6d31eb01&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="rubric"&gt;blender2.8&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Manipulators: view3d navigation buttons
+&lt;a class="reference external" href="https://www.youtube.com/watch?v=Vy0NDM2URro"&gt;(see video)&lt;/a&gt;
+&lt;a class="reference external" href="http://developer.blender.org/rB468ac9031765681cde42e9132d16c799158e7aba"&gt;rB468ac903&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Group collections: viewport/render options and remove collection visibility
+&lt;a class="reference external" href="http://developer.blender.org/rB1f5106de610b115b87ab6121d7871d447ca48cd2"&gt;rB1f5106de&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PyAPI: Message bus replacement for property notifiers
+&lt;a class="reference external" href="http://developer.blender.org/rB7a8ac1b09b1cf321f259b8eb9b832424d2c7bf5b"&gt;rB7a8ac1b0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Eevee: Add Irradiance Visibility
+&lt;a class="reference external" href="http://developer.blender.org/rB5b6cfa705cb180d042f6f27e45331c12972be7ae"&gt;rB5b6cfa70&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="rubric"&gt;greasepencil-object&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New Eraser with Lasso select
+&lt;a class="reference external" href="http://developer.blender.org/rBc4dbe9448cbe2f45494e120fb674a85a5f637151"&gt;rBc4dbe944&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add Erase stroke with Ctrl key
+&lt;a class="reference external" href="http://developer.blender.org/rBfa2cd280ac8c5b3acc22db1fed569eca3ad1995f"&gt;rBfa2cd280&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add new option to simplify alternate points
+&lt;a class="reference external" href="http://developer.blender.org/rB740506c7af8eee191d05fe5f77adb45d39ca54be"&gt;rB740506c7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New Normalize thickness parameter
+&lt;a class="reference external" href="http://developer.blender.org/rBc4e595aaf32e1731b40d4ee1b25887659b1631eb"&gt;rBc4e595aa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New Vertex Group menu with Ctrl+G in Edit mode
+&lt;a class="reference external" href="http://developer.blender.org/rBfc385754613b12942e16f328f1713ac2e3018e5e"&gt;rBfc385754&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add default grey color with fill to default Palette
+&lt;a class="reference external" href="http://developer.blender.org/rB7335e09129343d3e8594848f2eec53eb5d0b01ab"&gt;rB7335e091&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New Draw Specials menu with X key
+&lt;a class="reference external" href="http://developer.blender.org/rB568f55e3cc323404bf9361fb5073d99315c98620"&gt;rB568f55e3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Change default onion mode to keyframes
+&lt;a class="reference external" href="http://developer.blender.org/rB9c350fa98f8b5f02e1e77a93c3ec644f049b711c"&gt;rB9c350fa9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New VFX light modifier
+&lt;a class="reference external" href="http://developer.blender.org/rBa3930268e147e9e190e303d23a53d0afabe8fb02"&gt;rBa3930268&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="new-patches"&gt;
+&lt;h1&gt;New Patches&lt;a class="headerlink" href="#new-patches" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Cycles: Compile “specialized” shader graphs for transparent shadows and emission
+&lt;a class="reference external" href="http://developer.blender.org/D2938"&gt;D2938&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cycles: Split kernel reduce recompiles
+&lt;a class="reference external" href="http://developer.blender.org/D3939"&gt;D3939&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Use OIIO for loading DPX files
+&lt;a class="reference external" href="http://developer.blender.org/D2944"&gt;D2944&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cycles: Vector Math node adding multiply and dividing
+&lt;a class="reference external" href="http://developer.blender.org/D2956"&gt;D2956&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Possible solution for workspace mode
+&lt;a class="reference external" href="http://developer.blender.org/D2965"&gt;D2965&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="other-projects"&gt;
+&lt;h1&gt;Other Projects&lt;a class="headerlink" href="#other-projects" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Static Override (main task)
+&lt;a class="reference external" href="http://developer.blender.org/T53500"&gt;T53500&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Static Override (UI &amp;amp; UX)
+&lt;a class="reference external" href="http://developer.blender.org/T53501"&gt;T53501&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-last section" id="documentation"&gt;
+&lt;h1&gt;Documentation&lt;a class="headerlink" href="#documentation" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Again, have a look at the 2.8 WIP release notes:
+&lt;a class="reference external" href="https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.80"&gt;https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.80&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+      <guid>https://thisweekinblenderdev.github.io/2017-12-16.html</guid>
+      <pubDate>Sat, 16 Dec 2017 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>2017-12-02: Weekly News</title>
+      <link>https://thisweekinblenderdev.github.io/2017-12-02.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p class="compound-middle"&gt;Hello and welcome to another issue of &lt;em&gt;This Week in Blender Development&lt;/em&gt;!
+&lt;a class="reference external" href="https://www.blender.org/"&gt;Blender&lt;/a&gt; is the free and opensource 3D creation
+suite for the next generation of artist. Follow the development on Twitter
+&lt;a class="reference external" href="https://twitter.com/BlenderDev"&gt;&amp;#64;BlenderDev&lt;/a&gt;.&lt;/p&gt;
+&lt;p class="compound-middle"&gt;&lt;em&gt;This Week in Blender Development&lt;/em&gt; is openly developed on
+&lt;a class="reference external" href="https://github.com/ThisWeekInBlenderDev"&gt;Github&lt;/a&gt;
+so please report any recommendations, bugs, or PRs for this website there.&lt;/p&gt;
+&lt;p class="compound-middle"&gt;If you have idea for some great feature that you think should be part of Blender
+try making a post on &lt;a class="reference external" href="https://blender.community/c/rightclickselect/"&gt;https://blender.community/c/rightclickselect/&lt;/a&gt;&lt;/p&gt;
+&lt;div class="tip compound-middle admonition"&gt;
+&lt;p class="first admonition-title"&gt;Tip&lt;/p&gt;
+&lt;p class="last"&gt;Remember, you can test any changes done in &lt;cite&gt;master&lt;/cite&gt; or &lt;cite&gt;blender2.8&lt;/cite&gt;
+by going to the &lt;a class="reference external" href="https://builder.blender.org/download/"&gt;developmental builds download page&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="changes-to-blender"&gt;
+&lt;h1&gt;Changes to Blender&lt;a class="headerlink" href="#changes-to-blender" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;p class="rubric"&gt;master&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;5% speed improvement for subsurf modifier
+&lt;a class="reference external" href="http://developer.blender.org/rB1d33843ea6b128242183bb31804474019c606a9d"&gt;rB1d33843e&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Haiku OS Support
+&lt;a class="reference external" href="http://developer.blender.org/rB28d2148b09a2d975876f4418bd5ba15ab5edea8d"&gt;rB28d2148b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cycles: Improve denoising speed on GPUs with small tile sizes
+&lt;a class="reference external" href="http://developer.blender.org/rBfa3d50af95fde76ef08590d2f86444f2f9fdca95"&gt;rBfa3d50af&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Select similar for bones by group index
+&lt;a class="reference external" href="http://developer.blender.org/rB099a99dbc9c4f166bb29bd91ea1048eb35c663d5"&gt;rB099a99db&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cycles: add object level holdout property
+&lt;a class="reference external" href="http://developer.blender.org/rBe4b54f44c1b19069de5818d47ce899c690e9b56d"&gt;rBe4b54f44&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cycles: 1-2% speed improvement
+&lt;a class="reference external" href="http://developer.blender.org/rB7e349f27457a8348c73cc81a4c4b66b34e379c26"&gt;rB7e349f27&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PyAPI: add function to check any mathutils type
+&lt;a class="reference external" href="http://developer.blender.org/rBc17c6557b4ea4bfeb4528b74703795798aedaa66"&gt;rBc17c6557&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PyAPI: Allow structs to define tags for their properties
+&lt;a class="reference external" href="http://developer.blender.org/rBad625acda82281461267a3379c57ce76d54325a1"&gt;rBad625acd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Speed up stabilization tracking by 50%
+&lt;a class="reference external" href="http://developer.blender.org/rBbf5b931d641926dfec147fe50909443e3ba65bea"&gt;rBbf5b931d&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Sequencer: Add option to render OpenGL preview with DoF
+&lt;a class="reference external" href="http://developer.blender.org/rB9b42b3e11462e96bf24970971ab181122c6b33df"&gt;rB9b42b3e1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Speedup mask drawing by 5-10%
+&lt;a class="reference external" href="http://developer.blender.org/rB440aa2bf70468d630c1dc70c719aad67496a47d5"&gt;rB440aa2bf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Speedup mask rendering by 25%
+&lt;a class="reference external" href="http://developer.blender.org/rB06e64058dd687634b6bf873dbf21c6d3563ed6c9"&gt;rB06e64058&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Speedup movie tracking by tracking 10-15%
+&lt;a class="reference external" href="http://developer.blender.org/rB440a49a24cb82fc78edfb6b2539d9ebd0f805a4c"&gt;rB440a49a2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Speed up subdividing by 20%
+&lt;a class="reference external" href="http://developer.blender.org/rB2b6f3455584b3949045b517ce4759bcda70daf8a"&gt;rB2b6f3455&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Improve edge rotate when edges share faces
+&lt;a class="reference external" href="http://developer.blender.org/rB329bf8e1bf0e9c74a7ef9426dcb237df9ac1287d"&gt;rB329bf8e1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="rubric"&gt;cycles_texture_cache&lt;/p&gt;
+&lt;p&gt;This branch adds a texture cache feature for rendering a large number
+of largely sized textures in a pre-defined modest memory footprint.&lt;/p&gt;
+&lt;p&gt;See &lt;a class="reference external" href="https://lists.blender.org/pipermail/bf-committers/2017-November/048938.html"&gt;This email&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;p class="rubric"&gt;cycles_embree&lt;/p&gt;
+&lt;p&gt;This adds the &lt;a class="reference external" href="https://embree.github.io/"&gt;Embree&lt;/a&gt; raytracing kernels developed by Intel into Cycles.&lt;/p&gt;
+&lt;p&gt;See &lt;a class="reference external" href="https://lists.blender.org/pipermail/bf-committers/2017-November/048936.html"&gt;This email&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;p class="rubric"&gt;fluid-mantaflow&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Split viscosity settings into base and exponent
+&lt;a class="reference external" href="http://developer.blender.org/rBbc6ab0f0771e0a285b64fef8798d8f2aa91f0752"&gt;rBbc6ab0f0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add settings for fluid diffusion (i.e. viscosity and surface tension)
+&lt;a class="reference external" href="http://developer.blender.org/rB02b271947e5bf0db62ee6b86f8d83920715b7a13"&gt;rB02b27194&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="rubric"&gt;blender2.8&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Groups and collection: create group from collection
+&lt;a class="reference external" href="http://developer.blender.org/rBaeaf87bbeb011e9a571eefa12d81fa6fb2b8bd5b"&gt;rBaeaf87bb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Groups and collection: initial integration
+&lt;a class="reference external" href="http://developer.blender.org/rBbe9e469ead227aee8d4c29b98a125cf599c5c8bb"&gt;rBbe9e469e&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ID static override: add basic support for overriding animation
+&lt;a class="reference external" href="http://developer.blender.org/rB75eb219a2e21abe9c9909d76f85abbb538d8ef9f"&gt;rB75eb219a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ID static override: make basic object &amp;amp; bones transformations overridable
+&lt;a class="reference external" href="http://developer.blender.org/rB20ae4f928cecf78d5275c1226db87cb1ab22db50"&gt;rB20ae4f92&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ID static override: make most Image properties overridable
+&lt;a class="reference external" href="http://developer.blender.org/rBbde39e51100b89aa21d1cb99ab17000c977a19b6"&gt;rBbde39e51&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ID Static Override: add basic generic UI tools to control override of properties
+&lt;a class="reference external" href="http://developer.blender.org/rB0007873645149c022805a5f6668d48552148a813"&gt;rB00078736&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ID Static Override: add basic UI feedback
+&lt;a class="reference external" href="http://developer.blender.org/rBe36b5f004dc3792e0ef8bdde54b3f65653571e50"&gt;rBe36b5f00&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Merge ID static override, part I: core changes in DNA, BKE and .blend read/write
+&lt;a class="reference external" href="http://developer.blender.org/rB39b8a3306830957132931c2966c3c3afff5cdfb3"&gt;rB39b8a330&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="rubric"&gt;greasepencil-object&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New Gauss bell curve preset
+&lt;a class="reference external" href="http://developer.blender.org/rB4cbd5933f782312f05753847804d3efd1ff6de00"&gt;rB4cbd5933&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Implement new cuve for multiframe falloff
+&lt;a class="reference external" href="http://developer.blender.org/rBc787419600f303b6d10fd7410a3f71eb260c3926"&gt;rBc7874196&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GP Build Modifier - Layer Masking support
+&lt;a class="reference external" href="http://developer.blender.org/rBf86f826f192c768ac4bd7002089a19061e6b86fb"&gt;rBf86f826f&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New Grease Pencil Offset modifier
+&lt;a class="reference external" href="http://developer.blender.org/rB0ecbe2171a074a5644cb1055ecaf93ab4b6773e9"&gt;rB0ecbe217&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New VFX Flip modifier
+&lt;a class="reference external" href="http://developer.blender.org/rB2392dc82460bdc6a23679d0b3aa52b012d7b809d"&gt;rB2392dc82&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dopesheet jump frame in active layer
+&lt;a class="reference external" href="http://developer.blender.org/rBc29174eedf3d847f358919d0d4e6c8ccda2a2dd6"&gt;rBc29174ee&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="new-patches"&gt;
+&lt;h1&gt;New Patches&lt;a class="headerlink" href="#new-patches" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Cycles: Re-enabled motion blur for object scaling
+&lt;a class="reference external" href="http://developer.blender.org/D2937"&gt;D2937&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="other-projects"&gt;
+&lt;h1&gt;Other Projects&lt;a class="headerlink" href="#other-projects" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://lists.blender.org/pipermail/bf-committers/2017-December/048939.html"&gt;Blender game transition&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-last section" id="documentation"&gt;
+&lt;h1&gt;Documentation&lt;a class="headerlink" href="#documentation" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Have a look at the 2.8 WIP release notes:
+&lt;a class="reference external" href="https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.80"&gt;https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.80&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+      <guid>https://thisweekinblenderdev.github.io/2017-12-02.html</guid>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>2017-11-25: Weekly News</title>
+      <link>https://thisweekinblenderdev.github.io/2017-11-25.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p class="compound-middle"&gt;Hello and welcome to another issue of &lt;em&gt;This Week in Blender Development&lt;/em&gt;!
+&lt;a class="reference external" href="https://www.blender.org/"&gt;Blender&lt;/a&gt; is the free and opensource 3D creation
+suite for the next generation of artist. Follow the development on Twitter
+&lt;a class="reference external" href="https://twitter.com/BlenderDev"&gt;&amp;#64;BlenderDev&lt;/a&gt;.&lt;/p&gt;
+&lt;p class="compound-middle"&gt;&lt;em&gt;This Week in Blender Development&lt;/em&gt; is openly developed on
+&lt;a class="reference external" href="https://github.com/ThisWeekInBlenderDev"&gt;Github&lt;/a&gt;
+so please report any recommendations, bugs, or PRs for this website there.&lt;/p&gt;
+&lt;p class="compound-middle"&gt;If you have idea for some great feature that you think should be part of Blender
+try making a post on &lt;a class="reference external" href="https://blender.community/c/rightclickselect/"&gt;https://blender.community/c/rightclickselect/&lt;/a&gt;&lt;/p&gt;
+&lt;div class="tip compound-middle admonition"&gt;
+&lt;p class="first admonition-title"&gt;Tip&lt;/p&gt;
+&lt;p class="last"&gt;Remember, you can test any changes done in &lt;cite&gt;master&lt;/cite&gt; or &lt;cite&gt;blender2.8&lt;/cite&gt;
+by going to the &lt;a class="reference external" href="https://builder.blender.org/download/"&gt;developmental builds download page&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="changes-to-blender"&gt;
+&lt;h1&gt;Changes to Blender&lt;a class="headerlink" href="#changes-to-blender" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;p class="rubric"&gt;master&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Speedup &lt;cite&gt;BM_mesh_normals_update&lt;/cite&gt; (40% improvement)
+&lt;a class="reference external" href="http://developer.blender.org/rB43ddf0e9a7f0f9986ed24e05df0ce7eac5f944b6"&gt;rB43ddf0e9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;UI: Encoding output quality UI clarification
+&lt;a class="reference external" href="http://developer.blender.org/rBf218e6d4da8dbfa4be809b46d6a6c923b7a6fc97"&gt;rBf218e6d4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Disable adding scene sequence strips into themselves
+&lt;a class="reference external" href="http://developer.blender.org/rB175e8fdc1e2e76bd1287f1aa93db4aa4cc44d3f9"&gt;rB175e8fdc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;UV Cube Project: improve default behavior
+&lt;a class="reference external" href="http://developer.blender.org/rB65af15ad887b30e678db9acab75efc7897c9197e"&gt;rB65af15ad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add option not to select with un-hide
+&lt;a class="reference external" href="http://developer.blender.org/rB0a69e3b307f05aeab8bd84f69560b4118c9bfaf2"&gt;rB0a69e3b3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bake Action operator: Added missing Bendy Bones support
+&lt;a class="reference external" href="http://developer.blender.org/rBfc77676f3326894482848b3f4e544c7569d5b440"&gt;rBfc77676f&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Pasting poses now updates motion paths
+&lt;a class="reference external" href="http://developer.blender.org/rBc01ffefb687260c11b3eae8411e5af051f0ce10a"&gt;rBc01ffefb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Vertex Paint: missed removing settings from UI
+&lt;a class="reference external" href="http://developer.blender.org/rB10a112093fe8dd3553a67c3d671ca66c259f308b"&gt;rB10a11209&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="rubric"&gt;blender2.8&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Eevee: Add SSS support in probes
+&lt;a class="reference external" href="http://developer.blender.org/rB5dfeecf47b575e54fddd3e915024b721efd29eb6"&gt;rB5dfeecf4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Eevee: SSS: Add separated Albedo option
+&lt;a class="reference external" href="http://developer.blender.org/rB7cbc7dd90499f98e3f44f86fdacae5365e53cd77"&gt;rB7cbc7dd9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Python API: expose base_flag settings (depsgraph)
+&lt;a class="reference external" href="http://developer.blender.org/rB4493d0d085b0ba37e069d1129004d54e98f31231"&gt;rB4493d0d0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cycles: add object level holdout property, to replace Z mask layer.
+&lt;a class="reference external" href="http://developer.blender.org/rBf8fc77ec8481fbbe253ec73d701beab278fdeaf3"&gt;rBf8fc77ec&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Python API: Allow structs to define tags for their properties
+&lt;a class="reference external" href="http://developer.blender.org/rB23d148ecaf923a490c3dd4a22d6dd96ea7cb9654"&gt;rB23d148ec&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;SceneRenderLayer Removal/Refactor
+&lt;a class="reference external" href="http://developer.blender.org/rB3a95bdfc65d883e7db006fdaadb8ed2cd6553239"&gt;rB3a95bdfc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Eevee: SSS: Add Translucency support
+&lt;a class="reference external" href="http://developer.blender.org/rB846cdf53187174ac87dd24af4b7b0d413db4ad03"&gt;rB846cdf53&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="rubric"&gt;greasepencil-object&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Add Hook Modifier
+&lt;a class="reference external" href="http://developer.blender.org/rB9215e2a09717db3acfb4da8f3595c76d7afc3b16"&gt;rB9215e2a0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add grid option to grease pencil paper
+&lt;a class="reference external" href="http://developer.blender.org/rB5517049481c5b5525561e43c34c1ae08dbb620a9"&gt;rB55170494&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add new paper function for adding a solid color background
+&lt;a class="reference external" href="http://developer.blender.org/rBe2adbc9bca7fc95cf8f9f9c86284725880da8c8a"&gt;rBe2adbc9b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add Build Modifier
+&lt;a class="reference external" href="http://developer.blender.org/rBf43aecba88aa8d712ce5fd647b6e2a0549f3a9ae"&gt;rBf43aecba&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add some buttons to the bottom bar
+&lt;a class="reference external" href="http://developer.blender.org/rB2a47ede614dd14834b832a9467b204e3223cf4d4"&gt;rB2a47ede6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;UI: Rename MultiEdit to MultiFrame
+&lt;a class="reference external" href="http://developer.blender.org/rBa666a5d0164313e0743af129a645511f04bb1b17"&gt;rBa666a5d0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="rubric"&gt;hair_guides&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Material pointer in hair systems
+&lt;a class="reference external" href="http://developer.blender.org/rB56c1388ee494d776733c3d79c4359c1523bfcacf"&gt;rB56c1388e&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Simplified API for generating hair follicles with a fixed max count
+&lt;a class="reference external" href="http://developer.blender.org/rB5be3403a1d82b51078a122ea54234a1eaed2001d"&gt;rB5be3403a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Extend the fur generate modifier to also create guide curves
+&lt;a class="reference external" href="http://developer.blender.org/rB2d24189369815aff49c61c01faac3fe83d68d167"&gt;rB2d241893&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Start adding hair draw settings
+&lt;a class="reference external" href="http://developer.blender.org/rBc6ddb6fdd9bd6cd86312850bbbbdfaf13ee21e5e"&gt;rBc6ddb6fd&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="new-patches"&gt;
+&lt;h1&gt;New Patches&lt;a class="headerlink" href="#new-patches" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Cycles: Optical Vignetting and Depth of Field light distribution
+&lt;a class="reference external" href="http://developer.blender.org/D2922"&gt;D2922&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;VSE Scene Strip Render Engine Settings
+&lt;a class="reference external" href="http://developer.blender.org/D2924"&gt;D2924&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Proposed fix for some math_color_blend functions
+&lt;a class="reference external" href="http://developer.blender.org/D2925"&gt;D2925&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Select similar for bones by action group index
+&lt;a class="reference external" href="http://developer.blender.org/D2931"&gt;D2931&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Improving Video Sequencer performance with C++ and OpenCL
+&lt;a class="reference external" href="http://developer.blender.org/T53374"&gt;T53374&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="other-projects"&gt;
+&lt;h1&gt;Other Projects&lt;a class="headerlink" href="#other-projects" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Workspaces: Integrating Interaction Modes - Requirements
+&lt;a class="reference external" href="http://developer.blender.org/T53388"&gt;T53388&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Workspaces: Integrating Interaction Modes - Proposals
+&lt;a class="reference external" href="http://developer.blender.org/TT53389"&gt;TT53389&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-last section" id="documentation"&gt;
+&lt;h1&gt;Documentation&lt;a class="headerlink" href="#documentation" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://lists.blender.org/pipermail/bf-committers/2017-November/048910.html"&gt;Blender 2.8 – priorities reconsideration proposal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+      <guid>https://thisweekinblenderdev.github.io/2017-11-25.html</guid>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>2017-11-18: Weekly News</title>
       <link>https://thisweekinblenderdev.github.io/2017-11-18.html</link>
