@@ -18,7 +18,7 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
-    <title>2018-01-20: Weekly News &mdash; This Week in Blender Development</title>
+    <title>2018-03-03: Weekly News &mdash; This Week in Blender Development</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -63,8 +63,8 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="top" title="This Week in Blender Development" href="index.html" />
-    <link rel="next" title="2018-02-03: Weekly News" href="2018-02-03.html" />
-    <link rel="prev" title="2018-01-13: Weekly News" href="2018-01-13.html" /> 
+    <link rel="next" title="2018-03-10: Weekly News" href="2018-03-10.html" />
+    <link rel="prev" title="2018-02-17: Weekly News" href="2018-02-17.html" /> 
   </head>
   <body role="document">
     <div id="navbar-top" class="navbar navbar-fixed-top navbar-default" role="navigation" aria-label="top navigation">
@@ -84,7 +84,7 @@
                 <a role="button" id="localToc" data-toggle="dropdown" data-target="#" href="#">Table Of Contents <b class="caret"></b></a>
                 <ul class="dropdown-menu localtoc sp-localtoc" role="menu" aria-labelledby="localToc">
                 <ul>
-<li><a class="reference internal" href="#">2018-01-20: Weekly News</a><ul>
+<li><a class="reference internal" href="#">2018-03-03: Weekly News</a><ul>
 <li><a class="reference internal" href="#changes-to-blender">Changes to Blender</a></li>
 <li><a class="reference internal" href="#new-patches">New Patches</a></li>
 <li><a class="reference internal" href="#other-projects">Other Projects</a></li>
@@ -97,8 +97,8 @@
               </li>
 
             
-              <li><a href="2018-01-13.html" title="2018-01-13: Weekly News" accesskey="P">previous </a></li>
-              <li><a href="2018-02-03.html" title="2018-02-03: Weekly News" accesskey="N">next </a></li>
+              <li><a href="2018-02-17.html" title="2018-02-17: Weekly News" accesskey="P">previous </a></li>
+              <li><a href="2018-03-10.html" title="2018-03-10: Weekly News" accesskey="N">next </a></li>
               <li><a href="genindex.html" title="General Index" accesskey="I">index </a></li>
             
 
@@ -134,7 +134,7 @@
   <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
   <h3><a href="index.html">Table Of Contents</a></h3>
   <ul>
-<li><a class="reference internal" href="#">2018-01-20: Weekly News</a><ul>
+<li><a class="reference internal" href="#">2018-03-03: Weekly News</a><ul>
 <li><a class="reference internal" href="#changes-to-blender">Changes to Blender</a></li>
 <li><a class="reference internal" href="#new-patches">New Patches</a></li>
 <li><a class="reference internal" href="#other-projects">Other Projects</a></li>
@@ -144,11 +144,11 @@
 </ul>
 
   <h4>Previous topic</h4>
-  <p class="topless"><a href="2018-01-13.html"
-                        title="previous chapter">2018-01-13: Weekly News</a></p>
+  <p class="topless"><a href="2018-02-17.html"
+                        title="previous chapter">2018-02-17: Weekly News</a></p>
   <h4>Next topic</h4>
-  <p class="topless"><a href="2018-02-03.html"
-                        title="next chapter">2018-02-03: Weekly News</a></p>
+  <p class="topless"><a href="2018-03-10.html"
+                        title="next chapter">2018-03-10: Weekly News</a></p>
 <div id="searchbox" role="search">
   <h3>Quick search</h3>
   <form class="search form-inline" action="search.html" method="get">
@@ -176,7 +176,7 @@
                 <div class="body">
                   
   <div class="section" id="weekly-news">
-<h1>2018-01-20: Weekly News<a class="headerlink" href="#weekly-news" title="Permalink to this headline">¶</a></h1>
+<h1>2018-03-03: Weekly News<a class="headerlink" href="#weekly-news" title="Permalink to this headline">¶</a></h1>
 <p class="feed-meta"></p>
 <p>Hello and welcome to another issue of <em>This Week in Blender Development</em>!
 <a class="reference external" href="https://www.blender.org/">Blender</a> is the free and opensource 3D creation
@@ -196,71 +196,85 @@ by going to the <a class="reference external" href="https://builder.blender.org/
 <h2>Changes to Blender<a class="headerlink" href="#changes-to-blender" title="Permalink to this headline">¶</a></h2>
 <p class="rubric">master</p>
 <ul class="simple">
-<li>Loop Cut: Allow mouse placement w/ numeric input
-<a class="reference external" href="http://developer.blender.org/rB235f578a0d21191cf4914652e8cfc5608fc1e218">rB235f578a</a></li>
-<li>Add “Delete Invalid Drivers” operator
-<a class="reference external" href="http://developer.blender.org/rBc38ebf93e356a97b3013b075e1d98268df891809">rBc38ebf93</a></li>
-<li>Sculpting: Add an option to hide mask in viewport
-<a class="reference external" href="http://developer.blender.org/rB4d8b78b0a9b760bba2f715a7421b3fdd5e076ccf">rB4d8b78b0</a></li>
+<li>Cycles volume: fast empty space optimization (up to 2x speedup)
+<a class="reference external" href="http://developer.blender.org/rB7377d411b47d50cd943cd33e3e55c0409bb79f91">rB7377d411</a></li>
+<li>Collada: Adding support for Matrix Transformation export
+<a class="reference external" href="http://developer.blender.org/rBa024da55af09fb75e3b72489a8696878909bf676">rBa024da55</a></li>
+<li>Smoke: expose empty space clipping property to the UI
+<a class="reference external" href="http://developer.blender.org/rB4403ca80bda690c0ac44e4a6db0cddf4b2428006">rB4403ca80</a></li>
+<li>Cycles: add Principled Volume shader.
+<a class="reference external" href="http://developer.blender.org/rB0aec2dcd3ae0ed382ffe7b3311a4e30fc88398e4">rB0aec2dcd</a></li>
+<li>Cycles: Speedup rendering of dense volumes (30% speedup)
+<a class="reference external" href="http://developer.blender.org/rB5d5c6bb5efee9bd03004845f9b1eee9d43883525">rB5d5c6bb5</a></li>
+<li>Animation: When scaling keyframes, merge (by-averaging) selected keys that end up on the same frame
+<a class="reference external" href="http://developer.blender.org/rBac717928ad027b3a048e6aba7e4f64e4a617d8cc">rBac717928</a></li>
 </ul>
-<p class="rubric">blender2.8</p>
 <ul class="simple">
-<li>Outliner: Get rid of Search Menu
-<a class="reference external" href="http://developer.blender.org/rB51bcf7bd5f3f21e0ff38b04965cc8413c339b3cf">rB51bcf7bd</a></li>
-<li>Outliner: Remove User Preferences
-<a class="reference external" href="http://developer.blender.org/rBefe1af3d11a930b539718cc566049f07316427ff">rBefe1af3d</a></li>
-<li>Outliner Filtering System
-<a class="reference external" href="http://developer.blender.org/rB37913cf5326a732cb94c28f96c1deb8f3965c846">rB37913cf5</a></li>
-<li>Eevee: Implement Sun area lighting
-<a class="reference external" href="http://developer.blender.org/rB03e432bcdbd61ccea2d74065203af199b46b2e83">rB03e432bc</a></li>
-<li>Outliner: Alphabetical sorting
-<a class="reference external" href="http://developer.blender.org/rB60eb897fa5f8d3683211d5416178b99231ef9166">rB60eb897f</a></li>
-<li>Outliner: Rename “Active View Layer” &gt; “View Layer”
-<a class="reference external" href="http://developer.blender.org/rB74f872df3a0d45cba58540f240101ce4724f11d0">rB74f872df</a></li>
-<li>Outliner: View Layer: add option to add a new collection to the current view layer
-<a class="reference external" href="http://developer.blender.org/rB33ddd926b769fca68bc485312ca9def847847b87">rB33ddd926</a></li>
-<li>Eevee: AO: Removes samples and denoise options
-<a class="reference external" href="http://developer.blender.org/rB9fd28c776938fe420782a6339e9da7c619724dae">rB9fd28c77</a></li>
-<li>Eevee: SSR: Remove ray count
-<a class="reference external" href="http://developer.blender.org/rB3cb2b2956b140b840ba8a481ad15df1b567d9c07">rB3cb2b295</a></li>
-<li>Deps Graph: Get rid of legacy extra recalc flags
-<a class="reference external" href="http://developer.blender.org/rBbf9460e3cf7a26fd939ec0e80f86bb3cebf7a71e">rBbf9460e3</a></li>
+<li>WorkSpace: show/hide opt-out support for add-ons
+<a class="reference external" href="http://developer.blender.org/rB61c8ed40f5df897da212b55dadeee252c8d3997b">rB61c8ed40</a></li>
+<li>WorkSpace: UI filtering for add-ons
+<a class="reference external" href="http://developer.blender.org/rBd937d06c02f62c11385c1c1f58d963fec03365d9">rBd937d06c</a></li>
+<li>Cycles: add back point density texture support
+<a class="reference external" href="http://developer.blender.org/rB000002e42df54b00009fe1d2341d27d8cc418925">rB000002e4</a></li>
+<li>EEVEE: Compositing and rendering of multi-layers support
+<a class="reference external" href="http://developer.blender.org/rB06420c5fe8fda54c543f26f9d95d2c6fcf5161cd">rB06420c5f</a></li>
+<li>Viewport: Speed up many unique objects (up to 3x speedup)
+<a class="reference external" href="http://developer.blender.org/rB241c90c92d8dfc4f98daad71fb75390793777a86">rB241c90c9</a></li>
+<li>Eevee: add Principled Volume shader
+<a class="reference external" href="http://developer.blender.org/rB38ccd1fe33e61a6d609273dd87d3a4c69d62f368">rB38ccd1fe</a></li>
+<li>WorkSpace: object-mode switching support
+<a class="reference external" href="http://developer.blender.org/rB4ab002bca36ace4d2b4b21efce622a682b99b844">rB4ab002bc</a></li>
+<li>Viewport: Small speedup.
+<a class="reference external" href="http://developer.blender.org/rBc5eba46d7f4ddfcdf372a3f4968e4d170ee0a002">rBc5eba46d</a></li>
 </ul>
 <p class="rubric">greasepencil-object</p>
 <ul class="simple">
-<li>Remove simplify render options
-<a class="reference external" href="http://developer.blender.org/rBb0c08068e867ea15ca50739ee7258a7cff8b583e">rBb0c08068</a></li>
-<li>New operator to clean boundary strokes
-<a class="reference external" href="http://developer.blender.org/rBd1f89c93628489c9e8ae9fbd25405ec75fb9701a">rBd1f89c93</a></li>
+<li>New Eraser brush
+<a class="reference external" href="http://developer.blender.org/rB32c4bc3417a247609ef8875c03c0b7153e224878">rB32c4bc34</a></li>
+<li>New Draw mode “Boxes”
+<a class="reference external" href="http://developer.blender.org/rB5a37f69467ac06d2d1bb78553b9901c984d17422">rB5a37f694</a></li>
+<li>Interpolate mouse movement for fast drawing
+<a class="reference external" href="http://developer.blender.org/rBa636f3fbd148daa6aa05a0b276faa260738b446f">rBa636f3fb</a></li>
+<li>Add UV rotation option to Smooth and Noise modifiers
+<a class="reference external" href="http://developer.blender.org/rB803f80c673fd8c4794e354e7693113f476bb0553">rB803f80c6</a></li>
+<li>Apply Smooth and Random sculpt to UV rotation
+<a class="reference external" href="http://developer.blender.org/rB71f0e59b2e348c7376b5ec9e92c783c7def3b0ec">rB71f0e59b</a></li>
+<li>New UI parameter to define UV rotation randomness
+<a class="reference external" href="http://developer.blender.org/rB11910fdb505b97732b0aa96c56a2eef617f1b986">rB11910fdb</a></li>
+<li>New point fields for UV data
+<a class="reference external" href="http://developer.blender.org/rBf0419a4a2a4237e5a5a807c918923a49dbb0f890">rBf0419a4a</a></li>
 </ul>
 <p class="rubric">fracture_modifier</p>
 <ul class="simple">
-<li>UI: move animated mesh settings to new panel
-<a class="reference external" href="http://developer.blender.org/rB80671518ebc0d832ecefb2205fe143d06432e98b">rB80671518</a></li>
+<li>Add vertex group to influence metaball radii
+<a class="reference external" href="http://developer.blender.org/rBc381b3fadc3788492adb7786d8f4031ffba8ee71">rBc381b3fa</a></li>
+<li>Optionally restore old activation behavior with broken constraints
+<a class="reference external" href="http://developer.blender.org/rBfb8acd8b33310919c38cb1e208fdbdb9dc655d27">rBfb8acd8b</a></li>
 </ul>
 </div>
 <div class="section" id="new-patches">
 <h2>New Patches<a class="headerlink" href="#new-patches" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Sample based compositor
-<a class="reference external" href="http://developer.blender.org/D3003">D3003</a></li>
-<li>Update image library dependencies to latest versions, fixing vulnerabilities
-<a class="reference external" href="http://developer.blender.org/D3005">D3005</a></li>
+<li>Freestyle: work in progress patch to show possible integration
+<a class="reference external" href="http://developer.blender.org/D3086">D3086</a></li>
+<li>First steps for a User-Preferences/Settings redesign
+<a class="reference external" href="http://developer.blender.org/D3088">D3088</a></li>
+<li>Array modifier: Do not merge vertex groups with different names
+<a class="reference external" href="http://developer.blender.org/D3092">D3092</a></li>
+<li>Cycles: add anisotropy to random walk subsurface scattering.
+<a class="reference external" href="http://developer.blender.org/D3094">D3094</a></li>
 </ul>
 </div>
 <div class="section" id="other-projects">
 <h2>Other Projects<a class="headerlink" href="#other-projects" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Blender 2.8: Icons
-<a class="reference external" href="http://developer.blender.org/T53840">T53840</a></li>
-<li>Blender 2.8: Collections Icons
-<a class="reference external" href="http://developer.blender.org/T53844">T53844</a></li>
+<li>None</li>
 </ul>
 </div>
 <div class="section" id="documentation">
 <h2>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>None</li>
+<li><a class="reference external" href="https://code.blender.org/2018/03/eevee-f-a-q/">EEVEE FAQ</a></li>
 </ul>
 </div>
 </div>
@@ -288,8 +302,8 @@ by going to the <a class="reference external" href="https://builder.blender.org/
     </ul>
 <ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
       
-        <li><a href="2018-01-13.html" title="2018-01-13: Weekly News" >previous</a></li>
-        <li><a href="2018-02-03.html" title="2018-02-03: Weekly News" >next</a></li>
+        <li><a href="2018-02-17.html" title="2018-02-17: Weekly News" >previous</a></li>
+        <li><a href="2018-03-10.html" title="2018-03-10: Weekly News" >next</a></li>
         <li><a href="genindex.html" title="General Index" >index</a></li>
         <li><a href="#">top</a></li> 
       

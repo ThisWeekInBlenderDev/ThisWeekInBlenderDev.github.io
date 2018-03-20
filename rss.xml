@@ -5,7 +5,7 @@
     <atom:link href="https://thisweekinblenderdev.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <link>https://thisweekinblenderdev.github.io/</link>
     <description></description>
-    <lastBuildDate>Tue, 23 Jan 2018 03:50:10 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 20 Mar 2018 05:51:18 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
     <item>
       <title>2018-01-20: Weekly News</title>
@@ -1338,7 +1338,7 @@ by going to the &lt;a class="reference external" href="https://builder.blender.o
 &lt;h1&gt;Changes to Blender&lt;a class="headerlink" href="#changes-to-blender" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
 &lt;p class="rubric"&gt;master&lt;/p&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;Support CUDA 9 toolkit, and automatically disable &lt;code class="docutils literal"&gt;&lt;span class="pre"&gt;sm_2x&lt;/span&gt;&lt;/code&gt; binaries
+&lt;li&gt;Support CUDA 9 toolkit, and automatically disable &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;sm_2x&lt;/span&gt;&lt;/code&gt; binaries
 &lt;a class="reference external" href="http://developer.blender.org/rBf55735e533601b559d53fd1e2c5297092e844345"&gt;rBf55735e5&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Vertex Paint: Add projection options (matching projection painting)
 &lt;a class="reference external" href="http://developer.blender.org/rBb2a10fa615efcf403a9ca23005d86ca149ebf56b"&gt;rBb2a10fa6&lt;/a&gt;&lt;/li&gt;
