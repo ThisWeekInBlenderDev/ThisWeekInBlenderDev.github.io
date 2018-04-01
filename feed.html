@@ -64,7 +64,7 @@
     <link rel="search" title="Search" href="search.html" />
     <link rel="top" title="This Week in Blender Development" href="index.html" />
     <link rel="next" title="&lt;no title&gt;" href="include_intro.html" />
-    <link rel="prev" title="2018-03-17: Weekly News" href="2018-03-17.html" /> 
+    <link rel="prev" title="2018-03-31: Weekly News" href="2018-03-31.html" /> 
   </head>
   <body role="document">
     <div id="navbar-top" class="navbar navbar-fixed-top navbar-default" role="navigation" aria-label="top navigation">
@@ -82,7 +82,7 @@
           <ul class="nav navbar-nav navbar-right">
 
             
-              <li><a href="2018-03-17.html" title="2018-03-17: Weekly News" accesskey="P">previous </a></li>
+              <li><a href="2018-03-31.html" title="2018-03-31: Weekly News" accesskey="P">previous </a></li>
               <li><a href="include_intro.html" title="&lt;no title&gt;" accesskey="N">next </a></li>
               <li><a href="genindex.html" title="General Index" accesskey="I">index </a></li>
             
@@ -118,8 +118,8 @@
 <div class="col-md-3 hidden-xs" id="sidebar-wrapper">
   <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
   <h4>Previous topic</h4>
-  <p class="topless"><a href="2018-03-17.html"
-                        title="previous chapter">2018-03-17: Weekly News</a></p>
+  <p class="topless"><a href="2018-03-31.html"
+                        title="previous chapter">2018-03-31: Weekly News</a></p>
   <h4>Next topic</h4>
   <p class="topless"><a href="include_intro.html"
                         title="next chapter">&lt;no title&gt;</a></p>
@@ -152,6 +152,585 @@
   <div class="section" id="feed">
 <h1>Feed<a class="headerlink" href="#feed" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
+</div>
+<div class="section" id="weekly-news">
+<h2><a class="feed-ref reference internal" href="2018-03-31.html#weekly-news">2018-03-31: Weekly News</a><a class="headerlink" href="#weekly-news" title="Permalink to this headline">¶</a></h2>
+<p class="feed-meta"></p>
+<p>Hello and welcome to another issue of <em>This Week in Blender Development</em>!
+<a class="reference external" href="https://www.blender.org/">Blender</a> is the free and opensource 3D creation
+suite for the next generation of artist. Follow the development on Twitter
+<a class="reference external" href="https://twitter.com/BlenderDev">&#64;BlenderDev</a>.</p>
+<p><em>This Week in Blender Development</em> is openly developed on
+<a class="reference external" href="https://github.com/ThisWeekInBlenderDev">Github</a>
+so please report any recommendations, bugs, or PRs for this website there.</p>
+<p>If you have idea for some great feature that you think should be part of Blender
+try making a post on <a class="reference external" href="https://blender.community/c/rightclickselect/">https://blender.community/c/rightclickselect/</a></p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Remember, you can test any changes done in <cite>master</cite> or <cite>blender2.8</cite>
+by going to the <a class="reference external" href="https://builder.blender.org/download/">developmental builds download page</a></p>
+</div>
+<div class="section" id="changes-to-blender">
+<h3>Changes to Blender<a class="headerlink" href="#changes-to-blender" title="Permalink to this headline">¶</a></h3>
+<p class="rubric">master</p>
+<ul class="simple">
+<li>Cycles: take into account diffuse roughness for roughness baking
+<a class="reference external" href="http://developer.blender.org/rBe3f1d980982b1c0da7853a960cbd3e9a3f434376">rBe3f1d980</a></li>
+<li>UI: Edit mode move edge data tool into a menu
+<a class="reference external" href="http://developer.blender.org/rB354dfdac8824baffa46080f3552ae255451b2d40">rB354dfdac</a></li>
+<li>New C logging system
+<a class="reference external" href="http://developer.blender.org/rB891c1cfc9a355171215821fc91b694273503f139">rB891c1cfc</a></li>
+<li>Undo: unified undo system w/ linear history
+<a class="reference external" href="http://developer.blender.org/rB651b8fb14eb6ee5cbfa98bffe80a966a0753b14e">rB651b8fb1</a></li>
+</ul>
+<p class="rubric">blender2.8</p>
+<ul class="simple">
+<li>Collections: New <em>Move to Collection</em> operator
+<a class="reference external" href="http://developer.blender.org/rBf167226b793e5dd39816f0b250771177d088dc54">rBf167226b</a></li>
+<li>Collections: Move to Collection: Add option to add to a new collection.
+<a class="reference external" href="http://developer.blender.org/rB6456d59b6beaf6131366b87aacfb3ee47e42211d">rB6456d59b</a></li>
+<li>Collections: Add support for <em>Select Group</em>
+<a class="reference external" href="http://developer.blender.org/rB534916258d619554106f5e8fd6bb62558e8980bc">rB53491625</a></li>
+</ul>
+</div>
+<div class="section" id="new-patches">
+<h3>New Patches<a class="headerlink" href="#new-patches" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>UI: use new confirm quit dialog on all platforms.
+<a class="reference external" href="http://developer.blender.org/D3118">D3118</a></li>
+</ul>
+</div>
+<div class="section" id="other-projects">
+<h3>Other Projects<a class="headerlink" href="#other-projects" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>2.8: Code-Quest (Topics we plan to cover)
+<a class="reference external" href="http://developer.blender.org/T54387">T54387</a></li>
+<li><a class="reference external" href="https://devtalk.blender.org/">devtalk.blender.org</a>. – Devtalk is a new forum
+website to help new developers get into Blender development</li>
+</ul>
+</div>
+<div class="section" id="documentation">
+<h3>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="https://code.blender.org/2018/03/code-quest-status-update/">Code Quest Status Update</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="weekly-news">
+<h2><a class="feed-ref reference internal" href="2018-03-24.html#weekly-news">2018-03-24: Weekly News</a><a class="headerlink" href="#weekly-news" title="Permalink to this headline">¶</a></h2>
+<p class="feed-meta"></p>
+<p>Hello and welcome to another issue of <em>This Week in Blender Development</em>!
+<a class="reference external" href="https://www.blender.org/">Blender</a> is the free and opensource 3D creation
+suite for the next generation of artist. Follow the development on Twitter
+<a class="reference external" href="https://twitter.com/BlenderDev">&#64;BlenderDev</a>.</p>
+<p><em>This Week in Blender Development</em> is openly developed on
+<a class="reference external" href="https://github.com/ThisWeekInBlenderDev">Github</a>
+so please report any recommendations, bugs, or PRs for this website there.</p>
+<p>If you have idea for some great feature that you think should be part of Blender
+try making a post on <a class="reference external" href="https://blender.community/c/rightclickselect/">https://blender.community/c/rightclickselect/</a></p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Remember, you can test any changes done in <cite>master</cite> or <cite>blender2.8</cite>
+by going to the <a class="reference external" href="https://builder.blender.org/download/">developmental builds download page</a></p>
+</div>
+<div class="section" id="changes-to-blender">
+<h3>Changes to Blender<a class="headerlink" href="#changes-to-blender" title="Permalink to this headline">¶</a></h3>
+<p class="rubric">master</p>
+<ul class="simple">
+<li>UI: Optional prompt to quit for non win32 systems
+<a class="reference external" href="http://developer.blender.org/rB5ba5254ec1ebba6c1e89b663592d716b92e13165">rB5ba5254e</a></li>
+<li>UI: 4-column layout for the editor-type selector menu
+<a class="reference external" href="http://developer.blender.org/rB60712d12eb89fe85204f9a0dbc86e361b8ad6c58">rB60712d12</a></li>
+</ul>
+</div>
+<div class="section" id="new-patches">
+<h3>New Patches<a class="headerlink" href="#new-patches" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Add Ctrl+Click Extrude function for Surfaces
+<a class="reference external" href="http://developer.blender.org/D3110">D3110</a></li>
+<li>Move STL import/export to C++ (great speedup)
+<a class="reference external" href="http://developer.blender.org/D3114">D3114</a></li>
+</ul>
+</div>
+<div class="section" id="other-projects">
+<h3>Other Projects<a class="headerlink" href="#other-projects" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Blender Interactive Mode Outline
+<a class="reference external" href="http://developer.blender.org/T54389">T54389</a></li>
+<li>2.8: Code-Quest (Topics we plan to cover)
+<a class="reference external" href="http://developer.blender.org/T54387">T54387</a></li>
+<li><a class="reference external" href="https://devtalk.blender.org/">devtalk.blender.org</a>. – Devtalk is a new forum
+website to help new developers get into Blender development</li>
+</ul>
+</div>
+<div class="section" id="documentation">
+<h3>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>None</li>
+</ul>
+</div>
+</div>
+<div class="section" id="weekly-news">
+<h2><a class="feed-ref reference internal" href="2018-03-17.html#weekly-news">2018-03-17: Weekly News</a><a class="headerlink" href="#weekly-news" title="Permalink to this headline">¶</a></h2>
+<p class="feed-meta"></p>
+<p>Hello and welcome to another issue of <em>This Week in Blender Development</em>!
+<a class="reference external" href="https://www.blender.org/">Blender</a> is the free and opensource 3D creation
+suite for the next generation of artist. Follow the development on Twitter
+<a class="reference external" href="https://twitter.com/BlenderDev">&#64;BlenderDev</a>.</p>
+<p><em>This Week in Blender Development</em> is openly developed on
+<a class="reference external" href="https://github.com/ThisWeekInBlenderDev">Github</a>
+so please report any recommendations, bugs, or PRs for this website there.</p>
+<p>If you have idea for some great feature that you think should be part of Blender
+try making a post on <a class="reference external" href="https://blender.community/c/rightclickselect/">https://blender.community/c/rightclickselect/</a></p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Remember, you can test any changes done in <cite>master</cite> or <cite>blender2.8</cite>
+by going to the <a class="reference external" href="https://builder.blender.org/download/">developmental builds download page</a></p>
+</div>
+<div class="section" id="changes-to-blender">
+<h3>Changes to Blender<a class="headerlink" href="#changes-to-blender" title="Permalink to this headline">¶</a></h3>
+<p class="rubric">master</p>
+<ul class="simple">
+<li>GHOST: Support Unity taskbar progress API
+<a class="reference external" href="http://developer.blender.org/rB41149ca134ff1ffe1029e3eebf1c6b3e95ef4422">rB41149ca1</a></li>
+</ul>
+<p class="rubric">blender2.8</p>
+<ul class="simple">
+<li>UV/Image Editor: Optimize UV Drawing
+<a class="reference external" href="http://developer.blender.org/rBcca1e1b707c2d34244d3da87efcd78775c4eb048">rBcca1e1b7</a></li>
+<li>Clay: Refactor: Port clay to a deferred pipeline
+<a class="reference external" href="http://developer.blender.org/rBb4209b138f6bda863009568bf8dc19eb5cf8361c">rBb4209b13</a></li>
+<li>Eevee: Render: Allow cancel during probe update
+<a class="reference external" href="http://developer.blender.org/rB266cdf955ebe01a66e6ccb791d3943323bcbb94d">rB266cdf95</a></li>
+</ul>
+</div>
+<div class="section" id="new-patches">
+<h3>New Patches<a class="headerlink" href="#new-patches" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Proof of concept multi-object edit-mode
+<a class="reference external" href="http://developer.blender.org/D3101">D3101</a></li>
+<li>Denoising Baking Results
+<a class="reference external" href="http://developer.blender.org/D3099">D3099</a></li>
+</ul>
+</div>
+<div class="section" id="other-projects">
+<h3>Other Projects<a class="headerlink" href="#other-projects" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>None</li>
+</ul>
+</div>
+<div class="section" id="documentation">
+<h3>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>None</li>
+</ul>
+</div>
+</div>
+<div class="section" id="weekly-news">
+<h2><a class="feed-ref reference internal" href="2018-03-10.html#weekly-news">2018-03-10: Weekly News</a><a class="headerlink" href="#weekly-news" title="Permalink to this headline">¶</a></h2>
+<p class="feed-meta"></p>
+<p>Hello and welcome to another issue of <em>This Week in Blender Development</em>!
+<a class="reference external" href="https://www.blender.org/">Blender</a> is the free and opensource 3D creation
+suite for the next generation of artist. Follow the development on Twitter
+<a class="reference external" href="https://twitter.com/BlenderDev">&#64;BlenderDev</a>.</p>
+<p><em>This Week in Blender Development</em> is openly developed on
+<a class="reference external" href="https://github.com/ThisWeekInBlenderDev">Github</a>
+so please report any recommendations, bugs, or PRs for this website there.</p>
+<p>If you have idea for some great feature that you think should be part of Blender
+try making a post on <a class="reference external" href="https://blender.community/c/rightclickselect/">https://blender.community/c/rightclickselect/</a></p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Remember, you can test any changes done in <cite>master</cite> or <cite>blender2.8</cite>
+by going to the <a class="reference external" href="https://builder.blender.org/download/">developmental builds download page</a></p>
+</div>
+<div class="section" id="changes-to-blender">
+<h3>Changes to Blender<a class="headerlink" href="#changes-to-blender" title="Permalink to this headline">¶</a></h3>
+<p class="rubric">master</p>
+<ul class="simple">
+<li>Cycles: add roughness baking support, using squared roughness convention
+<a class="reference external" href="http://developer.blender.org/rB23ccf5767fea1d7f1b50405334249b1a7a69d5c9">rB23ccf576</a></li>
+<li>Cycles: switch to squared roughness convention for all nodes
+<a class="reference external" href="http://developer.blender.org/rB7613ffc944ebc133f1f906ea737ab55718434cc4">rB7613ffc9</a></li>
+<li>Cycles: support arbitrary number of motion blur steps for cameras
+<a class="reference external" href="http://developer.blender.org/rB78c2063685cb6e0d0bcb895cf4eb70686455d596">rB78c20636</a>
+<a class="reference external" href="http://developer.blender.org/rBdb333d9ea4881d9f48e3cc4b1ec59b4dafb27cc0">rBdb333d9e</a></li>
+<li><a class="reference external" href="http://developer.blender.org/T54233">T54233</a>: NLA “Push Down” discards Blend Mode, Extrapolation, and Influence
+<a class="reference external" href="http://developer.blender.org/rB7e2100e49914e5d32973b3d28134340e0404f1bf">rB7e2100e4</a></li>
+</ul>
+<p class="rubric">blender2.8</p>
+<ul class="simple">
+<li>Eevee: Planar Reflection: Add refraction support for reflected objects
+<a class="reference external" href="http://developer.blender.org/rB92c2e2f38655b282b04d96204b9942ff1e505590">rB92c2e2f3</a></li>
+<li>Eevee: Probes: Add culling for planar probes
+<a class="reference external" href="http://developer.blender.org/rB13b99b7bbba02374849d296e685238d64ff289db">rB13b99b7b</a></li>
+<li>Eevee: Render: Add progress
+<a class="reference external" href="http://developer.blender.org/rB872df463f62d55911a2a732775a8de434c281b2d">rB872df463</a></li>
+<li>Draw Manager: Simplify the algorithm that extract the BoundingSphere of a Frustum
+<a class="reference external" href="http://developer.blender.org/rB267e816b9a603026d951f8e8e318ceaed04ca944">rB267e816b</a></li>
+<li>DRW: Shader Deferred compilation: Use a wmJob for threading
+<a class="reference external" href="http://developer.blender.org/rB94fadd00d889254ea59ca97c85a32ca76b9e95ca">rB94fadd00</a></li>
+<li>DRW: Deferred compilation initial implementation
+<a class="reference external" href="http://developer.blender.org/rB3a209c285754a08339c654d075b5d273fa264c08">rB3a209c28</a></li>
+<li>Eevee: Optimize shadows drawing
+<a class="reference external" href="http://developer.blender.org/rBdd611dd0b87a36ffafb04177ec923e3b6d76bf71">rBdd611dd0</a></li>
+</ul>
+</div>
+<div class="section" id="new-patches">
+<h3>New Patches<a class="headerlink" href="#new-patches" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Eevee: Optimize shadows drawing
+<a class="reference external" href="http://developer.blender.org/D3095">D3095</a></li>
+<li>Optional parameters for <code class="docutils literal notranslate"><span class="pre">play_rendered_anim</span></code> operator
+<a class="reference external" href="http://developer.blender.org/D3097">D3097</a></li>
+<li>Fix <a class="reference external" href="http://developer.blender.org/T53971">T53971</a> Render Result showing the wrong renderlayer in image editor
+<a class="reference external" href="http://developer.blender.org/D3098">D3098</a></li>
+</ul>
+</div>
+<div class="section" id="other-projects">
+<h3>Other Projects<a class="headerlink" href="#other-projects" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Multi-object edit mode support (design overview)
+<a class="reference external" href="http://developer.blender.org/T54242">T54242</a></li>
+<li>2.79b release, proposed fixes
+<a class="reference external" href="http://developer.blender.org/T54255">T54255</a></li>
+<li>Python API for Blender’s internal image functions
+<a class="reference external" href="http://developer.blender.org/T54272">T54272</a></li>
+</ul>
+</div>
+<div class="section" id="documentation">
+<h3>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>None</li>
+</ul>
+</div>
+</div>
+<div class="section" id="weekly-news">
+<h2><a class="feed-ref reference internal" href="2018-03-03.html#weekly-news">2018-03-03: Weekly News</a><a class="headerlink" href="#weekly-news" title="Permalink to this headline">¶</a></h2>
+<p class="feed-meta"></p>
+<p>Hello and welcome to another issue of <em>This Week in Blender Development</em>!
+<a class="reference external" href="https://www.blender.org/">Blender</a> is the free and opensource 3D creation
+suite for the next generation of artist. Follow the development on Twitter
+<a class="reference external" href="https://twitter.com/BlenderDev">&#64;BlenderDev</a>.</p>
+<p><em>This Week in Blender Development</em> is openly developed on
+<a class="reference external" href="https://github.com/ThisWeekInBlenderDev">Github</a>
+so please report any recommendations, bugs, or PRs for this website there.</p>
+<p>If you have idea for some great feature that you think should be part of Blender
+try making a post on <a class="reference external" href="https://blender.community/c/rightclickselect/">https://blender.community/c/rightclickselect/</a></p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Remember, you can test any changes done in <cite>master</cite> or <cite>blender2.8</cite>
+by going to the <a class="reference external" href="https://builder.blender.org/download/">developmental builds download page</a></p>
+</div>
+<div class="section" id="changes-to-blender">
+<h3>Changes to Blender<a class="headerlink" href="#changes-to-blender" title="Permalink to this headline">¶</a></h3>
+<p class="rubric">master</p>
+<ul class="simple">
+<li>Cycles volume: fast empty space optimization (up to 2x speedup)
+<a class="reference external" href="http://developer.blender.org/rB7377d411b47d50cd943cd33e3e55c0409bb79f91">rB7377d411</a></li>
+<li>Collada: Adding support for Matrix Transformation export
+<a class="reference external" href="http://developer.blender.org/rBa024da55af09fb75e3b72489a8696878909bf676">rBa024da55</a></li>
+<li>Smoke: expose empty space clipping property to the UI
+<a class="reference external" href="http://developer.blender.org/rB4403ca80bda690c0ac44e4a6db0cddf4b2428006">rB4403ca80</a></li>
+<li>Cycles: add Principled Volume shader.
+<a class="reference external" href="http://developer.blender.org/rB0aec2dcd3ae0ed382ffe7b3311a4e30fc88398e4">rB0aec2dcd</a></li>
+<li>Cycles: Speedup rendering of dense volumes (30% speedup)
+<a class="reference external" href="http://developer.blender.org/rB5d5c6bb5efee9bd03004845f9b1eee9d43883525">rB5d5c6bb5</a></li>
+<li>Animation: When scaling keyframes, merge (by-averaging) selected keys that end up on the same frame
+<a class="reference external" href="http://developer.blender.org/rBac717928ad027b3a048e6aba7e4f64e4a617d8cc">rBac717928</a></li>
+</ul>
+<p class="rubric">blender2.8</p>
+<ul class="simple">
+<li>WorkSpace: show/hide opt-out support for add-ons
+<a class="reference external" href="http://developer.blender.org/rB61c8ed40f5df897da212b55dadeee252c8d3997b">rB61c8ed40</a></li>
+<li>WorkSpace: UI filtering for add-ons
+<a class="reference external" href="http://developer.blender.org/rBd937d06c02f62c11385c1c1f58d963fec03365d9">rBd937d06c</a></li>
+<li>Cycles: add back point density texture support
+<a class="reference external" href="http://developer.blender.org/rB000002e42df54b00009fe1d2341d27d8cc418925">rB000002e4</a></li>
+<li>EEVEE: Compositing and rendering of multi-layers support
+<a class="reference external" href="http://developer.blender.org/rB06420c5fe8fda54c543f26f9d95d2c6fcf5161cd">rB06420c5f</a></li>
+<li>Viewport: Speed up many unique objects (up to 3x speedup)
+<a class="reference external" href="http://developer.blender.org/rB241c90c92d8dfc4f98daad71fb75390793777a86">rB241c90c9</a></li>
+<li>Eevee: add Principled Volume shader
+<a class="reference external" href="http://developer.blender.org/rB38ccd1fe33e61a6d609273dd87d3a4c69d62f368">rB38ccd1fe</a></li>
+<li>WorkSpace: object-mode switching support
+<a class="reference external" href="http://developer.blender.org/rB4ab002bca36ace4d2b4b21efce622a682b99b844">rB4ab002bc</a></li>
+<li>Viewport: Small speedup.
+<a class="reference external" href="http://developer.blender.org/rBc5eba46d7f4ddfcdf372a3f4968e4d170ee0a002">rBc5eba46d</a></li>
+</ul>
+<p class="rubric">greasepencil-object</p>
+<ul class="simple">
+<li>New Eraser brush
+<a class="reference external" href="http://developer.blender.org/rB32c4bc3417a247609ef8875c03c0b7153e224878">rB32c4bc34</a></li>
+<li>New Draw mode “Boxes”
+<a class="reference external" href="http://developer.blender.org/rB5a37f69467ac06d2d1bb78553b9901c984d17422">rB5a37f694</a></li>
+<li>Interpolate mouse movement for fast drawing
+<a class="reference external" href="http://developer.blender.org/rBa636f3fbd148daa6aa05a0b276faa260738b446f">rBa636f3fb</a></li>
+<li>Add UV rotation option to Smooth and Noise modifiers
+<a class="reference external" href="http://developer.blender.org/rB803f80c673fd8c4794e354e7693113f476bb0553">rB803f80c6</a></li>
+<li>Apply Smooth and Random sculpt to UV rotation
+<a class="reference external" href="http://developer.blender.org/rB71f0e59b2e348c7376b5ec9e92c783c7def3b0ec">rB71f0e59b</a></li>
+<li>New UI parameter to define UV rotation randomness
+<a class="reference external" href="http://developer.blender.org/rB11910fdb505b97732b0aa96c56a2eef617f1b986">rB11910fdb</a></li>
+<li>New point fields for UV data
+<a class="reference external" href="http://developer.blender.org/rBf0419a4a2a4237e5a5a807c918923a49dbb0f890">rBf0419a4a</a></li>
+</ul>
+<p class="rubric">fracture_modifier</p>
+<ul class="simple">
+<li>Add vertex group to influence metaball radii
+<a class="reference external" href="http://developer.blender.org/rBc381b3fadc3788492adb7786d8f4031ffba8ee71">rBc381b3fa</a></li>
+<li>Optionally restore old activation behavior with broken constraints
+<a class="reference external" href="http://developer.blender.org/rBfb8acd8b33310919c38cb1e208fdbdb9dc655d27">rBfb8acd8b</a></li>
+</ul>
+</div>
+<div class="section" id="new-patches">
+<h3>New Patches<a class="headerlink" href="#new-patches" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Freestyle: work in progress patch to show possible integration
+<a class="reference external" href="http://developer.blender.org/D3086">D3086</a></li>
+<li>First steps for a User-Preferences/Settings redesign
+<a class="reference external" href="http://developer.blender.org/D3088">D3088</a></li>
+<li>Array modifier: Do not merge vertex groups with different names
+<a class="reference external" href="http://developer.blender.org/D3092">D3092</a></li>
+<li>Cycles: add anisotropy to random walk subsurface scattering.
+<a class="reference external" href="http://developer.blender.org/D3094">D3094</a></li>
+</ul>
+</div>
+<div class="section" id="other-projects">
+<h3>Other Projects<a class="headerlink" href="#other-projects" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>None</li>
+</ul>
+</div>
+<div class="section" id="documentation">
+<h3>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="https://code.blender.org/2018/03/eevee-f-a-q/">EEVEE FAQ</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="weekly-news">
+<h2><a class="feed-ref reference internal" href="2018-02-17.html#weekly-news">2018-02-17: Weekly News</a><a class="headerlink" href="#weekly-news" title="Permalink to this headline">¶</a></h2>
+<p class="feed-meta"></p>
+<p>Hello and welcome to another issue of <em>This Week in Blender Development</em>!
+<a class="reference external" href="https://www.blender.org/">Blender</a> is the free and opensource 3D creation
+suite for the next generation of artist. Follow the development on Twitter
+<a class="reference external" href="https://twitter.com/BlenderDev">&#64;BlenderDev</a>.</p>
+<p><em>This Week in Blender Development</em> is openly developed on
+<a class="reference external" href="https://github.com/ThisWeekInBlenderDev">Github</a>
+so please report any recommendations, bugs, or PRs for this website there.</p>
+<p>If you have idea for some great feature that you think should be part of Blender
+try making a post on <a class="reference external" href="https://blender.community/c/rightclickselect/">https://blender.community/c/rightclickselect/</a></p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Remember, you can test any changes done in <cite>master</cite> or <cite>blender2.8</cite>
+by going to the <a class="reference external" href="https://builder.blender.org/download/">developmental builds download page</a></p>
+</div>
+<div class="section" id="changes-to-blender">
+<h3>Changes to Blender<a class="headerlink" href="#changes-to-blender" title="Permalink to this headline">¶</a></h3>
+<p class="rubric">master</p>
+<ul class="simple">
+<li>Cycles: Remove Fermi support
+<a class="reference external" href="http://developer.blender.org/rB2eaf90b305fc6fb37f775f288c3d5cd34cc66c81">rB2eaf90b3</a></li>
+<li>Simple hair children: Make twist affected by texture
+<a class="reference external" href="http://developer.blender.org/rB6d4022f61980ba46efd391dcfe96dd88a8db8deb">rB6d4022f6</a></li>
+<li>Simple hair children: Make twist affected by vertex group
+<a class="reference external" href="http://developer.blender.org/rB67cec97387965009dfaa57f7f4c8ab948e048e70">rB67cec973</a></li>
+<li>Simple hair children: Initial implementation of twist control
+<a class="reference external" href="http://developer.blender.org/rBffde74a878882618ab4d4179ba8dd9b98aab15e2">rBffde74a8</a></li>
+<li>Cycles: Implement index output for hair node
+<a class="reference external" href="http://developer.blender.org/rB37f65e9dc4bcfa5225a114feabac753e342bb201">rB37f65e9d</a></li>
+<li>Nodes: Display image name if any in the Cycles Image and Environment Texture node title
+<a class="reference external" href="http://developer.blender.org/rBd640ce40aa9e472613cac22ecbc7655db9c27201">rBd640ce40</a></li>
+</ul>
+<p class="rubric">fracture_modifier</p>
+<ul class="simple">
+<li>Brickify fracture support
+<a class="reference external" href="http://developer.blender.org/rB97a677e78861dba623b49fb72ef4e46e665d057f">rB97a677e7</a></li>
+<li>External constraints support
+<a class="reference external" href="http://developer.blender.org/rB4eb44b86100be814ed2a21699435cf76cc5e1600">rB4eb44b86</a></li>
+</ul>
+</div>
+<div class="section" id="new-patches">
+<h3>New Patches<a class="headerlink" href="#new-patches" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>None</li>
+</ul>
+</div>
+<div class="section" id="other-projects">
+<h3>Other Projects<a class="headerlink" href="#other-projects" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>None</li>
+</ul>
+</div>
+<div class="section" id="documentation">
+<h3>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>None</li>
+</ul>
+</div>
+</div>
+<div class="section" id="weekly-news">
+<h2><a class="feed-ref reference internal" href="2018-02-10.html#weekly-news">2018-02-10: Weekly News</a><a class="headerlink" href="#weekly-news" title="Permalink to this headline">¶</a></h2>
+<p class="feed-meta"></p>
+<p>Hello and welcome to another issue of <em>This Week in Blender Development</em>!
+<a class="reference external" href="https://www.blender.org/">Blender</a> is the free and opensource 3D creation
+suite for the next generation of artist. Follow the development on Twitter
+<a class="reference external" href="https://twitter.com/BlenderDev">&#64;BlenderDev</a>.</p>
+<p><em>This Week in Blender Development</em> is openly developed on
+<a class="reference external" href="https://github.com/ThisWeekInBlenderDev">Github</a>
+so please report any recommendations, bugs, or PRs for this website there.</p>
+<p>If you have idea for some great feature that you think should be part of Blender
+try making a post on <a class="reference external" href="https://blender.community/c/rightclickselect/">https://blender.community/c/rightclickselect/</a></p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Remember, you can test any changes done in <cite>master</cite> or <cite>blender2.8</cite>
+by going to the <a class="reference external" href="https://builder.blender.org/download/">developmental builds download page</a></p>
+</div>
+<div class="section" id="changes-to-blender">
+<h3>Changes to Blender<a class="headerlink" href="#changes-to-blender" title="Permalink to this headline">¶</a></h3>
+<p class="rubric">master</p>
+<ul class="simple">
+<li>Cycles: add random walk subsurface scattering to Principled BSDF
+<a class="reference external" href="http://developer.blender.org/rBa6968e87f1338081f30725f8f2ca3460e280fea2">rBa6968e87</a></li>
+<li>Cycles: random walk subsurface scattering
+<a class="reference external" href="http://developer.blender.org/rB0df9b2c71517a98760a5e577f434d9d86e4e1910">rB0df9b2c7</a></li>
+<li>Mesh: Remove Carve boolean
+<a class="reference external" href="http://developer.blender.org/rBe0597baed57fa7a9dfaf6dff6d0fa120784d21ea">rBe0597bae</a></li>
+<li>Dopesheet: Synchronize selection on bones when selecting everything
+<a class="reference external" href="http://developer.blender.org/rB5f2b4002f49b08f68b1e37b267eceb0b340af713">rB5f2b4002</a></li>
+</ul>
+<p class="rubric">blender2.8</p>
+<ul class="simple">
+<li>Outliner: Add object(s) to new collection
+<a class="reference external" href="http://developer.blender.org/rB77b61b554ca10353b408645e3316e06c8d240388">rB77b61b55</a></li>
+<li>Outliner: Operator to delete outliner selected elements from collection
+<a class="reference external" href="http://developer.blender.org/rB9631c1ac1a8ef2e491310778853b912595e6f3ee">rB9631c1ac</a></li>
+<li>Eevee: Pixel Filter: Add parameter &amp; rescale final LUT
+<a class="reference external" href="http://developer.blender.org/rB23d2f708f312b73186aff4a42e952480413e7096">rB23d2f708</a></li>
+</ul>
+</div>
+<div class="section" id="new-patches">
+<h3>New Patches<a class="headerlink" href="#new-patches" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Snap to second while scrubbing the frame in the timeline
+<a class="reference external" href="http://developer.blender.org/D3056">D3056</a></li>
+<li>Cycles volume : fast empty space optimization by generating a tight mesh around the volume.
+<a class="reference external" href="http://developer.blender.org/D3038">D3038</a></li>
+</ul>
+</div>
+<div class="section" id="other-projects">
+<h3>Other Projects<a class="headerlink" href="#other-projects" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>None</li>
+</ul>
+</div>
+<div class="section" id="documentation">
+<h3>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>None</li>
+</ul>
+</div>
+</div>
+<div class="section" id="weekly-news">
+<h2><a class="feed-ref reference internal" href="2018-02-03.html#weekly-news">2018-02-03: Weekly News</a><a class="headerlink" href="#weekly-news" title="Permalink to this headline">¶</a></h2>
+<p class="feed-meta"></p>
+<p>Hello and welcome to another issue of <em>This Week in Blender Development</em>!
+<a class="reference external" href="https://www.blender.org/">Blender</a> is the free and opensource 3D creation
+suite for the next generation of artist. Follow the development on Twitter
+<a class="reference external" href="https://twitter.com/BlenderDev">&#64;BlenderDev</a>.</p>
+<p><em>This Week in Blender Development</em> is openly developed on
+<a class="reference external" href="https://github.com/ThisWeekInBlenderDev">Github</a>
+so please report any recommendations, bugs, or PRs for this website there.</p>
+<p>If you have idea for some great feature that you think should be part of Blender
+try making a post on <a class="reference external" href="https://blender.community/c/rightclickselect/">https://blender.community/c/rightclickselect/</a></p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Remember, you can test any changes done in <cite>master</cite> or <cite>blender2.8</cite>
+by going to the <a class="reference external" href="https://builder.blender.org/download/">developmental builds download page</a></p>
+</div>
+<div class="section" id="changes-to-blender">
+<h3>Changes to Blender<a class="headerlink" href="#changes-to-blender" title="Permalink to this headline">¶</a></h3>
+<p class="rubric">master</p>
+<ul class="simple">
+<li>Cycles: add Vector Displacement node and extend Displacement node
+<a class="reference external" href="http://developer.blender.org/rBf9ea097a872290d20cd94504adb3172165cb770d">rBf9ea097a</a></li>
+<li>Apply Pose as Rest Pose: Bendy Bone support
+<a class="reference external" href="http://developer.blender.org/rB5dd5286995e4a924c1a04df812050bf15b980ac2">rB5dd52869</a></li>
+<li>Cycles: rename displacement methods, default to displace
+<a class="reference external" href="http://developer.blender.org/rBda4c3f30d984b361d7c00b103ec329d5263779ff">rBda4c3f30</a></li>
+<li>Cycles: add Displacement node.
+<a class="reference external" href="http://developer.blender.org/rB4a5ee1a5a2adc8032cf710357081d3a1e3fcad95">rB4a5ee1a5</a></li>
+</ul>
+<p class="rubric">blender2.8</p>
+<ul class="simple">
+<li>Eevee: Render: Add ambient occlusion pass support
+<a class="reference external" href="http://developer.blender.org/rB36b259fa889afebce390f98862ea243e617aa989">rB36b259fa</a></li>
+<li>Collections: Operator to duplicate a collection
+<a class="reference external" href="http://developer.blender.org/rBc7c070c2ece0f41772cbcfe3445f3e0be684dd1d">rBc7c070c2</a></li>
+<li>Collections: Operator to select collection objects
+<a class="reference external" href="http://developer.blender.org/rBa4d2b102f313b8d427e6ff6066f38cc3a2394628">rBa4d2b102</a></li>
+<li>Eevee: Render: Add support for multiview
+<a class="reference external" href="http://developer.blender.org/rB00f1bc168505bcffe150f5f75db79778bdead51e">rB00f1bc16</a></li>
+<li>Eevee: Add mist pass support
+<a class="reference external" href="http://developer.blender.org/rBe52c5bcdb56886a10a8aa432c240f2f74dc7c0a5">rBe52c5bcd</a></li>
+<li>Eevee: Render: Add Transparent Background option
+<a class="reference external" href="http://developer.blender.org/rBab5f86a04e1cbc7105ae50836abb74524516e976">rBab5f86a0</a></li>
+<li>Eevee: Render: Add Subsurface Pass support
+<a class="reference external" href="http://developer.blender.org/rB253b412acefc6abe9c221a4886e153739c4f50f4">rB253b412a</a></li>
+<li>Eevee: Render: Add Normal pass output
+<a class="reference external" href="http://developer.blender.org/rB55a238edd605812c3cd33b1bf1275dff85771b5e">rB55a238ed</a></li>
+<li>Eevee: Add Z pass render result
+<a class="reference external" href="http://developer.blender.org/rB376d42304b716da2f9bda8b55c539d39ac416281">rB376d4230</a></li>
+<li>Eevee: Add new “render samples” properties
+<a class="reference external" href="http://developer.blender.org/rB8cce33913162b44bfbfca523f30d546bf956fd52">rB8cce3391</a></li>
+<li>Eevee: Add support for TAA/SuperSampling for final render
+<a class="reference external" href="http://developer.blender.org/rBf107af351988ab93aeccad33b1d09b536844c05c">rBf107af35</a></li>
+<li>Eevee: Probes: Add support for intensity tweak
+<a class="reference external" href="http://developer.blender.org/rB777e1d358a3af5bb774d13ec0f03c233593f68e7">rB777e1d35</a></li>
+</ul>
+<p class="rubric">greasepencil-object</p>
+<ul class="simple">
+<li>New Split operator
+<a class="reference external" href="http://developer.blender.org/rBd7a366930409ab59c69c645ceded358af15fc8aa">rBd7a36693</a></li>
+<li>New option to separate Points
+<a class="reference external" href="http://developer.blender.org/rB27e3b782e4af6ceed448c045cd6804d888070f8f">rB27e3b782</a></li>
+<li>New Separate operator
+<a class="reference external" href="http://developer.blender.org/rBe5989702ee047a1d228e9de3334e28cbff615605">rBe5989702</a></li>
+<li>New Lazy Mouse option
+<a class="reference external" href="http://developer.blender.org/rBe44fa493107d69741f9c76d5b643c03478067597">rBe44fa493</a></li>
+<li>Add option to reproject fill on Surface
+<a class="reference external" href="http://developer.blender.org/rBfa4c1ad525c86b8df40b7a33b552c6d4999b85a3">rBfa4c1ad5</a></li>
+</ul>
+<p class="rubric">fracture_modifier</p>
+<ul class="simple">
+<li>Add a limit / search radius for animated mesh binding
+<a class="reference external" href="http://developer.blender.org/rBd68f53a3f3f48a040d74aaf90bda3f6e63d6b9e5">rBd68f53a3</a></li>
+</ul>
+</div>
+<div class="section" id="new-patches">
+<h3>New Patches<a class="headerlink" href="#new-patches" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Initial move of Object.mode to workspace
+<a class="reference external" href="http://developer.blender.org/D3037">D3037</a></li>
+<li>Asset Engine
+<a class="reference external" href="http://developer.blender.org/D3035">D3035</a></li>
+<li>Cycles: add Principled Volume shader
+<a class="reference external" href="http://developer.blender.org/D3033">D3033</a></li>
+</ul>
+</div>
+<div class="section" id="other-projects">
+<h3>Other Projects<a class="headerlink" href="#other-projects" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Blender 2.8: Icons
+<a class="reference external" href="http://developer.blender.org/T53840">T53840</a></li>
+</ul>
+</div>
+<div class="section" id="documentation">
+<h3>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>None</li>
+</ul>
+</div>
 </div>
 <div class="section" id="weekly-news">
 <h2><a class="feed-ref reference internal" href="2018-01-20.html#weekly-news">2018-01-20: Weekly News</a><a class="headerlink" href="#weekly-news" title="Permalink to this headline">¶</a></h2>
@@ -1523,7 +2102,7 @@ by going to the <a class="reference external" href="https://builder.blender.org/
     </ul>
 <ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
       
-        <li><a href="2018-03-17.html" title="2018-03-17: Weekly News" >previous</a></li>
+        <li><a href="2018-03-31.html" title="2018-03-31: Weekly News" >previous</a></li>
         <li><a href="include_intro.html" title="&lt;no title&gt;" >next</a></li>
         <li><a href="genindex.html" title="General Index" >index</a></li>
         <li><a href="#">top</a></li> 
