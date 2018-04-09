@@ -5,8 +5,85 @@
     <atom:link href="https://thisweekinblenderdev.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <link>https://thisweekinblenderdev.github.io/</link>
     <description></description>
-    <lastBuildDate>Sun, 01 Apr 2018 02:27:46 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Apr 2018 21:45:03 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
+    <item>
+      <title>2018-04-07: Weekly News</title>
+      <link>https://thisweekinblenderdev.github.io/2018-04-07.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p class="compound-middle"&gt;Hello and welcome to another issue of &lt;em&gt;This Week in Blender Development&lt;/em&gt;!
+&lt;a class="reference external" href="https://www.blender.org/"&gt;Blender&lt;/a&gt; is the free and opensource 3D creation
+suite for the next generation of artist. Follow the development on Twitter
+&lt;a class="reference external" href="https://twitter.com/BlenderDev"&gt;&amp;#64;BlenderDev&lt;/a&gt;.&lt;/p&gt;
+&lt;p class="compound-middle"&gt;&lt;em&gt;This Week in Blender Development&lt;/em&gt; is openly developed on
+&lt;a class="reference external" href="https://github.com/ThisWeekInBlenderDev"&gt;Github&lt;/a&gt;
+so please report any recommendations, bugs, or PRs for this website there.&lt;/p&gt;
+&lt;p class="compound-middle"&gt;If you have idea for some great feature that you think should be part of Blender
+try making a post on &lt;a class="reference external" href="https://blender.community/c/rightclickselect/"&gt;https://blender.community/c/rightclickselect/&lt;/a&gt;&lt;/p&gt;
+&lt;div class="tip compound-middle admonition"&gt;
+&lt;p class="first admonition-title"&gt;Tip&lt;/p&gt;
+&lt;p class="last"&gt;Remember, you can test any changes done in &lt;cite&gt;master&lt;/cite&gt; or &lt;cite&gt;blender2.8&lt;/cite&gt;
+by going to the &lt;a class="reference external" href="https://builder.blender.org/download/"&gt;developmental builds download page&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="changes-to-blender"&gt;
+&lt;h1&gt;Changes to Blender&lt;a class="headerlink" href="#changes-to-blender" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;p class="rubric"&gt;master&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;PyAPI: Add PyC_Tuple_Pack_F64 utility
+&lt;a class="reference external" href="http://developer.blender.org/rB31f2a6755db5bf9439e51701eddcadfca773459a"&gt;rB31f2a675&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New utility to fix broken utf8 strings in old .blend files.
+&lt;a class="reference external" href="http://developer.blender.org/rB96f565b380a8552e91151b9879746a1992283a35"&gt;rB96f565b3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Write the scene render frame range to image/video files
+&lt;a class="reference external" href="http://developer.blender.org/rB6c3110a66122f33a3c4df3066c42374660dad067"&gt;rB6c3110a6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Added support for the WEBM/VP9 video codec
+&lt;a class="reference external" href="http://developer.blender.org/rB7e39d151d850590fbabc9870bc5134d9421c5c2c"&gt;rB7e39d151&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Use the newer version of the bullet 6dof spring constraint for rigidbody.
+&lt;a class="reference external" href="http://developer.blender.org/rB26a283deae7a3b78a197d4bcf4bfd288c598aedc"&gt;rB26a283de&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="rubric"&gt;blender2.8&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Collections: Move to Collection: Popup for naming new collection
+&lt;a class="reference external" href="http://developer.blender.org/rB0faa065ed4aaa87e53bb574d950ebf8ac0cfd4a3"&gt;rB0faa065e&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Workspaces: Remove workspace object mode
+&lt;a class="reference external" href="http://developer.blender.org/rB1c24c04e6023f2d2a328dfcdc9f86cd381d029a3"&gt;rB1c24c04e&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="rubric"&gt;greasepencil-object&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Add Lock to Focal Plane to Blur VFX
+&lt;a class="reference external" href="http://developer.blender.org/rBe32c22d3a47da2e690f2b0616cbeed130db4c460"&gt;rBe32c22d3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New Line Primitive
+&lt;a class="reference external" href="http://developer.blender.org/rB23c5eee284261368c4cb7875ec9ce2ca81a4a3e4"&gt;rB23c5eee2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="new-patches"&gt;
+&lt;h1&gt;New Patches&lt;a class="headerlink" href="#new-patches" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Python ImBuf API
+&lt;a class="reference external" href="http://developer.blender.org/D3122"&gt;D3122&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add an option to do keyframe insertion in a cycle-aware fashion.
+&lt;a class="reference external" href="http://developer.blender.org/D3140"&gt;D3140&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="other-projects"&gt;
+&lt;h1&gt;Other Projects&lt;a class="headerlink" href="#other-projects" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;2.8: Code-Quest (Topics we plan to cover)
+&lt;a class="reference external" href="http://developer.blender.org/T54387"&gt;T54387&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://devtalk.blender.org/"&gt;devtalk.blender.org&lt;/a&gt;. – Devtalk is a new forum
+website to help new developers get into Blender development&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-last section" id="documentation"&gt;
+&lt;h1&gt;Documentation&lt;a class="headerlink" href="#documentation" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://code.blender.org/2018/03/code-quest-status-update/"&gt;Code Quest Status Update&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+      <guid>https://thisweekinblenderdev.github.io/2018-04-07.html</guid>
+      <pubDate>Sat, 07 Apr 2018 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>2018-03-31: Weekly News</title>
       <link>https://thisweekinblenderdev.github.io/2018-03-31.html</link>
