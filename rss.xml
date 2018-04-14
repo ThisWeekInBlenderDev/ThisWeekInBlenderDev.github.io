@@ -5,8 +5,65 @@
     <atom:link href="https://thisweekinblenderdev.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <link>https://thisweekinblenderdev.github.io/</link>
     <description></description>
-    <lastBuildDate>Mon, 09 Apr 2018 21:45:03 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Apr 2018 19:57:20 GMT</lastBuildDate>
     <generator>sphinxcontrib-newsfeed</generator>
+    <item>
+      <title>2018-04-14: Weekly News</title>
+      <link>https://thisweekinblenderdev.github.io/2018-04-14.html</link>
+      <description>&lt;div class="compound"&gt;
+&lt;p class="compound-middle"&gt;Hello and welcome to another issue of &lt;em&gt;This Week in Blender Development&lt;/em&gt;!
+&lt;a class="reference external" href="https://www.blender.org/"&gt;Blender&lt;/a&gt; is the free and opensource 3D creation
+suite for the next generation of artist. Follow the development on Twitter
+&lt;a class="reference external" href="https://twitter.com/BlenderDev"&gt;&amp;#64;BlenderDev&lt;/a&gt;.&lt;/p&gt;
+&lt;p class="compound-middle"&gt;&lt;em&gt;This Week in Blender Development&lt;/em&gt; is openly developed on
+&lt;a class="reference external" href="https://github.com/ThisWeekInBlenderDev"&gt;Github&lt;/a&gt;
+so please report any recommendations, bugs, or PRs for this website there.&lt;/p&gt;
+&lt;p class="compound-middle"&gt;If you have idea for some great feature that you think should be part of Blender
+try making a post on &lt;a class="reference external" href="https://blender.community/c/rightclickselect/"&gt;https://blender.community/c/rightclickselect/&lt;/a&gt;&lt;/p&gt;
+&lt;div class="tip compound-middle admonition"&gt;
+&lt;p class="first admonition-title"&gt;Tip&lt;/p&gt;
+&lt;p class="last"&gt;Remember, you can test any changes done in &lt;cite&gt;master&lt;/cite&gt; or &lt;cite&gt;blender2.8&lt;/cite&gt;
+by going to the &lt;a class="reference external" href="https://builder.blender.org/download/"&gt;developmental builds download page&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="changes-to-blender"&gt;
+&lt;h1&gt;Changes to Blender&lt;a class="headerlink" href="#changes-to-blender" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;div class="note admonition"&gt;
+&lt;p class="first admonition-title"&gt;Note&lt;/p&gt;
+&lt;p class="last"&gt;Due to the code quest much of this week was spent planning and doing smaller internal changes.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p class="rubric"&gt;blender2.8&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;BGL: Expose OpenGL API for FrameBuffers and RenderBuffers
+&lt;a class="reference external" href="http://developer.blender.org/rBb107e77e46c17693a07c31cf1a678b3a3d914672"&gt;rBb107e77e&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="new-patches"&gt;
+&lt;h1&gt;New Patches&lt;a class="headerlink" href="#new-patches" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;None&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-middle section" id="other-projects"&gt;
+&lt;h1&gt;Other Projects&lt;a class="headerlink" href="#other-projects" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;2.8: Code-Quest (Topics we plan to cover)
+&lt;a class="reference external" href="http://developer.blender.org/T54387"&gt;T54387&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://devtalk.blender.org/"&gt;devtalk.blender.org&lt;/a&gt;. – Devtalk is a new forum
+website to help new developers get into Blender development&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://developer.blender.org/T54592"&gt;Workbench render engine: (T54592)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="compound-last section" id="documentation"&gt;
+&lt;h1&gt;Documentation&lt;a class="headerlink" href="#documentation" title="Permalink to this headline"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://code.blender.org/2018/04/code-quest-kick-off/"&gt;Code Quest Kick-off&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+      <guid>https://thisweekinblenderdev.github.io/2018-04-14.html</guid>
+      <pubDate>Sat, 14 Apr 2018 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>2018-04-07: Weekly News</title>
       <link>https://thisweekinblenderdev.github.io/2018-04-07.html</link>
